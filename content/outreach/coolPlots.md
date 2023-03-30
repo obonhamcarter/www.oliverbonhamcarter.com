@@ -237,11 +237,11 @@ df = data_loader.data
 df
 df.head()
 df.tail()
-#Take the modulo of each value with 1 to get the fractional part
+#Take the modulo of each value with 1 
+#to get the fractional part
 fractional_nums = df['SUNACTIVITY'].apply(lambda x: x % 1) 
 fractional_nums[fractional_nums > 0].head()
 print(df['SUNACTIVITY'].describe())
-#pd.tools.plotting.autocorrelation_plot(df['SUNACTIVITY'])
 
 myX = list(df["YEAR"])
 myY = list(df["SUNACTIVITY"])
