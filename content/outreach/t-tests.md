@@ -9,6 +9,9 @@ draft: false
 
 How would you determine the difference between the averages following two datasets? We show a scatter plot and a histogram plot for each group (i.e., 1 and 2). Are these plots enough to determine a likeness between the plots? 
 
+
+But first, let's get into a <a href="http://oliverbonhamcarter.com/live/" target="_blank">Jupyter</a> client where we can run Python code.
+
 <center>
 &#x200B;
 <img src="/images/outreach/coolPlots/groupDif.png" alt="logo" style="width:400px;"/>

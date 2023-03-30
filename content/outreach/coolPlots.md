@@ -6,6 +6,9 @@ draft: False
 
 Here we spend some time to look at plots which are not like the traditional plots that we have seen before. Below are different ways to use plots to describe data. 
 
+
+But first, let's get into a <a href="http://oliverbonhamcarter.com/live/" target="_blank">Jupyter</a> client where we can run Python code.
+
 ### Clustering: A demo of structured Ward hierarchical clustering on an image of coins
 
 <center>
