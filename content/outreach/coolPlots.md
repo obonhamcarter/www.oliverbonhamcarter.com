@@ -227,7 +227,6 @@ plt.show()
 [MiniTutorial](https://notebook.community/stencila/stencila/demos/examples/ipynb/sunspots)
 
 ``` python
-# https://notebook.community/stencila/stencila/demos/examples/ipynb/sunspots
 import statsmodels.api as sm
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -238,7 +237,8 @@ df = data_loader.data
 df
 df.head()
 df.tail()
-fractional_nums = df['SUNACTIVITY'].apply(lambda x: x % 1) #Take the modulo of each value with 1 to get the fractional part
+#Take the modulo of each value with 1 to get the fractional part
+fractional_nums = df['SUNACTIVITY'].apply(lambda x: x % 1) 
 fractional_nums[fractional_nums > 0].head()
 print(df['SUNACTIVITY'].describe())
 #pd.tools.plotting.autocorrelation_plot(df['SUNACTIVITY'])
