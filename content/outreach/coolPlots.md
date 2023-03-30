@@ -1,12 +1,12 @@
 ---
-title: "CoolPlotsAndBasicModels"
+title: "Cool Plots"
 date: 2023-03-29T23:43:43-04:00
 draft: False
 ---
 
+Here we spend some time to look at plots which are not like the traditional plots that we have seen before. Below are different ways to use plots to describe data. 
 
 ### Clustering: A demo of structured Ward hierarchical clustering on an image of coins
-
 
 <center>
 &#x200B;
