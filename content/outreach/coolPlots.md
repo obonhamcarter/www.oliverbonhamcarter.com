@@ -243,6 +243,9 @@ fractional_nums = df['SUNACTIVITY'].apply(lambda x: x % 1)
 fractional_nums[fractional_nums > 0].head()
 print(df['SUNACTIVITY'].describe())
 
+plt.xlabel('Year')
+plt.ylabel('Sun Activity')
+
 myX = list(df["YEAR"])
 myY = list(df["SUNACTIVITY"])
 
