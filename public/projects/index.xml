@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on I, Oliver Bonham-Carter, In June</title>
+    <link>https://example.com/projects/</link>
+    <description>Recent content in Projects on I, Oliver Bonham-Carter, In June</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Oliver Bonham-Carter</copyright>
+    <lastBuildDate>Mon, 01 Aug 2022 22:17:24 -0400</lastBuildDate>
+    
+	<atom:link href="https://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gradealert</title>
+      <link>https://example.com/projects/gradealert/gradealert/</link>
+      <pubDate>Mon, 01 Aug 2022 22:17:24 -0400</pubDate>
+      
+      <guid>https://example.com/projects/gradealert/gradealert/</guid>
+      <description>GitHub link: https://github.com/developmentAC/gradeAlert
+Table of contents  Overview Tool Usage At Terminal CSV Outputted files Placing Gradebook Files Pushing in Bulk File Structure Summary of Commands A Work In Progress  Overview GitHub Classroom is an excellent resource to handle work repositories for a course of many students. Each student, after &amp;ldquo;accepting&amp;rdquo; an assignment is issued a unique repository in which work can be completed and pushed to the instructor.</description>
+    </item>
+    
+    <item>
+      <title>Sentiminer</title>
+      <link>https://example.com/projects/sentiminer/sentiminer/</link>
+      <pubDate>Mon, 01 Aug 2022 21:05:25 -0400</pubDate>
+      
+      <guid>https://example.com/projects/sentiminer/sentiminer/</guid>
+      <description>GitHub link: https://github.com/developmentAC/sentiminer
+Table of contents  Overview Mechanism Commands Output References Evolution  Overview Sentiment analysis is the semantic study of emotion in language. This form of analysis is used to determine the level of satisfaction or dissatisfaction in textual data such as reviews, survey responses, online and social media posting and similar. Due to the often high volume of feedback from the above types of textual data, sentiment analysis provides an automated solution for determining the &amp;ldquo;feeling&amp;rdquo; of the text.</description>
+    </item>
+    
+  </channel>
+</rss>

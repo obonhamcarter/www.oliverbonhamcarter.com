@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Just For Fun on I, Oliver Bonham-Carter, In June</title>
+    <link>https://example.com/forfun/</link>
+    <description>Recent content in Just For Fun on I, Oliver Bonham-Carter, In June</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Oliver Bonham-Carter</copyright>
+    <lastBuildDate>Sun, 26 Jun 2022 15:39:25 -0400</lastBuildDate>
+    
+	<atom:link href="https://example.com/forfun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sherlock Holmes</title>
+      <link>https://example.com/forfun/sherlockholmes/sherlockholmes/</link>
+      <pubDate>Thu, 18 Aug 2022 01:48:18 -0400</pubDate>
+      
+      <guid>https://example.com/forfun/sherlockholmes/sherlockholmes/</guid>
+      <description>air horn  On the world&amp;rsquo;s most famous Consulting Detective    &amp;#x200B;     &amp;#x200B;  Sherlock in words   _Read all the Sherlock Holmes stories online at the _ The complete Sherlock Holmes Canon, or just skip to the cool quotes from his adventures at Wikiquote
+  Dr. Bell &amp;ndash; the professor of medicine who taugh at Sir Arthur Conan Doyal&amp;rsquo;s medical school who would form the image of the famous Sherlock Holmes.</description>
+    </item>
+    
+    <item>
+      <title>iTea</title>
+      <link>https://example.com/forfun/itea/itea/</link>
+      <pubDate>Wed, 17 Aug 2022 16:13:18 -0400</pubDate>
+      
+      <guid>https://example.com/forfun/itea/itea/</guid>
+      <description>[☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕]
+ Come join in the fun!!    --  &amp;#x200B;  [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕] [☕]</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on I, Oliver Bonham-Carter, In June</title>
+    <link>https://example.com/resources/</link>
+    <description>Recent content in Resources on I, Oliver Bonham-Carter, In June</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Oliver Bonham-Carter</copyright>
+    <lastBuildDate>Mon, 27 Jun 2022 15:39:25 -0400</lastBuildDate>
+    
+	<atom:link href="https://example.com/resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Junior Seminar Resources</title>
+      <link>https://example.com/resources/juniorseminar_resources/</link>
+      <pubDate>Thu, 19 Jan 2023 13:19:26 -0500</pubDate>
+      
+      <guid>https://example.com/resources/juniorseminar_resources/</guid>
+      <description>Welcome to a resources page for Junior Seminar research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.
+  Software
+ RStudio R Programming Language Python Programming Language Git for Mac Git for Windows Git for all platforms    Tutorials
+  Articles
+  Data
+ Pelletier Library at Allegheny College (online services) World Health Organization The World Bank Noncommunicable Disease Surveillance, Monitoring and Reporting (NCDS) Demographic and Health Surveys Harvest Choice Food and Agricultural Organization World Population Prospects Centres for Disease Control and Prevention (CDC) US Food and Drug Administration Home Page The US Census Institute for Health Metrics and Evaluation IBM&amp;rsquo;s collection of opensource data sets Google&amp;rsquo;s opensource data sets Data.</description>
+    </item>
+    
+    <item>
+      <title>Data Analytics Resources</title>
+      <link>https://example.com/resources/dataanalytics_resources/</link>
+      <pubDate>Mon, 16 Jan 2023 21:00:00 -0400</pubDate>
+      
+      <guid>https://example.com/resources/dataanalytics_resources/</guid>
+      <description>Welcome to a resources page for Bioinformatics research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.
+  Software
+  Installations
+ RStudio R Programming Language Python Programming Language Git for Mac Git for Windows Git for all platforms    Online Tools
+ Online R programming    Tutorials
+ Setting Up Git on Linux Setting up Git Getting Started with Python in VS Code 11 Best VS Code extensions for Python (2022)      Free Data for projects</description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics Resources</title>
+      <link>https://example.com/resources/bioinformatics_resources/</link>
+      <pubDate>Sun, 18 Sep 2022 21:00:00 -0400</pubDate>
+      
+      <guid>https://example.com/resources/bioinformatics_resources/</guid>
+      <description>Welcome to a resources page for Bioinformatics research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.
+ TCoffee: http://tcoffee.crg.cat/apps/tcoffee/tutorial.html Hidden Markov Models (Youtube): https://www.youtube.com/watch?v=TPRoLreU9lA The Double Helix (Documentary about DNA discovery, 17 mins): https://media.hhmi.org/biointeractive/films/Double_Helix.html The Chemical Structure of DNA: https://www.biointeractive.org/classroom-resources/chemical-structure-dna The Structure of DNA: https://www.youtube.com/watch?v=o_-6JXLYS-k The definition to 5&amp;rsquo; end and 3&amp;rsquo; end of a DNA strand - Simple animated HD: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Writing Resources</title>
+      <link>https://example.com/resources/writing/</link>
+      <pubDate>Sat, 27 Aug 2022 17:00:25 -0400</pubDate>
+      
+      <guid>https://example.com/resources/writing/</guid>
+      <description>How can I write better?! When completing any assignment in research or in your classes, the quality of your writing is very important. Below are some resources that may help in your writing.
+  ](https://www.oliverbonhamcarter.com/live/) -- https://www.oliverbonhamcarter.com/live](https://www.oliverbonhamcarter.com/live) -- &amp;#x200B;  --  Online Resources Online guide to writing: Maytum Center for Student Success;Writing and Speaking Consultants at Allegheny College&amp;rsquo;s [Writing Center]](https://sites.allegheny.edu/studentsuccess/writing-speech/)
+Online guide to writing: Available from the University of Maryland</description>
+    </item>
+    
+    <item>
+      <title>Jupyterlite</title>
+      <link>https://example.com/resources/jupyterlite/</link>
+      <pubDate>Mon, 01 Aug 2022 21:05:25 -0400</pubDate>
+      
+      <guid>https://example.com/resources/jupyterlite/</guid>
+      <description>Python in the Cloud?! Yes! Have something like a simple algorithm or a back-of-the-envolop experiment that you want to try out right this momement?! No need to waste time to setup your Python3 interpretor on your machine! Besides, __you could forget all the variables and, or the parts of your experiment!
+Go online with it! Play with Python in a convenient online browser. Remember, to save all your important work to your own notes and files on your machine since you cannot save your work online for great lengths of time.</description>
+    </item>
+    
+  </channel>
+</rss>

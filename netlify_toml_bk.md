@@ -1,0 +1,20 @@
+ [build]
+ publish = "public"
+ command = """
+ hugo --minify --gc &&
+ jupyter lite build --output-dir public/live
+ """
+
+ [build.environment]
+ HUGO_VERSION = "0.87.0"
+ HUGO_BASEURL = "/"
+ PYTHON_VERSION = "3.8"
+
+ [[headers]]
+ for = "/*" # This defines which paths this specific [[headers]] block will cover.
+
+ [headers.values]
+ X-Frame-Options = "DENY"
+ X-XSS-Protection = "1; mode=block"
+ Referrer-Policy = "same-origin"
+ Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"

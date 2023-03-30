@@ -1,0 +1,45 @@
+    </main>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+      <p>OBC says: Made with {{emojify ":heart:"}} &mdash; Powered by <a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> and the <a href="https://github.com/bjacquemet/personal-web" target='_blank' rel="external">Personal Web</a> theme. Icons come from the great <a href="https://fontawesome.com/license" target="_blank" rel="external">Font Awesome </a> library</p>
+      <p>{{ .Site.Copyright}}</p>
+      <p>    <figcaption></figcaption>
+        <p><!-- add a line drop -->
+          <center>
+          &#x200B;
+          </center>
+          </p>
+        <audio
+            controls
+            src="/sound/airhorn.mp3">
+                <a href="/sound/airhorn.mp3">
+                    Download audio
+                </a>
+        </audio>
+    </figure>
+    </p>
+    </div>
+  </footer>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,400i,600" rel="stylesheet">
+  {{ template "_internal/google_analytics.html" . }}
+  <script type="text/javascript">
+    document.querySelector('.mobile-header').addEventListener('click', function () {
+      var om = document.querySelector(".overlay-menu");
+      if (document.querySelector('.hamburger').classList.contains("cross")) {
+        document.querySelector('.hamburger').classList.remove("cross");
+        om.style.display = "none";
+        om.style.width = "0%";
+        om.style.height = "0%";
+      }
+      else {
+        document.querySelector('.hamburger').classList.add("cross");
+        om.style.width = "100%";
+        om.style.height = "100vh";
+        om.style.display = "block";
+      }
+    });
+  </script>
+  <figure>
+</body>
+</html>

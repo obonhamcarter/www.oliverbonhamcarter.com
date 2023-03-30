@@ -1,0 +1,152 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "I, Oliver Bonham-Carter, In June"
+theme = "personal-web_files"
+copyright="© Oliver Bonham-Carter"
+# old googleAnalytics = "G-10QTYVYMG5" #GA4
+googleAnalytics = "G-61W97M1YME"
+
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "I, Oliver Bonham-Carter :wave:"
+  sub = "Assistant Professor in Computer Science, Allegheny College"
+
+[params.main]
+  latestPublishHeader = " "
+
+[taxonomies]
+  design = "designs"
+  tech = "techs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+  breadcrumb = true
+  accentColor = "#0077b6" #"#FD3519"
+  mainSections = ['portfolio'] # values: ['post', 'portfolio'] only accept one section, to be displayed bellow 404
+
+[params.notFound]
+  gopher = "/images/duck.jpg" # checkout https://gopherize.me/
+  h1 = '¯\_(ツ)_/¯ Oops! Page not found!'
+  p = "It seems that this page does not exist."
+
+[params.sections]
+  # Define how your sections will be called
+  # when automatically pulled. For instance in the 404 page
+  post = "article"
+  portfolio = "project"
+
+[params.sidebar]
+  backgroundImage = '/images/stars.png' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = 'rgba(0,0,0,0),rgba(1,1,1,1)' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "/images/dunno.jpg" # - default "/images/edna-west.jpg"
+
+[params.assets]
+  favicon = "/images/levelup.png"
+  customCSS = ""
+
+[params.social]
+  # note: the icons are kept in File: themes/personal-web/layouts/partials/svg.html
+  github = "https://github.com/developmentAC"
+  # twitter = "https://twitter.com/"
+  # linkedin = "https://www.linkedin.com/in/"
+  # medium = "https://medium.com/"
+  # codepen = "https://codepen.io/"
+  # facebook = "https://www.facebook.com/"
+  # youtube = "https://www.youtube.com/channel/UCgna6cx9NHq634c0JFyK_1A"
+  # instagram = "https://www.instagram.com/"
+  # gitlab = "https://gitlab.com/"
+  # keybase = "https://keybase.io/"
+  tech = "https://jupyter.cs.allegheny.edu/"
+  glasses = "http://oliverbonhamcarter.com/live/"
+  #glasses = "<a href="http://oliverbonhamcarter.com/live/" target="_blank">Jupyter</a>"
+
+[params.contact]
+  email = ""
+  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+
+[menu]
+[[menu.main]]
+  identifier = "classes"
+  name = "My Classes"
+  title = "Classes section"
+  url = "/classes/"
+  weight = -150
+
+
+[[menu.main]]
+  identifier = "about"
+  name = "Contact and About"
+  title = "Contact and About Section"
+  url = "/contactandabout/"
+  weight = -140
+
+[[menu.main]]
+  identifier = "justforfun"
+  name = "Just For Fun"
+  title = "Just For Fun"
+  url = "/forfun/"
+  weight = -130
+
+
+[[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  title = "Portfolio"
+  url = "/portfolio/"
+  weight = -120
+
+
+ [[menu.main]]
+   identifier = "Projects"
+   name = "Projects"
+   title = "Projects"
+   url = "/projects/"
+   weight = -110
+
+ [[menu.main]]
+   identifier = "Resources"
+   name = "Resources"
+   title = "Resources"
+   url = "/resources/"
+   weight = -100
+
+[[menu.main]]
+   identifier = "iTea"
+   name = "iTea"
+   title = "iTea"
+   url = "/forfun/itea/itea"
+   weight = -90
+
+[[menu.main]]
+   identifier = "OutReach"
+   name = "OutReach"
+   title = "OutReach"
+   url = "/outreach/"
+   weight = -80
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

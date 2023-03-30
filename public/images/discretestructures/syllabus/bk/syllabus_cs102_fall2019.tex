@@ -1,0 +1,313 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{url}
+\usepackage{color}
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+\usepackage{url}
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+
+\long\def\omitit #1{}
+
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{\textbf{CMPSC 102 -- Discrete Structures}}
+\author{Fall 2019}
+\date{Syllabus updated: \today} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+\subsection*{\textbf{Course Instructor}}
+Dr. Oliver BONHAM-CARTER\\
+\noindent Classroom and Lab: Alden Hall 101 \\
+\noindent Office Location: Alden Hall 104 \\
+\noindent Office Phone: +1 814-332-2880 \\
+\noindent Email: \url{obonhamcarter@allegheny.edu} \\
+\noindent Web Site: \url{http://www.cs.allegheny.edu/sites/obonhamcarter/} \\
+\noindent Exam Code: J\\
+\noindent Exam 2: 17$^{th}$ Dec 2019, 9:00 am
+% https://sites.allegheny.edu/registrar/fall-2019-final-exam-schedule/
+
+\subsection*{Instructor's Office Hours}
+
+
+\begin{itemize}
+	\itemsep 0em
+        \item Monday, Tuesday and Wednesday: 9:30 am - 10:30 am (10 minute time slots)
+        \item Tuesday: 2:30 pm to 3:30 pm (10 minute time slots)
+        \item Thursday: 2:30 pm to 4:30 pm (10 minute time slots)
+%	\item Monday and Wednesday: 9:30 am -- 10:30am (10 minute time slots)
+%	\item Tuesday and Thursday: 1:30pm -- 3:30pm (10 minute time slots)
+\end{itemize}
+
+\noindent
+To schedule a meeting with me during my office hours, please visit my Web site and click the ``Schedule'' link in the top right-hand corner. Now, you can view my calendar or by clicking ``schedule an appointment'' link browse my office hours and schedule an appointment by clicking the correct link to reserve an open time slot. 
+
+
+
+
+\subsection*{\textbf{Course Meeting Schedule}}
+\begin{itemize}
+    \item Lecture, Discussion, Presentations and Group Work:\\
+        \indent Tuesday, Thursday, 11:00 am -- 12:15 pm 
+    \item Laboratory Session:\\
+        \indent Wednesday, 2:30 pm -- 4:20 pm \\
+%Final Examination: Friday, December 12, 2014 at 9:00 am
+\end{itemize}
+
+
+\subsection*{Academic Bulletin Description}
+
+\begin{quote}
+Four Credits: An introduction to the foundations of computer science with an emphasis on understanding the abstract structures used to represent discrete objects. Participating in hands-on activities that often require teamwork, students learn the computational methods and logical principles that they need to create and manipulate discrete objects in a programming environment. Students also learn how to write, organize, and document a program’s source code so that it is easily accessible to intended users of varied backgrounds. During a weekly laboratory session students use state-of-the-art technology to complete projects, reporting on their results through both written documents and oral presentations.
+Prerequisite: Knowledge of elementary algebra. Distribution Requirements: QR, SP.
+
+\end{quote}
+
+\subsection*{Course Objectives}
+% inspiration: https://www.cs.ox.ac.uk/teaching/courses/2017-2018/discretemaths/
+The expection of this course is to allow the student to gain skill to formulate what a computer system is supposed to do, determine whether a solution is possible by meeting the specification and parameters of the problem at hand. Since programming Python for solutions is to be considered in light of its level of efficiency, this class focuses on the solution's mathematical approach, its precision of mathematical notation, and its associated calculation and programming techniques which are necessary to obtain working solutions. For instance, in order to find programmed solutions to problems, it is necessary to define the problem precisely by abstracting all details leading to the solution and then one must proceed mathematically using objects such as sets, functions, relations, orders, and sequences. In this class, skills for applying these concepts, as well as their foundations, are provided to help students derive strategies for finding solutions via Python programming. 
+
+
+
+\subsection*{Required Textbooks}
+
+
+\begin{itemize}
+  \item {\em Programming and Mathematical Thinking - A Gentle Introduction to Discrete Math Featuring Python} by Allan M. Stavely; ISBN paperback 978-1-938159-00-8 and ISBN ebook: 978-1-938159-01-5
+  \item {\em Doing Math with Python} by Amit Saha; ISBN paperback: 1-59327-640-0
+
+\end{itemize}
+
+\subsection*{Students who want to improve their writing and programming skills may consult the following books.}
+
+\begin{itemize}
+
+\item \emph{Think Python, first edition}, by Allen B. Downey.
+	\begin{itemize}
+		\item Textbook: \url{http://greenteapress.com/thinkpython/thinkpython.pdf}
+		\item Publisher: \url{http://greenteapress.com/wp/think-python/}
+	\end{itemize}
+
+\item {\em BUGS in Writing: A Guide to Debugging Your Prose}. Lyn Dupr\'e. Second Edition,  ISBN-10: 020137921X,
+ISBN-13: 978-0201379211, 704 pages, 1998.
+
+\item {\em Writing for Computer Science}.  Justin Zobel. Second Edition,  ISBN-10: 1852338024, ISBN-13:978-1852338022, 270 pages, 2004.
+
+\item Along with reading the required books, you will be asked to study many additional articles from a wide variety of conference proceedings, journals, and the popular press.
+\end{itemize}
+
+\subsection*{Class Policies}
+
+\subsubsection*{Grading}
+
+The grade that a student receives in this class will be based on the following categories. All percentages are
+approximate and, if the need to do so presents itself, it is possible for the assigned percentages to change during the
+academic semester. 
+\color{red}
+\begin{center}
+  \begin{tabular}{l|l}
+\hline
+    Class Participation & 15\% \\  %and Instructor Meetings 
+    First Quiz & 5\% \\
+    Second Quiz & 5\% \\
+    First Examination & 15\% \\
+    Second Examination & 15\% \\
+%    Final Examination & 20\% \\
+    Laboratory  Assignments & 30\% \\
+    Final Project & 15\% \\
+\hline
+  \end{tabular}
+\end{center}
+\color{black}
+\noindent
+These grading categories have the following definitions:
+\vspace*{-.05in}
+
+
+
+\color{black}
+
+
+\begin{itemize}
+
+
+  \item {\em Class Participation}: All students are required to actively participate during all of the class sessions. Your participation will take forms such as answering questions about the required reading assignments, completing in-class exercises, asking constructive questions of the other members of the class, giving presentations, and leading a discussion session in class.% and in the course's Slack channels. 
+
+
+  \item {\em First and Second Quizzes}: The quizzes are designed to permit the student to know whether she or he is ready for the exam. Although the exams will contain new material, the quizzes will contain some of the concepts which the student may expect to see on the exam. Poor scores on quizzes will alert the student to approach the subject material with more focus.
+	
+  \item {\em First and Second Examinations}: The first and second examinations will cover all of the material in their associated module(s). While the second examination is not cumulative, it will assume that a student has a basic understanding of the material that was the focus of the first examination. The date for the first and second examinations will be announced at least one week in advance of the scheduled date. Unless prior arrangements are made with the course instructor, all students will be expected to take these examinations on the scheduled date and complete the tests in the stated period of time.
+
+
+%  \item {\em Final Examination}: The final examination is a three-hour cumulative test. By enrolling in this course, students agree that, unless there are extenuating circumstances, they will take the final examination at the time stated on the first page of the syllabus.
+
+  \item {\em Laboratory Assignments}: These assignments invite students to explore the concepts, tools, and techniques associated with the management of data.  All of the laboratory assignments require the use of the provided tools to design, implement, and evaluate systems that solve data management problems.  To ensure that students are ready to develop software in both other classes at Allegheny College and after graduation, the instructor will assign individuals to teams for some of the laboratory assignments.  Unless specified otherwise, each laboratory assignment will be due at the beginning of the next laboratory session.  Some of the laboratory assignments in this course will expect students to give both a short presentation and a demonstration of the software that they created to manage a collection of data.  
+
+    %%% Homework assignments will normally ask students to prepare short written documents reflecting on
+    % facets of the software development life cycles.
+
+  \item {\em Final Project}: This project will present you with the description of a problem and ask you to implement a full-featured solution using one or more programming languages and a wide variety of data management techniques. The final project in this class will require you to apply all of the knowledge and skills that you have accumulated during the course of the semester to solve a problem and, whenever possible, make your solution publicly available as a free and open-source tool. The project will invite you to draw upon both your problem solving skills and your knowledge of programming languages and data management systems. %The final project will be completed in groups assigned by the course instructor.
+
+\end{itemize}
+
+\subsubsection*{\textbf{Assignment Submission}}
+%\color{red}\textbf{Since solutions guides will be handed out at the beginning of class on due dates, 
+
+All assignments will have a stated due date. \color{red} The electronic version of the class assignments are to be turned in at the beginning of the lab session on that due date. Submissions after the beginning of class are counted as being late. \color{black}  Assignments will be accepted for up to one week past the assigned due date with a 15\% penalty. All late assignments must be submitted at the beginning of the session that is scheduled one week after the due date. The honor code (see below) is assumed for all submitted work.
+
+
+  
+\subsubsection*{\textbf{Extensions}}
+Unless special arrangements are made with the course instructor, no assignments will be accepted after the late deadline. If you are requesting extensions for a lab assignment, then you are to email me with your request and also provide a \emph{valid reason} for your extension. \textbf{This request must come \emph{before} the due date of the lab and not on the due date.}
+
+Requests will not be granted where the reason appears to be insignificant. Extensions are 24 hours of extra time (after the original due date) and are given out at my discretion. The decision to provide you with an extension (or not) will be weighed in light of fairness to your peers who are still able to complete their labs, regardless of their own busy schedules.
+
+
+%\subsubsection*{Assignment Submission}
+
+%All assignments will have a stated due date. The electronic version of the assignment is to be turned in at the beginning of the class on that due date with the Honor Code pledge of the student(s) completing the work which is embedded in the header of the code itself. Late assignments will be accepted for up to one week past the assigned due date with a 15\% penalty. All late assignments must be submitted at the beginning of the session that is scheduled one week after the due date. Unless special arrangements are made with the course instructor, no assignments will be accepted after the late deadline. For any assignment completed in a group, students must also turn in a one-page reflection that describes each group member's contribution to the submitted deliverables.  
+
+% All assignments will have a stated due date. The printed version of the assignment is to be turned in at the beginning
+% of the class on that due date; the printed materials must be dated and signed with the Honor Code pledge of all the
+% student(s) in a group.  When the printed version is submitted, the electronic version of the assignment also must be
+% made available to the course instructor in a version control repository. Late assignments will be accepted for up to
+% one week past the assigned due date with a 15\% penalty. All late assignments must be submitted at the beginning of
+% the session that is scheduled one week after the due date. Unless special arrangements are made with the course
+% instructor, no assignments will be accepted after the late deadline. In addition to submitting the required
+% deliverables for any assignment completed in a group, students must turn in a one-page document that describes each
+% group member's contribution to the submitted deliverables.  
+
+\subsubsection*{\textbf{Attendance}}
+
+It is mandatory for all students to attend the class and laboratory sessions. If you will not be able to attend a session, then please see/email the course instructor at least one week in advance to describe your situation.  Students who miss more than five unexcused classes, laboratory sessions, or group project meetings will have their final grade in the course reduced by one letter grade. Students who miss more than ten of the aforementioned events will automatically fail the course.
+
+% \subsection*{Laboratory Attendance Policy}
+% 
+% In order to acquired the proper skills in technical writing, critical reading, and the presentation of technical
+% material, it is essential for students to have hands-on experience in a laboratory. Therefore, it is mandatory for all
+% students to attend the laboratory sessions. If you will not be able to attend a laboratory, then please see the course
+% instructors at least one week in advance in order to explain your situation. Students who miss more than two unexcused
+% laboratories will have their final grade in the course reduced by one letter grade.  Students who miss more than four
+% unexcused laboratories will automatically fail the course.
+% 
+
+\subsubsection*{\textbf{Use of Laboratory Facilities}}
+
+
+To ensure that your software development experience in this course closely mirrors real-world practice, you are invited to use your own laptop during class and laboratory sessions. The course instructor and the department's systems administrator have invested a considerable amount of time to develop a container-based approach to support the completion of all of the assignments and projects on any laptop that satisfies minimal requirements. The department has a few laptops that students are allowed to check out during normal business hours for a limited time use. Also, Alden 103, open daily for student work, features desktop machines with an Ubuntu operating systems, and Alden 101 has several desktop machines that are open for student use outside of class sessions.
+
+
+\subsubsection*{\textbf{Class Preparation}}
+
+% The study of the computer science discipline is very challenging.  Students in this class will be challenged to learn
+% the principles and practice of software development.  During the coming semester even the most diligent student will
+% experience times of frustration when they are attempting to understand a challenging concept or complete a difficult
+% laboratory assignment.  In many situations some of the material that we examine will initially be confusing : do not
+% despair!  Press on and persevere!
+% 
+
+\noindent In order to minimize confusion and maximize learning, students must invest time to prepare for class discussions and lectures.  During the class periods, the course instructor will often pose demanding questions that could require group discussion, the creation of a program or test suite, a vote on a thought-provoking issue, or a group presentation.  Only students who have prepared for class by reading the assigned material and reviewing the current assignments will be able to effectively participate in these discussions.  More importantly, only prepared students will be able to acquire the knowledge and skills that are needed to be successful in both this course and the field of data management.  In order to help students remain organized and effectively prepare for classes, the course instructor will maintain a class schedule with reading assignments and presentation slides.   During the class sessions students will also be required to access, download, use, and modify programs, and work with data sets that are made available through the course {\em Github Classroom} repository. %Students who are not comfortable with compiling, editing, and running Java programs should see the course instructor.
+
+\subsubsection*{\textbf{Email}}
+
+Using your Allegheny College email address, I will sometimes send out class announcements about matters such as assignment clarifications or changes in the schedule. It is your responsibility to check your email at least once a day and to ensure that you can reliably send and receive emails. This class policy is based on the following statement in {\em The Compass}, the college's student handbook.
+
+\vspace*{-.1in}
+\begin{quote}
+  ``The use of email is a primary method of communication on campus. \ldots
+  All students are provided with a campus email account and address while
+  enrolled at Allegheny and are expected to check the account on a regular
+  basis.'' 
+\end{quote}
+\vspace*{-.1in}
+
+\subsubsection*{\textbf{Disability Services}}
+
+The Americans with Disabilities Act (ADA) is a federal anti-discrimination statute that provides comprehensive civil
+rights protection for persons with disabilities.  Among other things, this legislation requires all students with
+disabilities be guaranteed a learning environment that provides for reasonable accommodation of their disabilities.
+Students with disabilities who believe they may need accommodations in this class are encouraged to contact Disability
+Services at 332-2898.  Disability Services is part of the Learning Commons and is located in Pelletier Library.
+Please do this as soon as possible to ensure that approved accommodations are implemented in a timely fashion.
+
+\subsubsection*{\textbf{Honor Code}}
+
+The Academic Honor Program that governs the entire academic program at Allegheny College is described in the Allegheny
+Course Catalogue.  The Honor Program applies to all work that is submitted for academic credit or to meet non-credit
+requirements for graduation at Allegheny College.  This includes all work assigned for this class (e.g., examinations,
+  laboratory assignments, and the final project).  All students who have enrolled in the College will work under the Honor
+Program.  Each student who has matriculated at the College has acknowledged the following pledge:
+
+\vspace*{-.1in}
+\begin{quote}
+  I hereby recognize and pledge to fulfill my responsibilities, as defined in the Honor Code, and to maintain the
+  integrity of both myself and the College community as a whole.
+\end{quote}
+\vspace*{-.1in}
+
+\noindent Additionally, we expect that you will adhere to the 
+following Department Policy:
+
+\begin{center} \textbf{ Department of Computer Science Honor Code Policy } \end{center}
+\vspace*{-.1in}
+It is recognized that an important part of the learning process in any course, and particularly in computer science, derives from thoughtful discussions with teachers, student
+assistants, and fellow students. Such dialogue is encouraged. However, it is necessary
+to distinguish carefully between the student who discusses the principles underlying a
+problem with others, and the student who produces assignments that are identical to,
+or merely variations on, someone else's work. It will therefore be understood that all
+assignments submitted to faculty of the Department of Computer Science are to be
+the original work of the student submitting the assignment, and should be signed in
+accordance with the provisions of the Honor Code.  Appropriate action will be taken when assignments give evidence that they were derived from the work of others.
+
+\end{document}
