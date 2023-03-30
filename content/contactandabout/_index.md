@@ -27,7 +27,6 @@ To be sure that I have enough time with each person during my office hours, I as
 
 Who are our illustrious [Technical Leaders](https://www.cs.allegheny.edu/teaching/technicalleaders/)?! Find schedules expert TL's in your CS classes.
 
-
 ---
 
 #### Address
@@ -49,6 +48,12 @@ USA
 
 #### CV
 Interested in learning more about me? Please see my [Curriculum Vitae](/images/profdev/cv/cv.pdf)!
+
+---
+
+### Classes in a Box
+
+Much like how you may get food from the store which is _ready to eat_, I have prepared two courses which are piping hot and _ready to teach_. I offer a course in [Bioinformatics](https://computationalbioinformatics.com/) and another in [Senior Thesis Research](https://devisingresearch.com/) which I have used at Allegheny College several times. If you are an instructor at the high-school or college level, help your self to the materials at the above sites! Please be sure to let me know your thoughts and comments if you apply them to your course.
 
 ---
 
