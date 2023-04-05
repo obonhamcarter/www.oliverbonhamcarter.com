@@ -33,6 +33,7 @@ Below are some links from National Center for Women & Information Technology (NC
 
 * [Aspirations In Computing (AiC)](https://www.aspirations.org/)
     + [Why-Aspirations-Matters](https://www.aspirations.org/about-aic/why-it-matters)
+    + [AiC Program Elements](https://www.aspirations.org/about-aic/program-elements)
     + [AspireIT: Computing Learning Experiences](https://www.aspirations.org/get-involved/aspireit-near-peer-computing-programs)
 
 * [Join the AIC Community](https://www.aspirations.org/get-involved/join-the-aic-community)
@@ -50,6 +51,8 @@ Below are some links from National Center for Women & Information Technology (NC
 </center>
 
 <!-- ![logo](https://ncwit-aspirations-service-stage-public.s3.us-west-2.amazonaws.com/ncwit_aic_collegiateaward_logo_fullcolor_web_0.png) -->
+
+
 
 * Did you know that AIC offers awards for amazing work in computing?
 
