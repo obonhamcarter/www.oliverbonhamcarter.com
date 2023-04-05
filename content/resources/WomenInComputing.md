@@ -18,8 +18,7 @@ draft: False
 
 Below are some links from National Center for Women & Information Technology (NCWIT) which offers women support, encouragement and information to help women to gain experience in computing and to build meaningful careers in computing technology.
 
-* The National Center for Women & Information Technology (NCWIT)
-is the farthest-reaching network of change leaders focused on advancing innovation by correcting underrepresentation in computing. 
+* The National Center for Women & Information Technology (NCWIT) is the farthest-reaching network of change leaders focused on advancing innovation by correcting underrepresentation in computing. 
 
 * [NCWIT](https://ncwit.org/)
 
