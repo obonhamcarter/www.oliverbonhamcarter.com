@@ -107,7 +107,7 @@ Smiles and Smiley Sing with Swift!
 There are three main types of algorithms that _teach_ a computer how to recognize objects.
 
 
-* __Supervised learning__: The computer is presented with example inputs and their desired outputs, given by a "teacher", and the goal is to learn a general rule that maps inputs to outputs. Check out [WikiPedia](https://en.wikipedia.org/wiki/Machine_learning) to learn more!
+* __Supervised learning__: The computer is presented with example inputs and their desired outputs, given by a "teacher", and the goal is to learn a general rule that maps inputs to outputs. Check out <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">WikiPedia</a> to learn more!
 
 
 Learning Task
@@ -152,7 +152,7 @@ Recognizing Task
 &#x200B;
 </center>
 
-* __Unsupervised learning__: No labels are given to the learning algorithm, leaving it on its own to find structure in its input. Unsupervised learning can be a goal in itself (discovering hidden patterns in data) or a means towards an end (feature learning).
+* __Unsupervised learning__: No labels are given to the learning algorithm, leaving it on its own to find structure in its input. Unsupervised learning can be a goal in itself (discovering hidden patterns in data) or a means towards an end (feature learning). Check out <a href="https://towardsdatascience.com/a-brief-introduction-to-unsupervised-learning-20db46445283" target="_blank">TowardsDataScience</a> to learn more!
 
 <center>
 &#x200B;
@@ -208,25 +208,24 @@ Try out one of the below tutorials with Python for learning more about Machine L
 
 Start here first! 
 
-* [Machine Learning](https://www.w3schools.com/python/python_ml_getting_started.asp)
-
+* <a href="https://www.w3schools.com/python/python_ml_getting_started.asp" target="_blank">Machine Learning</a>
 
 Now, choose one or two of the tutorials below!
 
-* [Mean, Median, Mode](https://www.w3schools.com/python/python_ml_mean_median_mode.asp)
+* <a href="https://www.w3schools.com/python/python_ml_mean_median_mode.asp" target="_blank">Mean, Median, Mode</a>
 
-* [Machine Learning - Logistic Regression](https://www.w3schools.com/python/python_ml_logistic_regression.asp)
+* <a href="https://www.w3schools.com/python/python_ml_logistic_regression.asp" target="_blank">Machine Learning - Logistic Regression</a>
 
-* [Machine Learning - Linear Regression](https://www.w3schools.com/python/python_ml_linear_regression.asp)
+* <a href="https://www.w3schools.com/python/python_ml_linear_regression.asp" target="_blank">Machine Learning - Linear Regression</a>
 
-* [Machine Learning - MultiLinear Regression](https://www.w3schools.com/python/python_ml_multiple_regression.asp)
+* <a href="https://www.w3schools.com/python/python_ml_multiple_regression.asp" target="_blank">Machine Learning - MultiLinear Regression</a>
 
-* [Decision trees](https://www.w3schools.com/python/python_ml_decision_tree.asp)
+* <a href="https://www.w3schools.com/python/python_ml_decision_tree.asp" target="_blank">Decision trees</a>
 
-* [K-means clustering](https://www.w3schools.com/python/python_ml_k-means.asp)
+* <a href="https://www.w3schools.com/python/python_ml_k-means.asp" target="_blank">K-means clustering</a>
 
-* [Machine Learning - Bootstrap Aggregation](https://www.w3schools.com/python/python_ml_bagging.asp)
+* <a href="https://www.w3schools.com/python/python_ml_bagging.asp" target="_blank">Machine Learning - Bootstrap Aggregation</a>
 
-* [Machine Learning - Confusion Matrix](https://www.w3schools.com/python/python_ml_confusion_matrix.asp)
+* <a href="https://www.w3schools.com/python/python_ml_confusion_matrix.asp" target="_blank">Machine Learning - Confusion Matrix</a>
 
-* [Machine Learning - Train/Test](https://www.w3schools.com/python/python_ml_train_test.asp)
+* <a href="https://www.w3schools.com/python/python_ml_train_test.asp" target="_blank">Machine Learning - Train/Test</a>
