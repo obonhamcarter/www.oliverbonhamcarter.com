@@ -33,7 +33,11 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 
   + Circular Visualization in R by Zuguang Gu
   
-    -[Book Website](https://jokergoo.github.io/circlize_book/book/introduction.html)
+    - [Book Website](https://jokergoo.github.io/circlize_book/book/introduction.html)
+
+  + _An Introduction to Machine Learning with R_  by Laurent Gatto
+
+    - [online text](https://lgatto.github.io/IntroMachineLearningWithR/)
 
 * Software
 
