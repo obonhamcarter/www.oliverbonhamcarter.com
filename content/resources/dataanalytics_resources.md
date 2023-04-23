@@ -37,7 +37,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 
   + _An Introduction to Machine Learning with R_  by Laurent Gatto
 
-    - [online text](https://lgatto.github.io/IntroMachineLearningWithR/)
+    - [Book Website](https://lgatto.github.io/IntroMachineLearningWithR/)
 
 * Software
 
