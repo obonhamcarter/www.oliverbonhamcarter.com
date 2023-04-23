@@ -71,6 +71,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 
 * Tutorials
 
+    - [Intro to Machine Learning with R & caret](https://www.youtube.com/watch?v=z8PRU46I3NY)
     - [Jupyter Notebooks Gallery](https://notebook.community/)
     - [ANOVA in R | A Complete Step-by-Step Guide with Examples](https://www.scribbr.com/statistics/anova-in-r/)
     - [The Paired t-Test](https://www.jmp.com/en_us/statistics-knowledge-portal/t-test/paired-t-test.html)
