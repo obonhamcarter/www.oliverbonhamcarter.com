@@ -71,6 +71,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 
 * Tutorials
 
+    - [https://www.datacamp.com/tutorial/machine-learning-in-r#fiveYo](https://www.datacamp.com/tutorial/machine-learning-in-r#fiveYo)
     - [Your First Machine Learning Project in R Step-By-Step](https://machinelearningmastery.com/machine-learning-in-r-step-by-step/)
     - [Machine learning with the “diabetes” data set in R](https://towardsdatascience.com/machine-learning-with-the-diabetes-data-set-in-r-11fa7ae944d0)
     - [Intro to Machine Learning with R & caret](https://www.youtube.com/watch?v=z8PRU46I3NY)
