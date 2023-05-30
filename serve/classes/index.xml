@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classes on I, Oliver Bonham-Carter, In June</title>
+    <link>https://example.com/classes/</link>
+    <description>Recent content in Classes on I, Oliver Bonham-Carter, In June</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Oliver Bonham-Carter</copyright>
+    <lastBuildDate>Fri, 26 Aug 2022 00:42:54 -0400</lastBuildDate><atom:link href="https://example.com/classes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Academic Discord</title>
+      <link>https://example.com/classes/academicdiscord/academicdiscord/</link>
+      <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
+      
+      <guid>https://example.com/classes/academicdiscord/academicdiscord/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bioinformatics</title>
+      <link>https://example.com/classes/bioinformatics/bioinformatics/</link>
+      <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
+      
+      <guid>https://example.com/classes/bioinformatics/bioinformatics/</guid>
+      <description>CMPSC-300-00: Bioinformatics (4 Credits) Academic Bulletin Description An introduction to the development and application of methods, from the computational and information sciences, for the investigation of biological phenomena. In this interdisciplinary course, students integrate computational techniques with biological knowledge to develop and use analytical tools for extracting, organizing, and interpreting information from genetic sequence data. Often participating in team-based and hands-on activities, students implement and apply useful bioinformatics algorithms. During a weekly laboratory session students employ cutting-edge software tools and programming environments to complete projects, reporting on their results through both written documents and oral presentations.</description>
+    </item>
+    
+    <item>
+      <title>Data Analytics</title>
+      <link>https://example.com/classes/dataanalytics/dataanalytics/</link>
+      <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
+      
+      <guid>https://example.com/classes/dataanalytics/dataanalytics/</guid>
+      <description>CMPSC-301-00: Data Analytics Academic Bulletin Description An introduction to computational methods of data analysis with an emphasis on understanding and reflecting on the social, cultural, and political issues surrounding data and its interrogation. Participating in hands-on activities that often require teamwork, students study, design, and implement analytics software and learn how to extract knowledge from, for instance, financial, political, and scientific sources of data. Students also investigate the biases, discriminatory views, and stereotypes that may be present during the collection and analysis of data, reflecting on the ethical implications of using the resulting computational techniques.</description>
+    </item>
+    
+    <item>
+      <title>DataBase Systems</title>
+      <link>https://example.com/classes/databasesystems/databasesystems/</link>
+      <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
+      
+      <guid>https://example.com/classes/databasesystems/databasesystems/</guid>
+      <description>CMPSC-312-00: Database Systems Academic Bulletin Description A study of the design and implementation issues in database management systems. Topics include data models, logical/physical database design, data access/search techniques, normalization theory, mappings from logical to physical structures, storage, and utilization. Additional topics include database reorganization, migration, database integrity, consistency, privacy and secu- rity, distributed database systems, architecture of knowledge-based systems, and intelligent query interfaces. One laboratory per week. Prerequisite: Computer Science 112.</description>
+    </item>
+    
+    <item>
+      <title>Junior Seminar</title>
+      <link>https://example.com/classes/juniorseminar/juniorseminar/</link>
+      <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
+      
+      <guid>https://example.com/classes/juniorseminar/juniorseminar/</guid>
+      <description>CMPSC-580-00: Junior Seminar Academic Bulletin Description A team-based investigation of select topics in computer science, preparing students for the proposal and completion of a senior project. Working in teams to complete hands-on activities, students learn how to read research papers, state and motivate research questions, design and conduct experiments, and collect and organize evidence for evaluating scientific hypotheses. During a weekly laboratory session students use state-of-the-art technology to gain practical skills in scientific and technical writing, the presentation of computational and mathematical concepts, and the visualization of experimental data.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/classes/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/classes/template/</guid>
+      <description>Academic Bulletin Description The Lab: Discord class server: Meeting Information: Classes: Labs: Office Hours: Syllabus: Planning your time TextBook: Other Useful Textbooks: classDocs/ Repository Gradebook Repository </description>
+    </item>
+    
+  </channel>
+</rss>

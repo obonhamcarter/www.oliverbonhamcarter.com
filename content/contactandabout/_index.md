@@ -47,7 +47,7 @@ USA
 *Note: Please use email to reach me.*
 
 #### CV
-Interested in learning more about me? Please see my [Curriculum Vitae](/images/profdev/cv/cv.pdf)!
+Interested in learning more about me? Please see my [Curriculum Vitae](/images/profdev/cv/cv_obc.pdf)!
 
 ---
 
