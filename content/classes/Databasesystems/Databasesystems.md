@@ -1,12 +1,11 @@
 ---
 title: "DataBase Systems"
-date: 2022-06-26T13:25:33-04:00
+date: 2023-08-2T12:00:00-04:00
 draft: false
 ---
-#### CMPSC-312-00: Database Systems
+#### CMPSC-305-00: Database Systems
 
 <img src="/images/databasesystems/dbs.png" alt="drawing" width="100" height="400"/>
-
 
 ### Academic Bulletin Description
 
@@ -16,22 +15,62 @@ A study of the design and implementation issues in database management systems. 
 
 In order to acquire the proper skills in technical writing, critical reading, and the presentation and evaluation of technical material, it is essential for students to have hands-on experience in a laboratory. Therefore, it is mandatory for all students to attend the laboratory sessions. If you will not be able to attend a laboratory, then please see the one of the course instructor at least one week in advance in order to explain your situation. Students who miss more than two unexcused laboratories will have their final grade in the course reduced by one letter grade. Students who miss more than four unexcused laboratories will automatically fail the course.
 
+
+# Distribution Requirements
+The following definitions were taken from the Distribution Requirements: [Learning Outcomes website](https://sites.allegheny.edu/registrar/academic-policies/graduation-requirements/distribution-requirement/distribution-requirements-learning-outcomes/).
+
+* **Quantitative Reasoning** (QR). Quantitative Reasoning is the ability to understand, investigate, communicate, and contextualize numerical, symbolic, and graphical information towards the exploration of natural, physical, behavioral, or social phenomena.
+
+    +  Learning Outcome: Students who successfully complete this requirement will demonstrate an understanding of how to interpret numeric data and/or their graphical or symbolic representations.
+* **Scientific Process a Knowledge** (SP). Courses involving Scientific Process and Knowledge aim to convey an understanding of what is known or can be known about the natural world; apply scientific reasoning towards the analysis and synthesis of scientific information; and create scientifically literate citizens who can engage productively in problem solving.
+
+    + Learning Outcome: Students who successfully complete this requirement will demonstrate an understanding of the nature, approaches, and domain of scientific inquiry.
+
+This course meets the course distribution requirements of QR (Quantitative Reasoning) and SP (Scientific Process and Knowledge) for its use of applying concepts of computer programming to the design and creation databases which are tested on public data from real-world applications. In addition, the class aims to introduce an component of ethical reasoning in the design, maintenance and application of database systems for potentially sensitive data.
+
+# Course Objectives
+
+The essence of the discipline of computer science is algorithms; this course will introduce students to the principles of data management using algorithms. We will investigate some of the key techniques that scientists use to manage data. Areas of discussion include, but are not limited to, relational databases and query languages, object-oriented data storage, encoding data in the eXtensible Markup Language (XML), low-level data storage, transactions and concurrency control, data warehousing and mining, and the implementation and testing of database applications.
+
+The course will introduce students to the theory and practice of data management while covering both the well-established and the cutting-edge areas of the discipline.
+
+The course also invites students to assess the correctness of their implementations and conduct both analytical and empirical evaluations of the performance of data management techniques. Moreover, the course will ask students to implement small- and medium-scale data management systems and to install and use a wide variety of support tools. In addition to improving their teamwork skills, students will enhance their ability to write and speak about software in a clear and concise fashion. Ethical discussions are also introduced into the course to introduce students to the concepts of responsible computing.
+
+# Performance Objectives
+
+At the completion of this class, a student must be comfortable with fundamental data management topics and be aware of current research in the area. When given a new data management problem, students should be able to select proper data management tools and implement a complete application that uses them to solve the stated problem. Students also must develop a toolkit of data management concepts that they can use in the context of the solutions to real-world problems. Finally, students must develop and apply a strong knowledge of analytical and empirical techniques that they can use to characterize and predict the performance of data management systems.
+
+Students should also be able to handle many of the important, yet accidental, aspects of implementing programs with modern programming languages and data management systems. In addition to being comfortable with program editors, compilers, debuggers, testing tools, virtual machines, database management systems, and query languages, students will be working with some Python programming where code will be provided to be modified.
+
+
+### Suggested TextBook:
+
+* Database System Concepts 7th Edition, March 2019 by Abraham Silberschatz (Author), Henry Korth (Author), S. Sudarshan (Author)
+ - ISBN-13: 978-1260084504
+ - ISBN-10: 1260084507
+
+#### Other Useful Textbooks:
+
+* Think Python, first edition, by Allen B. Downey.
+
+  + [Publisher Website](https://greenteapress.com/wp/)
+
 ### Discord class server
 
-TODO
+TBA
 
 ### Meeting Information
 
 #### Classes
 
-T/Th 10:20 AM - 11:50 AM
-2/21/2022 - 5/20/2022
+T/Th 9:30 AM - 10:45 AM
+29 August 2023 - 19 December 2023
 Alden Hall, 101 Lecture
 
 #### Labs
 
-M 2:50 PM - 4:40 PM
-2/21/2022 - 5/20/2022
+Th 2:30 PM - 4:20 PM
+29 August 2023 - 19 December 2023
 Alden Hall, 101 Lab
 
 ### Office Hours
@@ -45,19 +84,8 @@ Alden Hall, 101 Lab
 ### Planning your time
 
 * [Pdf: Planning your time](/images/databasesystems/planningYourTime_cs312s2022.pdf)
+
 * [Html: Planning your time](/images/databasesystems/planningYourTime_cs312s2022.html)
-
-### TextBook:
-
-* Database System Concepts 7th Edition, March 2019 by Abraham Silberschatz (Author), Henry Korth (Author), S. Sudarshan (Author)
- - ISBN-13: 978-1260084504
- -s ISBN-10: 1260084507
-
-#### Other Useful Textbooks:
-
-* BUGS in Writing: A Guide to Debugging Your Prose (Second Edition). Lyn Dupr\'e. Addison-Wesley Professional. ISBN-10: 020137921X and ISBN-13: 978-0201379211, 704 pages, 1998. References to the textbook are abbreviated as "BIW".
-
-* Writing for Computer Science (Second Edition). Justin Zobel. Springer ISBN-10: 1852338024 and ISBN-13:978-1852338022, 270 pages, 2004. References to the textbook are abbreviated as "WFCS".
 
 ### classDocs/ Repository
 
