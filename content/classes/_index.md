@@ -5,9 +5,7 @@ description: 'Classes Section'
 ### So, what _**do**_ I teach here?
 
 #### This semester, I am teaching ...
-
- + [:bar_chart: Data Analytics](/classes/dataanalytics/dataanalytics)
- + [:woman_climbing: Junior Seminar](/classes/juniorseminar/juniorseminar/)
+ + [:thread: Database Systems](/classes/databasesystems/databasesystems/)
 
 <center>
 &#x200B;
@@ -22,7 +20,6 @@ description: 'Classes Section'
 &#x200B;
 </center>
 
-
 #### However, During Other Semesters, I teach ...
 
 <!-- add a line drop --> 
@@ -30,8 +27,9 @@ description: 'Classes Section'
 &#x200B;
 </center>
 
+ + [:bar_chart: Data Analytics](/classes/dataanalytics/dataanalytics)
+ + [:woman_climbing: Junior Seminar](/classes/juniorseminar/juniorseminar/)
  + [:compass: Academic Discord](/classes/academicdiscord/academicdiscord/)
- + [:thread: Database Systems](/classes/databasesystems/databasesystems/)
  + [:computer_disk: Operating Systems](/classes/operatingsystems/operatingsystems/)
  + [:dna: Bioinformatics](/classes/bioinformatics/bioinformatics/)
 <!-- need to go to index on discretestructures since there are "blog files" to host there... -->
