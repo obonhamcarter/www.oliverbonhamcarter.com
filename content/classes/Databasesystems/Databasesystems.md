@@ -76,7 +76,7 @@ Alden Hall, 101 Lab
 
 ### Office Hours
 
-[Schedule an appointment](/about/)
+[Schedule an appointment](/contactandabout/)
 
 ### Syllabus and Schedule
 
