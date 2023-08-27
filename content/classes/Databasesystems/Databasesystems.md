@@ -9,7 +9,7 @@ draft: false
 
 ### Academic Bulletin Description
 
-A study of the design and implementation issues in database management systems. Topics include data models, logical/physical database design, data access/search techniques, normalization theory, mappings from logical to physical structures, storage, and utilization. Additional topics include database reorganization, migration, database integrity, consistency, privacy and secu- rity, distributed database systems, architecture of knowledge-based systems, and intelligent query interfaces. One laboratory per week. Prerequisite: Computer Science 112. Offered in alternate years. Distribution Requirements: QR, SP.
+A study of the application and evaluation of database management systems. Participating in hands-on activities that often require teamwork, students design, implement, and deploy database systems that store interdisciplinary data sets. In addition to learning how to develop and assess interfaces for databases, students study the efficiency and effectiveness of alternative data management systems. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions. Prerequisite: CMPSC 101. Distribution Requirements: QR, SP.
 
 ### The Lab
 
@@ -53,7 +53,7 @@ Students should also be able to handle many of the important, yet accidental, as
 
 * Think Python, first edition, by Allen B. Downey.
 
-  + [Publisher Website](https://greenteapress.com/wp/)
+  + <a href="https://greenteapress.com/wp/" target="_blank">Publisher Website</a>
 
 ### Discord class server
 
@@ -77,15 +77,9 @@ Alden Hall, 101 Lab
 
 [Schedule an appointment](/about/)
 
-### Syllabus
+### Syllabus and Schedule
 
-+ [Syllabus](/images/databasesystems/syllabus/syllabus_cs312.pdf)
-
-### Planning your time
-
-* [Pdf: Planning your time](/images/databasesystems/planningYourTime_cs312s2022.pdf)
-
-* [Html: Planning your time](/images/databasesystems/planningYourTime_cs312s2022.html)
++ [Syllabus](https://github.com/CMPSC-301-Allegheny-College-Spring-2023/classDocs/blob/main/README.md)
 
 ### classDocs/ Repository
 
@@ -93,4 +87,4 @@ Alden Hall, 101 Lab
 
 ### Grade book Repository
 
-TODO
+TBA
