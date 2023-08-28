@@ -74,9 +74,15 @@ Th 2:30 PM - 4:20 PM
 29 August 2023 - 19 December 2023
 Alden Hall, 101 Lab
 
-### Office Hours
+### Office Hours (Dr. Bonham-Carter)
 
 [Schedule an appointment](/contactandabout/)
+
+### Office Hours (Hang Zhao)
+
+* Wednesday and Friday: 9am - 11pm, Quigley 118
+* Thursday: 10:55am - 12:10pm, Alden 104
+* By appointment
 
 ### Syllabus and Schedule
 
