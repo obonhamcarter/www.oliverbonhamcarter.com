@@ -64,25 +64,28 @@ TBA
 
 #### Classes
 
-T/Th 9:30 AM - 10:45 AM
+Tuesday/Thursday 9:30 AM - 10:45 AM
 29 August 2023 - 19 December 2023
 Alden Hall, 101 Lecture
 
 #### Labs
 
-Th 2:30 PM - 4:20 PM
+Thursday 2:30 PM - 4:20 PM
 29 August 2023 - 19 December 2023
 Alden Hall, 101 Lab
 
 ### Office Hours (Dr. Bonham-Carter)
 
-[Schedule an appointment](/contactandabout/)
+[Schedule an appointment with OBC](/contactandabout/)
 
 ### Office Hours (Hang Zhao)
 
 * Wednesday and Friday: 9am - 11pm, Quigley 118
 * Thursday: 10:55am - 12:10pm, Alden 104
 * By appointment
+
+[Schedule an appointment with HZ](https://calendar.app.google/uS6F298mrJj2hRbEA)
+
 
 ### Syllabus and Schedule
 
