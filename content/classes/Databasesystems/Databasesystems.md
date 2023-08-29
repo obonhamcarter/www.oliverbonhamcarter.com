@@ -81,7 +81,7 @@ Alden Hall, 101 Lab
 
 ### Office Hours (Dr. Bonham-Carter)
 
-[Schedule an appointment with OBC](/contactandabout/)
+<a href="/contactandabout/" target="_blank">Schedule an appointment with OBC</a>
 
 ### Office Hours (Hang Zhao)
 
@@ -89,7 +89,8 @@ Alden Hall, 101 Lab
 * Thursday: 10:55am - 12:10pm, Alden 104
 * By appointment
 
-[Schedule an appointment with HZ](https://calendar.app.google/uS6F298mrJj2hRbEA)
+<a href="https://calendar.app.google/uS6F298mrJj2hRbEA" target="_blank">Schedule an appointment with HZ</a>
+ 
 
 ### ClassDocs, Syllabus and Schedule
 
