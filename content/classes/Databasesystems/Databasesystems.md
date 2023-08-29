@@ -93,9 +93,8 @@ Alden Hall, 101 Lab
 
 ### ClassDocs, Syllabus and Schedule
 
-  + <a href="https://github.com/CMPSC-301-Allegheny-College-Spring-2023/classDocs" target="_blank">:woman_climbing: classDocs/</a>
-  + <a href="https://github.com/CMPSC-301-Allegheny-College-Spring-2023/classDocs/blob/main/README.md" target="_blank">:sparkles: Syllabus</a>
-
+  + <a href="https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs" target="_blank">:woman_climbing: classDocs/</a>
+ 
 ### Grade book Repository
 
 You will be using GitHub to keep track of your grades in this class. The link to this resource will be provided in soon.
