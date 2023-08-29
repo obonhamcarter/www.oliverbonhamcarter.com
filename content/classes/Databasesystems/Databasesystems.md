@@ -21,6 +21,7 @@ The following definitions were taken from the Distribution Requirements: <a href
 * **Quantitative Reasoning** (QR). Quantitative Reasoning is the ability to understand, investigate, communicate, and contextualize numerical, symbolic, and graphical information towards the exploration of natural, physical, behavioral, or social phenomena.
 
     +  Learning Outcome: Students who successfully complete this requirement will demonstrate an understanding of how to interpret numeric data and/or their graphical or symbolic representations.
+
 * **Scientific Process a Knowledge** (SP). Courses involving Scientific Process and Knowledge aim to convey an understanding of what is known or can be known about the natural world; apply scientific reasoning towards the analysis and synthesis of scientific information; and create scientifically literate citizens who can engage productively in problem solving.
 
     + Learning Outcome: Students who successfully complete this requirement will demonstrate an understanding of the nature, approaches, and domain of scientific inquiry.
@@ -56,7 +57,7 @@ Students should also be able to handle many of the important, yet accidental, as
 
 ### Discord class server
 
-To keep you up to date with important class information, we will be using Discord. Please be sure to have an account on Discord. Join the class Discord channel using the the [Invite link which expires on 4th September](https://discord.gg/gcP3ms7e). If the link does not work, please let the instructors know to help.
+If you are already on the department's Discord server, then you will be given access to the course's Discord channel, called `#database-systems`. If not, then you will need to join the department's Discord server before you can be added to the course's channel.
 
 ### Meeting Information
 
