@@ -90,13 +90,10 @@ Alden Hall, 101 Lab
 
 [Schedule an appointment with HZ](https://calendar.app.google/uS6F298mrJj2hRbEA)
 
-### Syllabus and Schedule
-
-  + <a href="https://github.com/CMPSC-301-Allegheny-College-Spring-2023/classDocs/blob/main/README.md" target="_blank">Syllabus</a>
-
-### classDocs/ Repository
+### ClassDocs, Syllabus and Schedule
 
   + <a href="https://github.com/CMPSC-301-Allegheny-College-Spring-2023/classDocs" target="_blank">:woman_climbing: classDocs/</a>
+  + <a href="https://github.com/CMPSC-301-Allegheny-College-Spring-2023/classDocs/blob/main/README.md" target="_blank">:sparkles: Syllabus</a>
 
 ### Grade book Repository
 
