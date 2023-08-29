@@ -59,6 +59,7 @@ Students should also be able to handle many of the important, yet accidental, as
 
 If you are already on the department's Discord server, then you will be given access to the course's Discord channel, called `#database-systems`. If not, then you will need to join the department's Discord server before you can be added to the course's channel.
 
+**Note**: During the first week or so, I will manually add your name to the class' Discord channel.
 ### Meeting Information
 
 #### Classes
