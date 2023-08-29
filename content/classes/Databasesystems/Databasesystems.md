@@ -74,6 +74,10 @@ Thursday 2:30 PM - 4:20 PM
 29 August 2023 - 19 December 2023
 Alden Hall, 101 Lab
 
+### Course Calendar
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_5e376db62f20e3b561956cc6433bff2750f005080661ba6c1e947100bd88be3b%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 ### Office Hours (Dr. Bonham-Carter)
 
 [Schedule an appointment with OBC](/contactandabout/)
@@ -85,7 +89,6 @@ Alden Hall, 101 Lab
 * By appointment
 
 [Schedule an appointment with HZ](https://calendar.app.google/uS6F298mrJj2hRbEA)
-
 
 ### Syllabus and Schedule
 
