@@ -16,6 +16,7 @@ A study of the application and evaluation of database management systems. Partic
 In order to acquire the proper skills in technical writing, critical reading, and the presentation and evaluation of technical material, it is essential for students to have hands-on experience in a laboratory. Therefore, it is mandatory for all students to attend the laboratory sessions. If you will not be able to attend a laboratory, then please see the one of the course instructor at least one week in advance in order to explain your situation. Students who miss more than two unexcused laboratories will have their final grade in the course reduced by one letter grade. Students who miss more than four unexcused laboratories will automatically fail the course.
 
 # Distribution Requirements
+
 The following definitions were taken from the Distribution Requirements: <a href="https://sites.allegheny.edu/registrar/academic-policies/graduation-requirements/distribution-requirement/distribution-requirements-learning-outcomes/" target="_blank">Learning Outcomes website</a>.
 
 * **Quantitative Reasoning** (QR). Quantitative Reasoning is the ability to understand, investigate, communicate, and contextualize numerical, symbolic, and graphical information towards the exploration of natural, physical, behavioral, or social phenomena.
