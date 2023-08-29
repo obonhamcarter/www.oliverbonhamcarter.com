@@ -19,7 +19,7 @@ To be sure that I have enough time with each person during my office hours, I as
 
 #### Office Hour Location
 
-+ __All office hour appointments__ All meetings will take place in my office in Alden 105. If this meeting place is not convenient, please let me know and we can fix a meeting time online using Google Meet or Zoom.
++ __All office hour appointments__ All meetings will take place in my office in Alden 203. If this meeting place is not convenient, please let me know and we can fix a meeting time online using Google Meet or Zoom.
 
 ---
 
