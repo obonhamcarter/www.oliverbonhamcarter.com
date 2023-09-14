@@ -86,6 +86,7 @@ Alden Hall, 101 Lab
 
 <!-- * [GradeBook repository](https://classroom.github.com/a/9QhtvWWZ) -->
 * <a href="https://classroom.github.com/a/9QhtvWWZ" target="_blank">Gradebook Repository</a>
+
 ### Resources
 
 [:bar_chart: Main page for resources](/resources/) 

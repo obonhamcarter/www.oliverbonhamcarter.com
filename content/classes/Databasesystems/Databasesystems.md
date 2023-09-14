@@ -92,10 +92,11 @@ Alden Hall, 101 Lab
 <a href="https://calendar.app.google/uS6F298mrJj2hRbEA" target="_blank">Schedule an appointment with HZ</a>
  
 
-### ClassDocs, Syllabus and Schedule
+### ClassDocs/ repository, Syllabus and Schedule
 
   + <a href="https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs" target="_blank">:woman_climbing: classDocs/</a>
  
 ### Grade book Repository
 
-You will be using GitHub to keep track of your grades in this class. The link to this resource will be provided in soon.
+<!-- * [GradeBook repository](https://classroom.github.com/a/tk6oZ53N) -->
+* <a href="https://classroom.github.com/a/tk6oZ53N" target="_blank">Gradebook Repository</a>
