@@ -74,11 +74,23 @@ What is the common _theme_?!
 
 To shed some light on this feature, we study a new poster that does not have the common theme. Below, we see a poster of our hero Smiles and Smiley singing along side Taylor Swift. 
 
-What common element of the above posters did you not see?
+<center>
+&#x200B;
+&#x200B;
+&#x200B;
+</center>
+
+* What common element of the above posters did you not see?
+* What is the common _theme_?!
+
+<center>
+&#x200B;
+&#x200B;
+&#x200B;
+</center>
 
 One of the common features is that Smiles and Smiley were always featured in front of some beautiful and outdoors scene. In the last poster, Smiles and Smiley were featured singing with Taylor Swift.  
 
-What is the common _theme_?!
 
 <center>
 &#x200B;
@@ -206,7 +218,7 @@ Try out one of the below tutorials with Python for learning more about Machine L
 &#x200B;
 </center>
 
-Start here first! 
+Start by reading the first page here, and then choose a topic from below to study in more detail! 
 
 * <a href="https://www.w3schools.com/python/python_ml_getting_started.asp" target="_blank">Machine Learning</a>
 

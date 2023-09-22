@@ -219,6 +219,9 @@ Read the p-value to see what to do!
 
 By using the _p_-value after running a t-test, we can determine which hypothesis to accept with some confidence. If you are interested in learning more about t-tests (the _one_ and _two_ tailed tests, for instance), then please check out the below links!
 
-* [thedatascientist](https://thedatascientist.com/how-to-do-a-t-test-in-python/)!
+* <a href="https://www.w3schools.com/python/scipy/scipy_statistical_significance_tests.php" target="_blank">Tutorial on statistical significance tests</a>
 
-* [ScriAn Introduction to t Tests | Definitions, Formula and Examplesbbr](https://www.scribbr.com/statistics/t-test/#:~:text=A%20t%20test%20is%20a,are%20different%20from%20one%20another.)
+* <a href="https://thedatascientist.com/how-to-do-a-t-test-in-python/" target="_blank">thedatascientist</a>
+
+* <a href="https://www.scribbr.com/statistics/t-test/#:~:text=A%20t%20test%20is%20a,are%20different%20from%20one%20another" target="_blank">Scribbr: An Introduction to t Tests | Definitions, Formula and Examples</a>
+
