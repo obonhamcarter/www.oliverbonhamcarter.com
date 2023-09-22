@@ -1,5 +1,5 @@
 ---
-title: "Plotting and Distributions"
+title: "2. Plotting and Distributions"
 date: 2023-03-16T23:40:01-04:00
 draft: False
 ---

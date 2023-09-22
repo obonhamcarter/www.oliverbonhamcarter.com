@@ -1,5 +1,5 @@
 ---
-title: "Cool Plots"
+title: "3. Cool Plots"
 date: 2023-03-29T23:43:43-04:00
 draft: False
 ---

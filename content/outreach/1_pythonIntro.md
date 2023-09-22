@@ -1,5 +1,5 @@
 ---
-title: "1_Intro to Python"
+title: "1. Intro to Python"
 date: 2023-02-08T19:09:12-05:00
 draft: false
 ---

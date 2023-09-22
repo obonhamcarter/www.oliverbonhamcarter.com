@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Basics"
+title: "5. Machine Learning Basics"
 date: 2023-04-20T22:05:15-04:00
 draft: false
 ---
