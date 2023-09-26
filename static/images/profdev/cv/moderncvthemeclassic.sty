@@ -109,18 +109,21 @@
 \renewcommand*{\maketitle}{%
   % name and title
   \if@DEBUG\framebox{\fi
-  \begin{minipage}[b]{.525\textwidth}%
-    \firstnamestyle{\@firstname~}\familynamestyle{\@familyname}%
+  % \begin{minipage}[b]{1.525\textwidth}%
+    \begin{minipage}[b]{.525\textwidth}%
+      \firstnamestyle{\@firstname~}\familynamestyle{\@familyname}%
     \ifthenelse{\isundefined{\@title}}%
       {}%
       {\\[1.25em]\titlestyle{\@title}}%
+      % {\\[2.25em]\titlestyle{\@title}}% # main name at top
   \end{minipage}%
   \if@DEBUG}\fi
   \hfill%
   \if@DEBUG\framebox{\fi%
   % optional data
-  \begin{minipage}[b]{.225\textwidth}%
-    \raggedleft\addressfont\color{addresscolor}%
+  \begin{minipage}[b]{.425\textwidth}%to change size of the top right-hand side, original value .225
+    % \begin{minipage}[b]{.225\textwidth}% # upper website information section
+      \raggedleft\addressfont\color{addresscolor}%
     \ifthenelse{\isundefined{\@addressstreet}}{}{%
       \addresssymbol~\@addressstreet%
       \ifthenelse{\isundefined{\@addresscity}}{}{\\\@addresscity}%
