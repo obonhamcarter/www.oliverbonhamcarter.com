@@ -19,7 +19,7 @@ draft: false
 [:coffee:]
 
 
-![/images/forfun/itea_spring2023.jpg](/images/forfun/itea_spring2023.jpg)
+![/images/forfun/itea_spring2023.jpg](/images/forfun/itea_fall2023.jpg)
 
 <center>
    <font size="9">Come join in the fun!! </font> 
