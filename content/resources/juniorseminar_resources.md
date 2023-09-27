@@ -35,7 +35,7 @@ Welcome to a resources page for Junior Seminar research. Here you will find a li
     + [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
 
 * Providers of Data for projects
-    - [sentiment viz Tweet Sentiment Visualization](https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/tweet_app/)
+    + [sentiment viz Tweet Sentiment Visualization](https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/tweet_app/)
     + [Finviz](https://finviz.com/)
     + [COVID-19 Forecasts](https://www.cdc.gov/coronavirus/2019-ncov/science/forecasting/forecasting-us.html)
     + [An interactive visualization of the exponential spread of COVID-19](https://91-divoc.com/pages/covid-visualization/)
