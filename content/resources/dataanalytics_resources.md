@@ -72,6 +72,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 
 * Tutorials
 
+    - [Statmethods R programming Tutorial by Datacamp](https://www.statmethods.net/)
     - [Data Science Dojo](https://code.datasciencedojo.com/datasciencedojo/tutorials)
     - [Machine Learning in R for beginners (Interactiving coding!)](https://www.datacamp.com/tutorial/machine-learning-in-r#fiveYo)
     - [Your First Machine Learning Project in R Step-By-Step](https://machinelearningmastery.com/machine-learning-in-r-step-by-step/)
