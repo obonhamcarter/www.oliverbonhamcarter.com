@@ -18,6 +18,27 @@ We will spend a moment to study different ways of visually describing data using
 
 But first, let's get into a <a href="http://oliverbonhamcarter.com/live/" target="_blank">Jupyter</a> client where we can run Python code.
 
+
+### A (Normal) Distribution of data :: Values
+
+``` python
+from numpy import random
+import statistics
+from scipy.stats import norm
+import numpy as np
+
+# Calculating mean and standard deviation
+x_axis = np.arange(-20, 20, 0.01)
+mean = statistics.mean(x_axis)
+sd = statistics.stdev(x_axis)
+norm.pdf(x_axis, mean, sd)
+x = random.normal(size=(2, 3))
+print(x)
+```
+(What can we see in these numbers? Would it be easier to plot this data instead?)
+
+
+
 ### A Basic Histogram
 
 ``` python
@@ -41,6 +62,26 @@ plt.hist(x)
 plt.show()
 ```
 
+### Another basic histogram
+
+``` python
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+
+fruits = ['apple', 'blueberry', 'cherry', 'orange']
+counts = [40, 100, 30, 55]
+bar_labels = ['red', 'blue', '_red', 'orange']
+bar_colors = ['tab:red', 'tab:blue', 'tab:red', 'tab:orange']
+
+ax.bar(fruits, counts, label=bar_labels, color=bar_colors)
+
+ax.set_ylabel('fruit supply')
+ax.set_title('Fruit supply by kind and color')
+ax.legend(title='Fruit color')
+
+plt.show()
+```
 Read more about this type of code at [RealPython](https://realpython.com/python-histograms/)
 
 ### Distributions
@@ -54,24 +95,6 @@ Reference: <a href="https://www.w3schools.com/python/numpy/" target="_blank">W3s
 ---
 
  <!-- Reference: [w3schools](https://www.w3schools.com/python/numpy/) -->
-
-
-### Normal Distribution :: Values
-
-``` python
-from numpy import random
-import statistics
-from scipy.stats import norm
-import numpy as np
-
-# Calculating mean and standard deviation
-x_axis = np.arange(-20, 20, 0.01)
-mean = statistics.mean(x_axis)
-sd = statistics.stdev(x_axis)
-norm.pdf(x_axis, mean, sd)
-x = random.normal(size=(2, 3))
-print(x)
-```
 
 ### Line plot :: Normal
 
@@ -522,4 +545,7 @@ Reference: <a href="https://vitalflux.com/python-creating-scatter-plot-with-iris
 
 ---
 
-Check out more plotting and Python code at Reference: <a href="https://www.w3schools.com/python/numpy/" target="_blank">W3schools</a>
+Check out more plotting and Python code at the following URLs. Note, you may have to copy and paste code into your browser's <a href="https://www.oliverbonhamcarter.com/live/" target="_blank"> Jupyter notebook</a>. 
+* <a href="https://www.w3schools.com/python/numpy/" target="_blank">W3schools</a>
+
+* <a href="https://matplotlib.org/stable/gallery/lines_bars_and_markers/index.html" target="_blank">MatplotLib</a>
