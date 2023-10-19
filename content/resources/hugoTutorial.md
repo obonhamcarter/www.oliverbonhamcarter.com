@@ -4,7 +4,6 @@ date: 2023-01-20T18:28:30-05:00
 draft: false
 ---
 
-
 **Making a website with Hugo**: You might want to use this bare-bones website template for an online research website.
 
 Below is code to create a website and then to add posts (blogs) to the project. Each of these posts that you create could be akin to pages in a book that you could organize chronologically. Have fun!

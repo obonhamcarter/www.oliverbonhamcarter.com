@@ -7,9 +7,7 @@ draft: false
 Welcome to a resources page for Bioinformatics research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.
 
 * Software
-
   + Installations
-
     - [RStudio](https://posit.co/)
     - [R Programming Language](https://cran.rstudio.com/)
     - [Python Programming Language](https://www.python.org/downloads/)
@@ -28,22 +26,18 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
     - [JDoodle](https://www.jdoodle.com/execute-r-online/)
 
 * Python Programming Resources
-
     - Play with code from W3's super [Python Tutorial](https://www.w3schools.com/python/)
     - Write code locally using [Jupyter Interactive Python](http://oliverbonhamcarter.com/live/).
     - Think Python, a textbook, by Allen B. Downey [Publisher Website](https://greenteapress.com/wp/)
     - The [Python Programming Language](https://www.python.org/downloads/)
 
   + Online
-
     - [Online R programming](https://www.jdoodle.com/execute-r-online/)
 
 * Articles
-
     - [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
 
 * Tutorials
-
     - [Statmethods R programming Tutorial by Datacamp](https://www.statmethods.net/)
     - [Dealing with GenBank files in Biopython](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/genbank/)
     - [Allegheny College Department of Computer Science tutorials](https://www.youtube.com/playlist?list=PLsYZRXov75ZHSwWiCk0-jd1RcTuu_-zmD)
@@ -56,7 +50,6 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
     - [Luman's ssh keys video tutorial](https://www.youtube.com/watch?v=qEPjUGQFmzQ&list=PLsYZRXov75ZHSwWiCk0-jd1RcTuu_-zmD)
 
 * Tools
-
   + [COVID-19 Forecasts](https://www.cdc.gov/coronavirus/2019-ncov/science/forecasting/forecasting-us.html)
   + [Virus Explorer](https://www.biointeractive.org/classroom-resources/virus-explorer)
   + TCoffee: [http://tcoffee.crg.cat/apps/tcoffee/tutorial.html](http://tcoffee.crg.cat/apps/tcoffee/tutorial.html)

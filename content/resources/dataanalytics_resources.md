@@ -96,6 +96,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 
 * Providers of Data for projects
 
+  + [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
   + [Finviz](https://finviz.com/)
   + [COVID-19 Forecasts](https://www.cdc.gov/coronavirus/2019-ncov/science/forecasting/forecasting-us.html)
   + [An interactive visualization of the exponential spread of COVID-19](https://91-divoc.com/pages/covid-visualization/)
