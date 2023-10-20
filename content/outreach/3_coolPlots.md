@@ -62,6 +62,11 @@ plt.fill(x, y)
 plt.show()
 ```
 
+
+Love this kind of plot? Then check out more like it at <a href="https://matplotlib.org/stable/gallery/lines_bars_and_markers/fill.html#sphx-glr-gallery-lines-bars-and-markers-fill-py" target="_blank">MatPlotLib</a> for filled polygon analysis.
+
+
+
 ### Quantile Loss
 
 Try to run the code below to see what kind of plot it makes. What can you see in this plot? What can you *not* see in this plot? In other words, what kinds of information is provided in this plot?
