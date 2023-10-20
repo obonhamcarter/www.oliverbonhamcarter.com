@@ -8,7 +8,15 @@ Here we spend some time to look at plots which are not like the traditional plot
 
 But first, let's get into a <a href="http://oliverbonhamcarter.com/live/" target="_blank">Jupyter</a> client where we can run Python code.
 
-Next, runt he below code to see what kind of plot it makes. What can you see in this plot? What can you *not* see in this plot? In other words, what kinds of information is provided in this plot?
+### Quantile Loss
+
+Try to run the code below to see what kind of plot it makes. What can you see in this plot? What can you *not* see in this plot? In other words, what kinds of information is provided in this plot?
+
+<center>
+&#x200B;
+<img src="/images/outreach/coolPlots/quantile.png" alt="logo" style="width:400px;"/>
+</center>
+
 
 ``` python
 from sklearn.ensemble import HistGradientBoostingRegressor
