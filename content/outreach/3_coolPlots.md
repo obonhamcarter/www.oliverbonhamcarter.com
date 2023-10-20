@@ -6,8 +6,133 @@ draft: False
 
 Here we spend some time to look at plots which are not like the traditional plots that we have seen before. Below are different ways to use plots to describe data. 
 
-
 But first, let's get into a <a href="http://oliverbonhamcarter.com/live/" target="_blank">Jupyter</a> client where we can run Python code.
+
+Next, runt he below code to see what kind of plot it makes. What can you see in this plot? What can you *not* see in this plot? In other words, what kinds of information is provided in this plot?
+
+``` python
+from sklearn.ensemble import HistGradientBoostingRegressor
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Simple regression function for X * cos(X)
+rng = np.random.RandomState(42)
+X_1d = np.linspace(0, 10, num=2000)
+X = X_1d.reshape(-1, 1)
+y = X_1d * np.cos(X_1d) + rng.normal(scale=X_1d / 3)
+
+quantiles = [0.95, 0.5, 0.05]
+parameters = dict(loss="quantile", max_bins=32, max_iter=50)
+hist_quantiles = {
+    f"quantile={quantile:.2f}": HistGradientBoostingRegressor(
+        **parameters, quantile=quantile
+    ).fit(X, y)
+    for quantile in quantiles
+}
+
+fig, ax = plt.subplots()
+ax.plot(X_1d, y, "o", alpha=0.5, markersize=1)
+for quantile, hist in hist_quantiles.items():
+    ax.plot(X_1d, hist.predict(X), label=quantile)
+_ = ax.legend(loc="lower left")
+
+plt.show()
+```
+
+Love this kind of plot? Then check out more like it at <a href="https://scikit-learn.org/stable/auto_examples/release_highlights/plot_release_highlights_1_1_0.html" target="_blank">SciKit</a> for quantile analysis.
+
+### Plot Classification Probability
+
+What does this plot show? Why are there so many subplots? What does a comparison lead you to think?
+
+<center>
+&#x200B;
+<img src="/images/outreach/coolPlots/probability.png" alt="logo" style="width:400px;"/>
+</center>
+
+
+``` python
+# Author: Alexandre Gramfort <alexandre.gramfort@inria.fr>
+# License: BSD 3 clause
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+from sklearn import datasets
+from sklearn.gaussian_process import GaussianProcessClassifier
+from sklearn.gaussian_process.kernels import RBF
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+from sklearn.svm import SVC
+
+iris = datasets.load_iris()
+
+# we only take the first two features for visualization
+X = iris.data[:, 0:2]
+y = iris.target
+
+n_features = X.shape[1]
+
+C = 10
+kernel = 1.0 * RBF([1.0, 1.0])  # for GPC
+
+# Create different classifiers.
+classifiers = {
+    "L1 logistic": LogisticRegression(
+        C=C, penalty="l1", solver="saga", multi_class="multinomial", max_iter=10000
+    ),
+    "L2 logistic (Multinomial)": LogisticRegression(
+        C=C, penalty="l2", solver="saga", multi_class="multinomial", max_iter=10000
+    ),
+    "L2 logistic (OvR)": LogisticRegression(
+        C=C, penalty="l2", solver="saga", multi_class="ovr", max_iter=10000
+    ),
+    "Linear SVC": SVC(kernel="linear", C=C, probability=True, random_state=0),
+    "GPC": GaussianProcessClassifier(kernel),
+}
+
+n_classifiers = len(classifiers)
+
+plt.figure(figsize=(3 * 2, n_classifiers * 2))
+plt.subplots_adjust(bottom=0.2, top=0.95)
+
+xx = np.linspace(3, 9, 100)
+yy = np.linspace(1, 5, 100).T
+xx, yy = np.meshgrid(xx, yy)
+Xfull = np.c_[xx.ravel(), yy.ravel()]
+
+for index, (name, classifier) in enumerate(classifiers.items()):
+    classifier.fit(X, y)
+
+    y_pred = classifier.predict(X)
+    accuracy = accuracy_score(y, y_pred)
+    print("Accuracy (train) for %s: %0.1f%% " % (name, accuracy * 100))
+
+    # View probabilities:
+    probas = classifier.predict_proba(Xfull)
+    n_classes = np.unique(y_pred).size
+    for k in range(n_classes):
+        plt.subplot(n_classifiers, n_classes, index * n_classes + k + 1)
+        plt.title("Class %d" % k)
+        if k == 0:
+            plt.ylabel(name)
+        imshow_handle = plt.imshow(
+            probas[:, k].reshape((100, 100)), extent=(3, 9, 1, 5), origin="lower"
+        )
+        plt.xticks(())
+        plt.yticks(())
+        idx = y_pred == k
+        if idx.any():
+            plt.scatter(X[idx, 0], X[idx, 1], marker="o", c="w", edgecolor="k")
+
+ax = plt.axes([0.15, 0.04, 0.7, 0.05])
+plt.title("Probability")
+plt.colorbar(imshow_handle, cax=ax, orientation="horizontal")
+
+plt.show()
+```
+
+Love this kind of plot? Then check out more like it at <a href="https://scikit-learn.org/stable/auto_examples/classification/plot_classification_probability.html#sphx-glr-auto-examples-classification-plot-classification-probability-py" target="_blank">SciKit</a> for Plot classification probability analysis.
 
 ### Clustering: A demo of structured Ward hierarchical clustering on an image of coins
 
