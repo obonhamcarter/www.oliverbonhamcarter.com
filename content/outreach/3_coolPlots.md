@@ -10,12 +10,10 @@ But first, let's get into a <a href="http://oliverbonhamcarter.com/live/" target
 
 ### The Koch Snowflake (a fractle)
 
-
 <center>
 &#x200B;
 <img src="/images/outreach/coolPlots/koch.png" alt="logo" style="width:400px;"/>
 </center>
-
 
 ``` python 
 import matplotlib.pyplot as plt
