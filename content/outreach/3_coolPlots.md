@@ -255,3 +255,9 @@ myY = list(df["SUNACTIVITY"])
 plt.plot(myX, myY)
 plt.show()
 ```
+---
+
+Check out more plotting and Python code at the following URLs. Note, you may have to copy and paste code into your browser's <a href="https://www.oliverbonhamcarter.com/live/" target="_blank"> Jupyter notebook</a>. 
+* <a href="https://www.w3schools.com/python/numpy/" target="_blank">W3schools</a>
+
+* <a href="https://matplotlib.org/stable/gallery/lines_bars_and_markers/index.html" target="_blank">MatplotLib</a>
