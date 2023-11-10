@@ -19,7 +19,7 @@ But first, let's get into a <a href="http://oliverbonhamcarter.com/live/" target
 
 ### The Data
 
-How could you differentiate the two data sets shown below? Could we simply average all numbers together and then use that value for a comparison? Yes, we could. The average would tell us that the two sets are not composed of the same values but this singular value does not inform about the larger distribution qualities. For instance, can we study these numbers to ascertain a statistical difference between one set and the other?
+How could you differentiate the two data sets shown below? Could we simply average all numbers together and then use that value for a comparison? Yes, we could! The average would tell us that the two sets are not composed of the same values, but this singular value does not inform about the larger distribution qualities. For instance, can we study these numbers to ascertain a statistical difference between one set and the other?
 
 #### Group 1 dataset
 ``` python
@@ -95,7 +95,7 @@ We complete a statistical test to tell us which hypothesis to accept. We use a v
 &#x200B;
 </center>
 
-When the _p_-value is between 0 and 0.1, or when the _p_-value is between 0 and 0.05, then we reject the null hypothesis (and take the alternative hypothesis.) Otherwise, we accept the Null hypothesis. 
+When the _p_-value is between 0 and 0.01, or when the _p_-value is between 0 and 0.05, then we reject the null hypothesis (and take the alternative hypothesis.) Otherwise, we accept the Null hypothesis. 
 
 ### Description of code
 
