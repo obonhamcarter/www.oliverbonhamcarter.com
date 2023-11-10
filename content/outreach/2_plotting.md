@@ -545,7 +545,7 @@ Reference: <a href="https://vitalflux.com/python-creating-scatter-plot-with-iris
 
 What kind of plot does the following code produce? What can we learn from this plot?
 
-```
+``` python
 import matplotlib.pyplot as plt
 import numpy as np
 
