@@ -60,7 +60,7 @@ code content/post/post1.md
 
 You will see that the only contents of the file are, 
 
-``` bash 
+``` yml 
 ---
 title: "Post1"
 date: 2023-01-30T22:30:39-05:00
@@ -70,7 +70,7 @@ draft: true
 
 Modify the file by adding some content. Then change the `draft: true` to `draft: false` once you are ready to publish your new post. 
 
-## Viewing your local site.
+## Viewing your local site
 To view your site, use the below code to see all posts for which `draft` is set to `true`.
 
 ``` bash
@@ -83,15 +83,24 @@ If you want to see all posts, regardless of whether their `draft` parameter is s
 hugo server -D
 ```
 
-
 ## Install a Theme
 
 You may not be able to see much until you have installed your theme to control the user-interface. You could use seemingly any theme that you want to use -- there are [quite a lot available](https://themes.gohugo.io/). In this tutorial, we will use a simple one called [Anubis](https://github.com/mitrichius/hugo-theme-anubis) that will provide a basic page by page view of notes. Feel free to try other themes to find the one that perfectly fits your site.
 
+We are going to install the theme as a `git` submodule. This implies that our freshly built Hugo site is already a GitHub repository. Unfortunately, it is not a git project since we just created it! To quickly make this Hugo project into a GitHub project, we could do one of the following to create a `.git` directory in the project's root (thus making it a GitHub project).
+
+* We could create a repository **NOW** at [GitHub](https://github.com/) and push the whole project to the cloud.
+
+* We could create a repository **LATER** at GitHub and simply use the command `git init` to make an *un-pushed* GitHub project. 
+
+When the hidden directory `.git` is present in the root of a project, then you are able to install the theme as a `git` submodule. (Hey, we had to add a theme in this way at some point!).
+
 Add a submodule of the theme to `themes/` directory. Note adding repository as a submodule allows us to embed a GitHub project within another GitHub project. Git does not like multiple `.git` directories in a project.
 
-```bash
-git submodule add https://github.com/mitrichius/hugo-theme-anubis.git themes/anubis
+``` bash
+git submodule add 
+  https://github.com/mitrichius/hugo-theme-anubis.git
+  themes/anubis
 ```
 
 ### Note 
@@ -99,7 +108,7 @@ To see site in a fully prepared state, copy the files from `themes/anubis/examp
 
 ### Connect site to a theme: Add the following to `config.toml`
 
-``` bash
+``` yml
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My Amazing Site!"
@@ -110,7 +119,7 @@ theme = "anubis"
 
 Note, you can add as many menu items as necessary. Be sure to increment the `weight` variable by one for each menu item. The `weight` variable helps to control the order of the item in the menu. 
 
-``` bash
+``` yml
 [menu]
 
 [[menu.main]]
