@@ -17,20 +17,21 @@ testimonial:
 ### Abstract
 Investigators in bioinformatics are often confronted with the difficult task of connecting ideas, which are found scattered around the literature, using robust keyword searches. It is often customary to identify only a few keywords in a research article to facilitate search algorithms, which is usually completed in absence of a general approach that would serve to index all possible keywords of an article’s characteristic attributes. Based on only a hand-full of keywords, articles are therefore prioritized by search algorithms that point investigators to seeming subsets of their knowledge. In addition, many articles escape algorithm search strategies due to the fact that their keywords were vague, or have become unfashionable terms. In this case, the article, as well as its source of knowledge, may be lost to the community. Owing to the growing size of the literature, we introduce a text mining method and tool, (BeagleTM), for knowledge harvesting from papers in a literature corpus without the use of article meta-data. Unlike other text mining tools that only highlight found keywords in articles, our method allows users to visually ascertain which keywords have been featured in studies together with others in peer-reviewed work. Drawing from an arbitrarily-sized corpus, BeagleTM creates visual networks describing interrelationships between user-defined terms to facilitate the discovery of connected or parallel studies. We report the effectiveness of BeagleTM by illustrating its ability to connect the keywords from types of PTMs (post-translational modifications), stress-factors, and disorders together according to their relationships. These relationships facilitate the discovery of connected studies, which is often challenging to determine due to the frequently unrelated keywords that were tied to relevant articles containing this type of information.
 
----
+___
+
+References
+
+* Bonham-Carter, Oliver. "BeagleTM: An adaptable text mining method for relationship discovery in literature." Advances in Information and Communication: Proceedings of the 2020 Future of Information and Communication Conference (FICC), Volume 2. Springer International Publishing, 2020.
+
+* (Accepted) Bonham-Carter, Oliver. "Text Analysis of Ethical Influence in Bioinformatics and its Related Disciplines." Advances in Information and Communication: Proceedings of the 2024 Future of Information and Communication Conference (FICC), Springer International Publishing, 2024.
 
 Links
-
----
 
 + View the [Presentation](/images/beagletm/poster_beagleTM_ficc.pdf)
 
 + Read the [Paper](https://www.researchgate.net/publication/339224324_BeagleTM_An_Adaptable_Text_Mining_Method_for_Relationship_Discovery_in_Literature?_sg%5B0%5D=CBV90Y88sWRV8RGpxoC-C_IJ053qZlgmygsNBt48COg5zd0rW-HPVPqwmFQ-jG6UL3VhTnhWtUMWLmoibG9fGIAIsSW4MBA4FEKgMy70.GU5m7UphTzCKbODUA1XLjsoYwyc_qB-wNPLmdibStUNVpxAlAPOQcrdRsV8Q0aVwvvTNHUONvZHCmXIzNssSLA)
 
 ---
-
-The software is run in a Docker container using `bash` commands and then `Streamlit`.
-
 
 The general method.
 
