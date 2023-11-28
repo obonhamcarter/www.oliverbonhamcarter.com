@@ -22,6 +22,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
   + Wickham, Hadley, and Garrett Grolemund. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data., O'Reilly Media, Inc., 2016.
 
     - [Book Website](https://r4ds.had.co.nz/)
+    - [Latest version of the book](https://r4ds.hadley.nz/)
 
   + Julia Silge And David Robinson. Text Mining With R: A Tidy Approach., O'Reilly Media, Inc., 2019.
 

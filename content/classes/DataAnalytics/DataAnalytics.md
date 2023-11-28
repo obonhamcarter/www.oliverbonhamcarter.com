@@ -61,6 +61,8 @@ Alden Hall, 101 Lab
 
   + [Book Website](https://r4ds.had.co.nz/)
 
+  + [Latest Version of Book](https://r4ds.hadley.nz/)
+
 * Julia Silge And David Robinson. Text Mining With R: A Tidy Approach., O'Reilly Media, Inc., 2019.
   + [Book Website](https://www.tidytextmining.com/)
 
