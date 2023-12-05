@@ -31,6 +31,14 @@ This course meets the course distribution requirements of QR (Quantitative Reaso
 
 # Course Objectives
 
+The course goals are formally the following;
+
+* Correctly describe object-oriented data storage, low-level data storage, transactions and concurrency control, data warehousing and data mining.
+* Design and implement SQL databases and formulate advanced structured queries to extract knowledge from databases.
+* Implement Python programs to access databases, define and execute queries, and produce web-based visualizations of the data and query results.
+* Create and/or use post-relational database management systems and contrast them with relational database systems.
+* Clearly and persuasively communicate the results of database inquiries and critically examine and reflect on their ethical implications.
+
 The essence of the discipline of computer science is algorithms; this course will introduce students to the principles of data management using algorithms. We will investigate some of the key techniques that scientists use to manage data. Areas of discussion include, but are not limited to, relational databases and query languages, object-oriented data storage, encoding data in the eXtensible Markup Language (XML), low-level data storage, transactions and concurrency control, data warehousing and mining, and the implementation and testing of database applications.
 
 The course will introduce students to the theory and practice of data management while covering both the well-established and the cutting-edge areas of the discipline.
