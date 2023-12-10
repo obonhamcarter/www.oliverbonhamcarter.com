@@ -67,9 +67,10 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 [Publisher Website](https://greenteapress.com/wp/)
     - The [Python Programming Language](https://www.python.org/downloads/)
 
-* Articles
+* Articles for Learning
 
     - [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
+    - [Industrial Careers in the Age of Machine Learning](https://teguar.com/industrial-careers-in-the-age-of-machine-learning/)
 
 * Tutorials
 
