@@ -12,8 +12,8 @@ description: 'Projects Section'
 
 + [:battery: Sentiminer](/projects/sentiminer/sentiminer)
 + [:battery: GradeAlert](/projects/gradealert/gradealert)
-
-
++ [:battery: BeagleTM2](/portfolio/sample-project/index_beagletm/)
++ <a href="https://github.com/developmentAC" target="_blank">:battery: Other projects at GitHub!</a>
 ---
 
 ### Descriptions
