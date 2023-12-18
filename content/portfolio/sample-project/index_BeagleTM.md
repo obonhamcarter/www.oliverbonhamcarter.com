@@ -2,12 +2,12 @@
 title: BeagleTM
 description: A text mining tool for developing visual and interactive relationship networks from PubMed article information.
 date: "2020-05-02T19:47:09+02:00"
-jobDate: 2020
+jobDate: 2023
 work: [Text mining, Visualizing intersecting ideas]
 techs: []
 designs: []
 thumbnail: sample-project/beagleTM_logo2.png
-projectUrl: https://github.com/developmentAC/beagleTM.git
+projectUrl: https://github.com/developmentAC/beagleTM2.git
 testimonial:
   name: Flint the Beagle!
   role: Inspiration
@@ -45,6 +45,14 @@ BeagleTM separates papers by topics.
 
 ![Sorting papers by topic](/images/beagletm/beagletm_flowchartdb.png)
 
-Networks are produced to determine relationships between ideas.
+Networks are produced by first parsing all available corpus articles for specific user-selected keywords. These results are used to create networks, and to provide other details about the inter-connectivity and coverage of  ideas in across corpus.
 
-![Network](/images/beagletm/beagletm_mouseOver.png)
+![RelationshipNetwork](/images/beagletm/beagletm_mouseOver.png)
+
+Relationship Networks provide information about which articles are connected to others in terms of overlapping ideas.
+
+![ConnectivityNetwork](/images/beagletm/connection-network2_large.png)
+
+Connectivity Networks all investigator to determine how much coverage there is of a particular keyword (or set of keywords) across the literature which helps to choose effective keys for searches.
+
+---
