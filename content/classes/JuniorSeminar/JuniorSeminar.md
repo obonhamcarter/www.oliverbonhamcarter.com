@@ -24,28 +24,6 @@ If you are already on the department's Discord server, then you will be given ac
 [Invite link (active until 24 Jan 2023)](https://discord.gg/gRSTQ8EA)
 
 
-### Meeting Information:
-
-#### Classes:
-
-Spring 2023
-Main Campus
-
-T/Th 11:00 AM - 12:15 PM
-17 Jan 2023 - 9 May 2023
-Alden Hall, 101 Lecture
-
-#### Labs:
-
-Th 2:30 PM - 4:20 PM
-17 Jan 2023 - 9 May 2023
-Alden Hall, 109 Lab
-
-### Calendar
-
-[Course Calendar Link](https://calendar.google.com/calendar/u/0?cid=Y18yZTRhYmM5ZDE4OWZiZjkxMmY4NGI0NTY3MjBlZDEwNTAzYzFhODVkY2M3Y2Y5ZWQwOWU2MjQyNjNkZDk2MDY0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
-
-<iframe src="https://calendar.google.com/calendar/embed?src=c_2e4abc9d189fbf912f84b456720ed10503c1a85dcc7cf9ed09e624263dd96064%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ### Office Hours
 
@@ -53,7 +31,7 @@ Alden Hall, 109 Lab
 
 ### Syllabus and Planning Your Time
 
-* See [README.md](https://github.com/CMPSC-580-Allegheny-College-Spring-2023/classDocs/blob/main/README.md) at `classDocs/`
+* See [README.md](https://github.com/CMPSC-580-Allegheny-College-Spring-2024/classDocs/blob/main/README.md) at `classDocs/`
 
 ### Suggested TextBooks
 
@@ -77,20 +55,16 @@ Alden Hall, 109 Lab
 * Writing for Computer Science (Second Edition). Justin Zobel. Springer ISBN-10: 1852338024 and ISBN-13:978-1852338022, 270 pages, 2004. References to the textbook are abbreviated as "WFCS".
 
 ### classDocs/ Repository
-* <a href="https://github.com/CMPSC-580-Allegheny-College-Spring-2023/classDocs" target="_blank">classDocs/ at GitHub</a>
+* <a href="https://github.com/CMPSC-580-Allegheny-College-Spring-2024/classDocs" target="_blank">classDocs/ at GitHub</a>
 
 <!-- * [classDocs/ at GitHub](https://github.com/CMPSC-580-Allegheny-College-Spring-2023/classDocs) -->
 
-### Grade book Repository
+<!-- ### Grade book Repository
 
-* <a href="https://classroom.github.com/a/YQZCHw1t" target="_blank">Gradebook Repository</a>
+* <a href="https://classroom.github.com/a/YQZCHw1t" target="_blank">Gradebook Repository</a> -->
 
-<!-- * [Gradebook Repository](https://classroom.github.com/a/YQZCHw1t) -->
 
 ### Resources
 
 [:woman_climbing: Main page for resources](/resources/) 
 
-### Ungraded Class Activities
-
- + [:sparkles: Survey01](https://forms.gle/dGFrHhZEeVTGquHb9)
