@@ -4,6 +4,10 @@ description: 'Classes Section'
 ---
 ### So, what _**do**_ I teach here?
 
+<center>
+&#x200B;
+</center>
+
 #### This semester, I am teaching ...
 
  + [:woman_climbing: Junior Seminar](/classes/juniorseminar/juniorseminar/)
