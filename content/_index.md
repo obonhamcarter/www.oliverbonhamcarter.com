@@ -41,7 +41,6 @@ Make an appointment during my office-hours and I would be happy to help you with
 
 ---
 
-
 <center>
 <img src="/images/regalia.png" alt="YourSuccessMatters" style="width:400px;"/>
 </center>
@@ -52,9 +51,6 @@ Make an appointment during my office-hours and I would be happy to help you with
 </center>
 
 <!-- ![YourSuccessMatters](/images/regalia.png) -->
-
-
-
 
 [Wanna see the About/ page?!](/contactandabout/)
 
