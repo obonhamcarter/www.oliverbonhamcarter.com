@@ -7,6 +7,11 @@ draft: false
 
 <img src="/images/juniorseminar/cogs.png" alt="drawing" width="100" height="200"/>
 
+### When Do We Meet?
+
+ <a href="https://github.com/CMPSC-580-Allegheny-College-Spring-2024/classDocs?tab=readme-ov-file#Meeting-times" target="_blank">Meeting Times</a>
+
+
 ### Academic Bulletin Description
 
 A team-based investigation of select topics in computer science, preparing students for the proposal and completion of a senior project. Working in teams to complete hands-on activities, students learn how to read research papers, state and motivate research questions, design and conduct experiments, and collect and organize evidence for evaluating scientific hypotheses. During a weekly laboratory session students use state-of-the-art technology to gain practical skills in scientific and technical writing, the presentation of computational and mathematical concepts, and the visualization of experimental data. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions. Prerequisite: CMPSC*101 and at least one of the core courses. Distribution Requirements: None.
@@ -20,10 +25,6 @@ In order to acquire the proper skills in technical writing, critical reading, an
 ### Discord
 
 If you are already on the department's Discord server, then you will be given access to the course's Discord channel, called `#juniorseminar`. If not, then you will need to join the department's Discord server before you can be added to the course's channel.
-
-[Invite link (active until 24 Jan 2023)](https://discord.gg/gRSTQ8EA)
-
-
 
 ### Office Hours
 
@@ -63,8 +64,6 @@ If you are already on the department's Discord server, then you will be given ac
 
 * <a href="https://classroom.github.com/a/YQZCHw1t" target="_blank">Gradebook Repository</a> -->
 
-
 ### Resources
 
 [:woman_climbing: Main page for resources](/resources/) 
-
