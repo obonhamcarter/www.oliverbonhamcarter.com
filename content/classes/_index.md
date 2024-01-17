@@ -10,9 +10,9 @@ description: 'Classes Section'
 
 #### This semester, I am teaching ...
 
- + [:woman_climbing: Junior Seminar](/classes/juniorseminar/juniorseminar/)
+- [:man_biking: Discrete Structures](/classes/discretestructures/)
 
- + [:man_biking: Discrete Structures](/classes/discretestructures/)
+- [:woman_climbing: Junior Seminar](/classes/juniorseminar/juniorseminar/)
 
 <center>
 &#x200B;
@@ -34,12 +34,12 @@ description: 'Classes Section'
 &#x200B;
 </center>
 
- + [:bar_chart: Data Analytics](/classes/dataanalytics/dataanalytics)
- + [:compass: Academic Discord](/classes/academicdiscord/academicdiscord/)
- + [:computer_disk: Operating Systems](/classes/operatingsystems/operatingsystems/)
- + [:dna: Bioinformatics](/classes/bioinformatics/bioinformatics/)
+- [:bar_chart: Data Analytics](/classes/dataanalytics/dataanalytics)
+- [:compass: Academic Discord](/classes/academicdiscord/academicdiscord/)
+- [:computer_disk: Operating Systems](/classes/operatingsystems/operatingsystems/)
+- [:dna: Bioinformatics](/classes/bioinformatics/bioinformatics/)
 <!-- need to go to index on discretestructures since there are "blog files" to host there... -->
- + [:thread: Database Systems](/classes/databasesystems/databasesystems/)
+- [:thread: Database Systems](/classes/databasesystems/databasesystems/)
 
 ---
 
