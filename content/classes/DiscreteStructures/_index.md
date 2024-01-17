@@ -12,7 +12,6 @@ draft: false
 
 <img src="/images/discretestructures/discrete2.png" alt="drawing" width="100" height="400"/>
 
-
 ### When Do We Meet?
 
  <a href="https://github.com/CMPSC-102-Allegheny-College-Spring-2024/classDocs?tab=readme-ov-file#Meeting-times" target="_blank">Meeting Times</a>
@@ -39,29 +38,31 @@ If you are already on the department's Discord server, then you will be given ac
 
 ### Syllabus and Planning Your Time
 
-+ See [README.md](https://github.com/CMPSC-102-Allegheny-College-Fall-2024/classDocs/blob/main/README.md) at `classDocs/`
-
++ See, <a href="https://github.com/CMPSC-102-Allegheny-College-Spring-2024/classDocs/blob/main/README.md" target="_blank">README.md</a>  at `classDocs/`
 
 ### TextBooks
 
 * Main
 
-  + Programming and Mathematical Thinking: A Gentle Introduction to Discrete Math Featuring Python by Allan M. Stavely
-  + Doing Math with Python: Using Programming to Explore Algebra, Statistics, and More by Amit Saha
+  * Programming and Mathematical Thinking: A Gentle Introduction to Discrete Math Featuring Python by Allan M. Stavely
+
+  * Doing Math with Python: Using Programming to Explore Algebra, Statistics, and More by Amit Saha
 
 * Recommended
 
-  + Think Python 2e: How To Think Like a Computer Scientist by Allen B Downey. Open Source see publisher's [URL](https://greenteapress.com/wp/)
-  + Automate the boring stuff with Python: Practical Programming for total beginners
+  * Think Python 2e: How To Think Like a Computer Scientist by Allen B Downey. Open Source see publisher's [URL](https://greenteapress.com/wp/)
+
+  * Automate the boring stuff with Python: Practical Programming for total beginners
 by Al Sweigart. Available content, see publisher's [URL](https://pythonbooks.org/automate-the-boring-stuff-with-python-2nd-edition-practical-programming-for-total-beginners/)
-  + More good books from _PythonBooks_ at [URL](https://pythonbooks.org/free-books/)
+
+  * More good books from _PythonBooks_ at [URL](https://pythonbooks.org/free-books/)
 
 ### classDocs/ Repository
 
-* [classDocs/ at GitHub](https://github.com/CMPSC-102-Allegheny-College-Fall-2022/classDocs) at GitHub
+* <a href="https://github.com/CMPSC-102-Allegheny-College-Spring-2024/classDocs/tree/main" target="_blank">classDocs/ at GitHub</a>
+
 
 ### Gradebook Repository
 
-* [https://classroom.github.com/a/X0YnIQnZ](https://classroom.github.com/a/X0YnIQnZ)
-
+* TBA
 ---
