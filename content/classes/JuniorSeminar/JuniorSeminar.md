@@ -49,21 +49,20 @@ If you are already on the department's Discord server, then you will be given ac
 #### Other Useful Textbooks
 
 * Think Python, first edition, by Allen B. Downey.
-  + [Publisher Website](https://greenteapress.com/wp/) -->
+  * [Publisher Website](https://greenteapress.com/wp/) -->
 
 * BUGS in Writing: A Guide to Debugging Your Prose (Second Edition). Lyn Dupr\'e. Addison-Wesley Professional. ISBN-10: 020137921X and ISBN-13: 978-0201379211, 704 pages, 1998. References to the textbook are abbreviated as "BIW".
 
 * Writing for Computer Science (Second Edition). Justin Zobel. Springer ISBN-10: 1852338024 and ISBN-13:978-1852338022, 270 pages, 2004. References to the textbook are abbreviated as "WFCS".
 
+#### Resources
+
+[:woman_climbing: Main page for resources](/resources/) 
+
 ### classDocs/ Repository
 * <a href="https://github.com/CMPSC-580-Allegheny-College-Spring-2024/classDocs" target="_blank">classDocs/ at GitHub</a>
 
-<!-- * [classDocs/ at GitHub](https://github.com/CMPSC-580-Allegheny-College-Spring-2023/classDocs) -->
+### Gradebook Repository
+Use your [Gradebook Repository](https://classroom.github.com/a/lBuCX8Nw) to receive updates from the instructor. The repository is only for receiving reports -- you will never have to post to this repository.
 
-<!-- ### Grade book Repository
-
-* <a href="https://classroom.github.com/a/YQZCHw1t" target="_blank">Gradebook Repository</a> -->
-
-### Resources
-
-[:woman_climbing: Main page for resources](/resources/) 
+---

@@ -61,8 +61,7 @@ by Al Sweigart. Available content, see publisher's [URL](https://pythonbooks.org
 
 * <a href="https://github.com/CMPSC-102-Allegheny-College-Spring-2024/classDocs/tree/main" target="_blank">classDocs/ at GitHub</a>
 
-
 ### Gradebook Repository
+Use your [Gradebook Repository](https://classroom.github.com/a/a0KQdhxE) to receive updates from the instructor. The repository is only for receiving reports -- you will never have to post to this repository.
 
-* TBA
 ---
