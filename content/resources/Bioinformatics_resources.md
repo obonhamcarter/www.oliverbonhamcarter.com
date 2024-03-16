@@ -100,7 +100,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 * Cataracts and Genetics: https://knowyourdna.com/cataracts-and-genetics/
 * National Human Genome Research Institute: https://www.genome.gov/
 * Max Planck Institute For Molecular Genetics: https://www.molgen.mpg.de/2168/en
-* Birth Injury Justice Center: https://www.cerebralpalsyguide.com/cerebral-palsy/coexisting-conditions/cancer/
+* Cerebral Palsy Guide: https://www.cerebralpalsyguide.com/cerebral-palsy/coexisting-conditions/cancer/
 
 ---
 
