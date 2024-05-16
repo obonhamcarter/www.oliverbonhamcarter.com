@@ -21,15 +21,24 @@ ___
 
 References
 
-* Bonham-Carter, Oliver. "BeagleTM: An adaptable text mining method for relationship discovery in literature." Advances in Information and Communication: Proceedings of the 2020 Future of Information and Communication Conference (FICC), Volume 2. Springer International Publishing, 2020.
+
 
 * (Accepted) Bonham-Carter, Oliver. "Text Analysis of Ethical Influence in Bioinformatics and its Related Disciplines." Advances in Information and Communication: Proceedings of the 2024 Future of Information and Communication Conference (FICC), Springer International Publishing, 2024.
 
-Links
+## Published Works
 
-+ View the [Presentation](/images/beagletm/poster_beagleTM_ficc.pdf)
++ Bonham-Carter, Oliver. "BeagleTM: An adaptable text mining method for relationship discovery in literature." Advances in Information and Communication: Proceedings of the 2020 Future of Information and Communication Conference (FICC), Volume 2. Springer International Publishing, 2020.  <a href="https://www.researchgate.net/publication/339224324_BeagleTM_An_Adaptable_Text_Mining_Method_for_Relationship_Discovery_in_Literature" target="_blank"> Article</a>
 
-+ Read the [Paper](https://www.researchgate.net/publication/339224324_BeagleTM_An_Adaptable_Text_Mining_Method_for_Relationship_Discovery_in_Literature?_sg%5B0%5D=CBV90Y88sWRV8RGpxoC-C_IJ053qZlgmygsNBt48COg5zd0rW-HPVPqwmFQ-jG6UL3VhTnhWtUMWLmoibG9fGIAIsSW4MBA4FEKgMy70.GU5m7UphTzCKbODUA1XLjsoYwyc_qB-wNPLmdibStUNVpxAlAPOQcrdRsV8Q0aVwvvTNHUONvZHCmXIzNssSLA)
+  + Future of Information and Communication Conference (FICC) 2020 <a href="/talks/beagleTM_ficc2020.pdf" target="_blank"> Presentation</a>
+
+
++ Bonham-Carter, Oliver. "Text Analysis of Ethical Influence in Bioinformatics and Its Related Disciplines." Future of Information and Communication Conference. Cham: Springer Nature Switzerland, 2024. <a href="https://www.researchgate.net/publication/379244449_Text_Analysis_of_Ethical_Influence_in_Bioinformatics_and_its_Related_Disciplines" target="_blank"> Article</a>
+
+  +  Future of Information and Communication Conference (FICC) 2024 <a href="/talks/pres_ethics-BeagleTM_ficc2024.pdf" target="_blank">Presentation</a>
+
+  + 2024 <a href="https://www.youtube.com/watch?v=vhFCqiWZo7o&list=PLzrI9twHgbWk-Ti9AgCb1KyTLTo6xenME" target="_blank">Video Presentation</a>
+
++ Check out my <a href="/talks/pycon2024_poster_bonham-carter.pdf" target="_blank"> PyCon 2024 Poster</a> entitled, _Breaking Barriers in Research Projects: BeagleTM, a Powerful Python-based Text Mining Tool for Visual Discovery in Scientific Literature_
 
 ---
 
