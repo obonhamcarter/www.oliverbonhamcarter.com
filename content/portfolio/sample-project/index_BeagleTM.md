@@ -19,12 +19,6 @@ Investigators in bioinformatics are often confronted with the difficult task of 
 
 ___
 
-References
-
-
-
-* (Accepted) Bonham-Carter, Oliver. "Text Analysis of Ethical Influence in Bioinformatics and its Related Disciplines." Advances in Information and Communication: Proceedings of the 2024 Future of Information and Communication Conference (FICC), Springer International Publishing, 2024.
-
 ## Published Works
 
 + Bonham-Carter, Oliver. "BeagleTM: An adaptable text mining method for relationship discovery in literature." Advances in Information and Communication: Proceedings of the 2020 Future of Information and Communication Conference (FICC), Volume 2. Springer International Publishing, 2020.  <a href="https://www.researchgate.net/publication/339224324_BeagleTM_An_Adaptable_Text_Mining_Method_for_Relationship_Discovery_in_Literature" target="_blank"> Article</a>
@@ -39,6 +33,8 @@ References
   + 2024 <a href="https://www.youtube.com/watch?v=vhFCqiWZo7o&list=PLzrI9twHgbWk-Ti9AgCb1KyTLTo6xenME" target="_blank">Video Presentation</a>
 
 + Check out my <a href="/talks/pycon2024_poster_bonham-carter.pdf" target="_blank"> PyCon 2024 Poster</a> entitled, _Breaking Barriers in Research Projects: BeagleTM, a Powerful Python-based Text Mining Tool for Visual Discovery in Scientific Literature_
+
++ See the code at BeagleTM2 <a href="https://github.com/developmentAC/beagleTM2" target="_blank"> GitHub repository</a>
 
 ---
 
