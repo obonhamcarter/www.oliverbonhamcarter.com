@@ -47,7 +47,12 @@ USA
 *Note: Please use email to reach me.*
 
 #### CV
-Interested in learning more about me? Please see my [Curriculum Vitae](/images/profdev/cv/cv_obc.pdf)!
+
+
+
+Interested in learning more about me? Please see my [Curriculum Vitae](https://github.com/obonhamcarter/curriculum-vitae/releases/download/obc_cv-2.0.1/cv_obc.pdf)
+
+<!-- (/images/profdev/cv/cv_obc.pdf)! -->
 
 ---
 
