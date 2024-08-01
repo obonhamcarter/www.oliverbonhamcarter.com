@@ -18,26 +18,30 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
     * [Python for Biologists](https://www.pythonforbiologists.org/)
     * [BioPython](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
 
-
   * Online Tools
+
     * [sentiment viz Tweet Sentiment Visualization](https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/tweet_app/)
     * [Online R programming](https://www.jdoodle.com/execute-r-online/)
     * [Snippets -- Run any R code you line online](https://rdrr.io/snippets/)
     * [JDoodle](https://www.jdoodle.com/execute-r-online/)
 
 * Python Programming Resources
+
   * Play with code from W3's super [Python Tutorial](https://www.w3schools.com/python/)
   * Write code locally using [Jupyter Interactive Python](http://oliverbonhamcarter.com/live/).
   * Think Python, a textbook, by Allen B. Downey [Publisher Website](https://greenteapress.com/wp/)
   * The [Python Programming Language](https://www.python.org/downloads/)
 
 * Online
+
     * [Online R programming](https://www.jdoodle.com/execute-r-online/)
 
 * Articles
+
   * [Getting started with Markdown](https://www.markdownguide.org/getting-started/)
 
 * Tutorials
+
   * [Statmethods R programming Tutorial by Datacamp](https://www.statmethods.net/)
   * [Dealing with GenBank files in Biopython](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/genbank/)
   * [Allegheny College Department of Computer Science tutorials](https://www.youtube.com/playlist?list=PLsYZRXov75ZHSwWiCk0-jd1RcTuu_-zmD)
@@ -50,6 +54,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
   * [Luman's ssh keys video tutorial](https://www.youtube.com/watch?v=qEPjUGQFmzQ&list=PLsYZRXov75ZHSwWiCk0-jd1RcTuu_-zmD)
 
 * Tools
+
   * [COVID-19 Forecasts](https://www.cdc.gov/coronavirus/2019-ncov/science/forecasting/forecasting-us.html)
   * [Virus Explorer](https://www.biointeractive.org/classroom-resources/virus-explorer)
   * TCoffee: [http://tcoffee.crg.cat/apps/tcoffee/tutorial.html](http://tcoffee.crg.cat/apps/tcoffee/tutorial.html)
@@ -95,15 +100,24 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
   * Augustus [gene prediction] -- a software to predict genes in eukaryotic genomic sequences: [http://bioinf.uni-greifswald.de/augustus/](http://bioinf.uni-greifswald.de/augustus/)
 
 ## Research and Data Resources
+
 * An interactive visualization of the exponential spread of COVID-19: [https://91-divoc.com/pages/covid-visualization/](https://91-divoc.com/pages/covid-visualization/)
 * Project Tycho: [https://www.tycho.pitt.edu/](https://www.tycho.pitt.edu/)
 * Cataracts and Genetics: https://knowyourdna.com/cataracts-and-genetics/
 * National Human Genome Research Institute: https://www.genome.gov/
 * Max Planck Institute For Molecular Genetics: https://www.molgen.mpg.de/2168/en
+
+## Resources for Cerebral Palsy
+
+* Cerebral Palsy Guidance: [https://www.cerebralpalsyguidance.com/](https://www.cerebralpalsyguidance.com/)
+* Cerebral Palsy Associated Disorders: [https://www.cerebralpalsyguidance.com/cerebral-palsy/associated-disorders/](https://www.cerebralpalsyguidance.com/cerebral-palsy/associated-disorders/)
 * Cerebral Palsy Guide: https://www.cerebralpalsyguide.com/cerebral-palsy/coexisting-conditions/cancer/
 * The Cerebral Palsy Toolkit: https://www.levinperconti.com/birth-injury/cerebral-palsy/guide-toolkit/
+
 ---
 
 ### Note
 
 If you find a good link for Bioinformatics research that you believe would fit nicely here, please let me know!
+
+_obonhamcarter at allegheny dot edu_
