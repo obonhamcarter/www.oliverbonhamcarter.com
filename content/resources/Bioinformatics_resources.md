@@ -34,7 +34,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 
 * Online
 
-    * [Online R programming](https://www.jdoodle.com/execute-r-online/)
+  * [Online R programming](https://www.jdoodle.com/execute-r-online/)
 
 * Articles
 
