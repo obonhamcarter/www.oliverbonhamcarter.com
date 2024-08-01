@@ -2,74 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resources on I, Oliver Bonham-Carter, In June</title>
-    <link>https://example.com/resources/</link>
+    <link>http://localhost:1313/resources/</link>
     <description>Recent content in Resources on I, Oliver Bonham-Carter, In June</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Oliver Bonham-Carter</copyright>
-    <lastBuildDate>Mon, 27 Jun 2022 15:39:25 -0400</lastBuildDate>
-    
-	<atom:link href="https://example.com/resources/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 05 Apr 2023 12:47:10 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Women In Computing</title>
+      <link>http://localhost:1313/resources/womenincomputing/</link>
+      <pubDate>Wed, 05 Apr 2023 12:47:10 -0400</pubDate>
+      <guid>http://localhost:1313/resources/womenincomputing/</guid>
+      <description>&amp;#x200B; ​&#xA;Opportunities for Women in Computing Below are some links from National Center for Women &amp;amp; Information Technology (NCWIT) which offers women support, encouragement and information to help women to gain experience in computing and to build meaningful careers in computing technology.&#xA;The National Center for Women &amp;amp; Information Technology (NCWIT) is the farthest-reaching network of change leaders focused on advancing innovation by correcting underrepresentation in computing.&#xA;NCWIT</description>
+    </item>
+    <item>
+      <title>Setting up Netlify</title>
+      <link>http://localhost:1313/resources/hugonetlify/</link>
+      <pubDate>Mon, 30 Jan 2023 18:28:30 -0500</pubDate>
+      <guid>http://localhost:1313/resources/hugonetlify/</guid>
+      <description>These steps assume that you have already built a website with Hugo, and have installed a theme.&#xA;Netlify Go to Netlify&amp;rsquo;s website and sign up or log in. Go to the &amp;ldquo;Sites&amp;rdquo; tab and click on &amp;ldquo;Add new site&amp;rdquo; Select &amp;ldquo;Import an existing project&amp;rdquo; Connect to GitHub by clicking on the &amp;ldquo;GitHub&amp;rdquo; button Choose the repository to link to your site on Netlify. Verify the settings. Deploy the site by clicking on the &amp;ldquo;Deploy site&amp;rdquo; button.</description>
+    </item>
+    <item>
+      <title>Build a Hugo Site with a Theme</title>
+      <link>http://localhost:1313/resources/hugotutorial/</link>
+      <pubDate>Fri, 20 Jan 2023 18:28:30 -0500</pubDate>
+      <guid>http://localhost:1313/resources/hugotutorial/</guid>
+      <description>Making a website with Hugo: You might want to use this bare-bones website template for an online research website.&#xA;Below is code to create a website and then to add posts (blogs) to the project. Each of these posts that you create could be akin to pages in a book that you could organize chronologically. Have fun!&#xA;&amp;#x200B; ​&#xA;&amp;#x200B; ​&#xA;Setting Up You will need to first install HUGO to build and test your website locally.</description>
+    </item>
     <item>
       <title>Junior Seminar Resources</title>
-      <link>https://example.com/resources/juniorseminar_resources/</link>
+      <link>http://localhost:1313/resources/juniorseminar_resources/</link>
       <pubDate>Thu, 19 Jan 2023 13:19:26 -0500</pubDate>
-      
-      <guid>https://example.com/resources/juniorseminar_resources/</guid>
-      <description>Welcome to a resources page for Junior Seminar research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.
-  Software
- RStudio R Programming Language Python Programming Language Git for Mac Git for Windows Git for all platforms    Tutorials
-  Articles
-  Data
- Pelletier Library at Allegheny College (online services) World Health Organization The World Bank Noncommunicable Disease Surveillance, Monitoring and Reporting (NCDS) Demographic and Health Surveys Harvest Choice Food and Agricultural Organization World Population Prospects Centres for Disease Control and Prevention (CDC) US Food and Drug Administration Home Page The US Census Institute for Health Metrics and Evaluation IBM&amp;rsquo;s collection of opensource data sets Google&amp;rsquo;s opensource data sets Data.</description>
+      <guid>http://localhost:1313/resources/juniorseminar_resources/</guid>
+      <description>Welcome to a resources page for Junior Seminar research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.&#xA;Software&#xA;RStudio R Programming Language Python Programming Language Git for Mac Git for Windows Git for all platforms Online Tools&#xA;sentiment viz Tweet Sentiment Visualization Online R programming Snippets &amp;ndash; Run any R code you line online JDoodle Tutorials</description>
     </item>
-    
     <item>
       <title>Data Analytics Resources</title>
-      <link>https://example.com/resources/dataanalytics_resources/</link>
+      <link>http://localhost:1313/resources/dataanalytics_resources/</link>
       <pubDate>Mon, 16 Jan 2023 21:00:00 -0400</pubDate>
-      
-      <guid>https://example.com/resources/dataanalytics_resources/</guid>
-      <description>Welcome to a resources page for Bioinformatics research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.
-  Software
-  Installations
- RStudio R Programming Language Python Programming Language Git for Mac Git for Windows Git for all platforms    Online Tools
- Online R programming    Tutorials
- Setting Up Git on Linux Setting up Git Getting Started with Python in VS Code 11 Best VS Code extensions for Python (2022)      Free Data for projects</description>
+      <guid>http://localhost:1313/resources/dataanalytics_resources/</guid>
+      <description>Welcome to a resources page for Bioinformatics research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.&#xA;&amp;#x200B; Textbooks&#xA;Wickham, Hadley, and Garrett Grolemund. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data., O&amp;rsquo;Reilly Media, Inc., 2016.&#xA;Book Website Latest version of the book Julia Silge And David Robinson. Text Mining With R: A Tidy Approach.</description>
     </item>
-    
     <item>
-      <title>Bioinformatics Resources</title>
-      <link>https://example.com/resources/bioinformatics_resources/</link>
+      <title>BioMedical and Bioinformatics Resources</title>
+      <link>http://localhost:1313/resources/bioinformatics_resources/</link>
       <pubDate>Sun, 18 Sep 2022 21:00:00 -0400</pubDate>
-      
-      <guid>https://example.com/resources/bioinformatics_resources/</guid>
-      <description>Welcome to a resources page for Bioinformatics research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.
- TCoffee: http://tcoffee.crg.cat/apps/tcoffee/tutorial.html Hidden Markov Models (Youtube): https://www.youtube.com/watch?v=TPRoLreU9lA The Double Helix (Documentary about DNA discovery, 17 mins): https://media.hhmi.org/biointeractive/films/Double_Helix.html The Chemical Structure of DNA: https://www.biointeractive.org/classroom-resources/chemical-structure-dna The Structure of DNA: https://www.youtube.com/watch?v=o_-6JXLYS-k The definition to 5&amp;rsquo; end and 3&amp;rsquo; end of a DNA strand - Simple animated HD: https://www.</description>
+      <guid>http://localhost:1313/resources/bioinformatics_resources/</guid>
+      <description>Welcome to a resources page for Bioinformatics research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.&#xA;Software&#xA;Installations&#xA;RStudio R Programming Language Python Programming Language Git for Mac Git for Windows Git for all platforms Python Programming Language Python for Biologists BioPython Online Tools&#xA;sentiment viz Tweet Sentiment Visualization Online R programming Snippets &amp;ndash; Run any R code you line online JDoodle Python Programming Resources</description>
     </item>
-    
     <item>
       <title>Writing Resources</title>
-      <link>https://example.com/resources/writing/</link>
+      <link>http://localhost:1313/resources/writing/</link>
       <pubDate>Sat, 27 Aug 2022 17:00:25 -0400</pubDate>
-      
-      <guid>https://example.com/resources/writing/</guid>
-      <description>How can I write better?! When completing any assignment in research or in your classes, the quality of your writing is very important. Below are some resources that may help in your writing.
-  ](https://www.oliverbonhamcarter.com/live/) -- https://www.oliverbonhamcarter.com/live](https://www.oliverbonhamcarter.com/live) -- &amp;#x200B;  --  Online Resources Online guide to writing: Maytum Center for Student Success;Writing and Speaking Consultants at Allegheny College&amp;rsquo;s [Writing Center]](https://sites.allegheny.edu/studentsuccess/writing-speech/)
-Online guide to writing: Available from the University of Maryland</description>
+      <guid>http://localhost:1313/resources/writing/</guid>
+      <description>The Steps of Writing an Introduction Writing a thesis introduction is a crucial part of your overall thesis work. It sets the stage for your research and provides the reader with an overview of the key elements of your study. Here are the basic steps to help you write a compelling thesis introduction:&#xA;Start with a Hook: Begin your introduction with a compelling hook or an engaging anecdote that captures the reader&amp;rsquo;s attention.</description>
     </item>
-    
     <item>
       <title>Jupyterlite</title>
-      <link>https://example.com/resources/jupyterlite/</link>
+      <link>http://localhost:1313/resources/jupyterlite/</link>
       <pubDate>Mon, 01 Aug 2022 21:05:25 -0400</pubDate>
-      
-      <guid>https://example.com/resources/jupyterlite/</guid>
-      <description>Python in the Cloud?! Yes! Have something like a simple algorithm or a back-of-the-envolop experiment that you want to try out right this momement?! No need to waste time to setup your Python3 interpretor on your machine! Besides, __you could forget all the variables and, or the parts of your experiment!
-Go online with it! Play with Python in a convenient online browser. Remember, to save all your important work to your own notes and files on your machine since you cannot save your work online for great lengths of time.</description>
+      <guid>http://localhost:1313/resources/jupyterlite/</guid>
+      <description>Python in the Cloud?! Yes! Have something like a simple algorithm or a back-of-the-envolop experiment that you want to try out right this momement?! No need to waste time to setup your Python3 interpretor on your machine! Besides, __you could forget all the variables and, or the parts of your experiment!&#xA;Go online with it! Play with Python in a convenient online browser. Remember, to save all your important work to your own notes and files on your machine since you cannot save your work online for great lengths of time.</description>
     </item>
-    
   </channel>
 </rss>

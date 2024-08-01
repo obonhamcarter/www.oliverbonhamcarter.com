@@ -2,15 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Surveys on I, Oliver Bonham-Carter, In June</title>
-    <link>https://example.com/classes/discretestructures/surveys/</link>
+    <link>http://localhost:1313/classes/discretestructures/surveys/</link>
     <description>Recent content in Surveys on I, Oliver Bonham-Carter, In June</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Oliver Bonham-Carter</copyright>
-    <lastBuildDate>Fri, 26 Aug 2022 00:42:54 -0400</lastBuildDate>
-    
-	<atom:link href="https://example.com/classes/discretestructures/surveys/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 26 Jun 2022 13:25:33 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/classes/discretestructures/surveys/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuple Swapping</title>
+      <link>http://localhost:1313/classes/discretestructures/surveys/newtuple/</link>
+      <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
+      <guid>http://localhost:1313/classes/discretestructures/surveys/newtuple/</guid>
+      <description>Project Goals This assignment invites you to run and observe one Python program called perform-ordered-pair-swap. Instead of using the Poetry tool for managing dependencies and packaging these programs, which the technical skills advise as a best practice, this program is a script, without any dependencies on other Python packages, that you can run through the Python interpreter. As you continue to practice a different way to run a Python program, this project invites you to explore how to (i) find and fix defects in a function and (ii) create and use fixed-size tuples that can contain arbitrary types of data.</description>
+    </item>
+    <item>
+      <title>Tuple Swapping</title>
+      <link>http://localhost:1313/classes/discretestructures/surveys/topic0/</link>
+      <pubDate>Fri, 24 Jun 2022 13:25:33 -0400</pubDate>
+      <guid>http://localhost:1313/classes/discretestructures/surveys/topic0/</guid>
+      <description>Tuple Swapping Project Goals This this This assignment invites you to run and observe one Python program called perform-ordered-pair-swap. Instead of using the Poetry tool for managing dependencies and packaging these programs, which the technical skills advise as a best practice, this program is a script, without any dependencies on other Python packages, that you can run through the Python interpreter. As you continue to practice a different way to run a Python program, this project invites you to explore how to (i) find and fix defects in a function and (ii) create and use fixed-size tuples that can contain arbitrary types of data.</description>
+    </item>
   </channel>
 </rss>

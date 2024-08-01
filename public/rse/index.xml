@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rses on I, Oliver Bonham-Carter, In June</title>
+    <link>http://localhost:1313/rse/</link>
+    <description>Recent content in Rses on I, Oliver Bonham-Carter, In June</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Oliver Bonham-Carter</copyright>
+    <lastBuildDate>Fri, 15 Sep 2023 00:50:03 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/rse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RSE</title>
+      <link>http://localhost:1313/rse/rse/</link>
+      <pubDate>Fri, 15 Sep 2023 00:50:03 -0400</pubDate>
+      <guid>http://localhost:1313/rse/rse/</guid>
+      <description>Oliver Bonham-Carter&amp;rsquo;s Reports of Student Experiences&#xA;To interact with my RSE plots, please click on a respective link below to explore the data points of plots with your mouse. There are controls to use in the upper right corner of the plot to change the comparison mode.&#xA;Figure 1 UP TO 2019 Figure 2 AFTER 2019 </description>
+    </item>
+  </channel>
+</rss>

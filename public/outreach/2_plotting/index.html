@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang='en'><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>2. Plotting and Distributions - I, Oliver Bonham-Carter, In June</title>
+  <link rel='canonical' href='http://localhost:1313/outreach/2_plotting/' />
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='description' content='' />
+  <meta name='theme-color' content='#0077b6' />
+  
+    <link rel="shortcut icon" href="/images/levelup.png" type="image/x-icon" />
+    <link rel="icon" href="/images/levelup.png" type="image/x-icon" />
+  
+
+  <meta name="generator" content="Hugo 0.130.0">
+
+  
+
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/sass/style.min.eabe1aa4bd266a15f7b39b122bd6a5cc75cb067e5373631ac21d7815d6240d6f.css" integrity="sha256-6r4apL0mahX3s5sSK9alzHXLBn5Tc2Mawh14FdYkDW8=" media="screen">
+<link rel="stylesheet" href="http://localhost:1313/syntax.min.css" integrity="" media="screen">
+
+  <meta property="og:url" content="http://localhost:1313/outreach/2_plotting/">
+  <meta property="og:site_name" content="I, Oliver Bonham-Carter, In June">
+  <meta property="og:title" content="2. Plotting and Distributions">
+  <meta property="og:description" content="​ ​ We will spend a moment to study different ways of visually describing data using plots. Here we will develope some Python programming techniques to create some data to be used for plotting. In specific, we will look at several types of plots and then decide what types of features each plot has and how it could be helpful when describing data.
+But first, let’s get into a Jupyter client where we can run Python code.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="outreach">
+    <meta property="article:published_time" content="2023-03-16T23:40:01-04:00">
+    <meta property="article:modified_time" content="2023-03-16T23:40:01-04:00">
+
+  
+  <meta itemprop="name" content="2. Plotting and Distributions">
+  <meta itemprop="description" content="​ ​ We will spend a moment to study different ways of visually describing data using plots. Here we will develope some Python programming techniques to create some data to be used for plotting. In specific, we will look at several types of plots and then decide what types of features each plot has and how it could be helpful when describing data.
+But first, let’s get into a Jupyter client where we can run Python code.">
+  <meta itemprop="datePublished" content="2023-03-16T23:40:01-04:00">
+  <meta itemprop="dateModified" content="2023-03-16T23:40:01-04:00">
+  <meta itemprop="wordCount" content="1614">
+</head>
+<body>
+
+  <header style="background-image:linear-gradient(
+      rgba(0,0,0,0),rgba(1,1,1,1)
+    ),url(&#39;http://localhost:1313/images/stars.png&#39;)">
+  <div class="intro">
+    <div class="logo-container">
+      <a href="/">
+        <img src='http://localhost:1313/images/dunno.jpg' alt="Profile Bases" class="rounded-logo">
+      </a>
+    </div>
+    <h2>I, Oliver Bonham-Carter 👋</h2>
+    <h3>Assistant Professor in Computer Science, Allegheny College</h3>
+    <div class="menu">
+      
+
+        <p>
+            <a href="/classes/">
+                My Classes
+            </a>
+        </p>
+
+        <p>
+            <a href="/contactandabout/">
+                Contact and About
+            </a>
+        </p>
+
+        <p>
+            <a href="/forfun/">
+                Just For Fun
+            </a>
+        </p>
+
+        <p>
+            <a href="/portfolio/">
+                Portfolio
+            </a>
+        </p>
+
+        <p>
+            <a href="/projects/">
+                Projects
+            </a>
+        </p>
+
+        <p>
+            <a href="/resources/">
+                Resources
+            </a>
+        </p>
+
+        <p>
+            <a href="/forfun/itea/itea">
+                iTea
+            </a>
+        </p>
+
+        <p>
+            <a href="/outreach/">
+                OutReach
+            </a>
+        </p>
+
+      
+    </div>
+  </div>
+
+  <div class="socials">
+      
+  
+    <a href="https://github.com/developmentAC" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM71.182 98.494c-2.156.385-2.952-.95-2.952-2.053 0-1.386.051-8.471.051-14.195 0-4.005-1.335-6.546-2.9-7.881C74.878 73.313 84.89 72.003 84.89 55.6c0-4.671-1.669-7.007-4.39-10.01.436-1.105 1.9-5.648-.436-11.552-3.568-1.104-11.731 4.595-11.731 4.595-3.389-.95-7.06-1.438-10.679-1.438-3.62 0-7.29.488-10.679 1.438 0 0-8.163-5.699-11.73-4.595-2.337 5.878-.899 10.422-.437 11.551-2.72 3.004-4.004 5.34-4.004 10.011 0 16.326 9.574 17.712 19.072 18.765-1.232 1.104-2.336 3.003-2.72 5.724-2.44 1.104-8.677 3.004-12.4-3.568-2.335-4.056-6.545-4.39-6.545-4.39-4.159-.05-.282 2.619-.282 2.619 2.772 1.283 4.723 6.212 4.723 6.212 2.49 7.624 14.4 5.057 14.4 5.057 0 3.568.052 9.37.052 10.422 0 1.104-.77 2.438-2.952 2.053C27.21 92.821 15.35 76.701 15.35 57.86c0-23.564 18.02-41.456 41.585-41.456s42.663 17.892 42.663 41.456c.026 18.842-11.474 34.988-28.416 40.635zM46 82.81c-.488.103-.95-.102-1.001-.436-.051-.385.282-.719.77-.822.488-.05.95.154 1.001.488.077.334-.257.668-.77.77zm-2.439-.23c0 .333-.385.615-.898.615-.565.052-.95-.23-.95-.616 0-.333.385-.616.899-.616.487-.051.95.231.95.616zm-3.516-.283c-.103.334-.616.488-1.053.334-.488-.103-.821-.488-.719-.822.103-.334.617-.488 1.053-.385.513.154.847.54.719.873zm-3.158-1.386c-.23.282-.718.23-1.104-.154-.385-.334-.487-.822-.23-1.053.23-.282.718-.23 1.103.154.334.334.462.847.231 1.053zm-2.336-2.336c-.23.154-.667 0-.95-.385-.282-.385-.282-.822 0-1.001.283-.231.72-.052.95.333.283.385.283.847 0 1.053zm-1.668-2.49c-.231.23-.616.103-.899-.154-.282-.334-.333-.719-.102-.899.23-.23.616-.102.898.154.282.334.334.72.103.899zm-1.72-1.9c-.103.231-.436.283-.719.103-.334-.154-.488-.436-.385-.667.103-.154.385-.231.719-.103.334.18.488.462.385.667z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="http://oliverbonhamcarter.com/live/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M66.4607844,93.6126043 C65.3791811,87.8380074 67.326067,85.6992679 72.7340834,83.9882762 C77.4931378,82.4911585 82.6848335,82.4911585 87.6602086,82.7050325 C100.855768,83.3466543 104.53322,85.27152 103.235296,98.9594532 C102.153692,110.508647 94.3661488,110.722521 82.0358715,110.080899 C69.4892736,109.439277 68.4076703,104.73405 66.4607844,93.6126043 Z M14.9764686,92.9709824 C14.9764686,94.895848 15.4091099,97.2484616 15.4091099,97.2484616 C16.7070338,91.4738647 22.7640122,87.6241335 28.6046698,87.1963856 C24.0619361,85.6992679 15.4091099,86.7686377 14.9764686,92.9709824 Z M98.2599206,97.2484616 C98.2599206,97.2484616 98.9088826,94.6819741 98.6925619,92.9709824 C98.2599206,87.4102595 88.7418118,85.27152 85.0643607,87.1963856 C90.9050184,87.6241335 96.9619967,91.4738647 98.2599206,97.2484616 Z M47.2082461,94.4681001 C45.0450396,106.231168 43.3144744,109.653151 30.5515557,109.867025 C19.3028817,110.294773 11.5153381,110.294773 10.6500555,97.4623355 C9.78477288,83.7744023 14.7601479,82.7050325 27.7393872,82.2772846 C32.4984416,82.0634106 37.6901373,82.2772846 42.2328711,83.9882762 C47.8572081,85.9131418 48.2898494,88.6935033 47.2082461,94.2542262 L47.2082461,94.4681001 Z M71.0035181,42.9244764 C75.3299312,43.5660983 75.1136106,40.9996108 76.6278552,38.4331233 C77.9257791,36.0805098 81.1705889,35.225014 83.5501161,36.9360056 C86.5786053,39.2886192 95.0151108,60.034393 97.1783174,64.7396201 C98.6925619,68.3754773 102.586334,76.0749398 103.451616,79.4969231 C94.7987902,78.8553012 87.8765292,77.3581835 79.0073824,77.9998054 C71.0035181,78.6414273 64.7302192,82.0634106 56.9426756,82.0634106 C49.155132,82.0634106 43.0981537,78.4275533 35.0942895,77.9998054 C26.2251426,77.3581835 19.086561,78.8553012 10.6500555,79.4969231 C11.2990175,76.5026877 21.0334469,55.3291659 23.1966535,50.8378128 C24.7108981,47.6297035 27.9557079,39.2886192 30.3352351,37.1498796 C32.4984416,35.225014 35.9595721,35.8666358 37.4738167,38.2192494 C39.2043819,40.7857369 38.5554199,43.7799723 43.0981537,43.1383504 C42.881833,36.0805098 35.3106101,29.0226692 28.6046698,33.3001484 C24.2782567,36.0805098 20.6008056,45.063216 18.0049578,49.5545691 C14.9764686,55.3291659 11.7316588,61.1037628 8.70316961,67.0922336 C5.8910011,72.8668304 0.0503434222,80.3524189 1.1319467,86.7686377 C1.78090866,90.8322428 5.45835979,87.6241335 5.8910011,95.5374699 C6.10732175,99.3872011 6.10732175,103.236932 7.83788699,106.87279 C11.5153381,114.572252 19.5192023,115 27.0904253,115 C34.0126862,115 43.3144744,115 47.4245668,108.369907 C50.8856973,103.023058 50.6693766,90.6183689 56.7263549,90.6183689 C62.7833333,90.6183689 62.7833333,102.809184 66.0281431,108.156033 C70.1382355,114.786126 79.0073824,115 86.145964,115 C101.072089,115 107.345388,111.791891 107.99435,96.6068397 C108.426991,87.6241335 111.671801,91.2599908 112.753404,87.4102595 C114.267649,81.2079148 108.426991,73.2945783 105.614823,67.9477294 C102.586334,61.9592586 99.3415239,55.9707878 96.0967141,50.196191 C93.7171869,45.7048379 89.8234151,36.5082577 85.7133227,33.7278963 C78.7910617,29.0226692 71.2198388,36.2943838 71.0035181,43.3522243 L71.0035181,42.9244764 Z"></path>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://jupyter.cs.allegheny.edu/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M112.125 86.25H103.5V34.5c0-6.325-5.175-11.5-11.5-11.5H23c-6.325 0-11.5 5.175-11.5 11.5v51.75H2.875A2.883 2.883 0 0 0 0 89.125v8.625C0 107.237 7.763 115 17.25 115h80.5c9.487 0 17.25-7.763 17.25-17.25v-8.625a2.883 2.883 0 0 0-2.875-2.875zm-92-51.75c0-1.558 1.317-2.875 2.875-2.875h69c1.558 0 2.875 1.317 2.875 2.875v51.75h-74.75V34.5zm86.25 63.25c0 4.756-3.869 8.625-8.625 8.625h-80.5c-4.756 0-8.625-3.869-8.625-8.625v-2.875H41.13c1.001 1.687 2.764 2.875 4.87 2.875h23c2.106 0 3.867-1.188 4.87-2.875h32.505v2.875zM49.892 70.015l2.032-2.032a2.875 2.875 0 0 0 0-4.066L45.506 57.5l6.416-6.418a2.875 2.875 0 0 0 0-4.067l-2.032-2.032a2.875 2.875 0 0 0-4.066 0L35.34 55.466a2.875 2.875 0 0 0 0 4.066l10.483 10.483a2.877 2.877 0 0 0 4.068 0zm13.185-2.03l2.033 2.032a2.875 2.875 0 0 0 4.066 0L79.66 59.534a2.875 2.875 0 0 0 0-4.066L69.176 44.985a2.875 2.875 0 0 0-4.066 0l-2.032 2.032a2.875 2.875 0 0 0 0 4.066l6.416 6.417-6.416 6.418a2.875 2.875 0 0 0 0 4.067z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  </div>
+</header>
+
+<div class="mobile-header">
+  <p> I, Oliver Bonham-Carter, In June </p>
+  <div class="hamburger">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+</div>
+
+<div class="overlay-menu">
+  <header>
+    <div class="intro">
+      <div class="logo-container">
+        <a href="/">
+          <img src='http://localhost:1313/images/dunno.jpg' alt="Profile Bases" class="rounded-logo">
+        </a>
+      </div>
+      <h2>I, Oliver Bonham-Carter 👋</h2>
+      <h3>Assistant Professor in Computer Science, Allegheny College</h3>
+      <div class="menu">
+        
+
+        <p>
+            <a href="/classes/">
+                My Classes
+            </a>
+        </p>
+
+        <p>
+            <a href="/contactandabout/">
+                Contact and About
+            </a>
+        </p>
+
+        <p>
+            <a href="/forfun/">
+                Just For Fun
+            </a>
+        </p>
+
+        <p>
+            <a href="/portfolio/">
+                Portfolio
+            </a>
+        </p>
+
+        <p>
+            <a href="/projects/">
+                Projects
+            </a>
+        </p>
+
+        <p>
+            <a href="/resources/">
+                Resources
+            </a>
+        </p>
+
+        <p>
+            <a href="/forfun/itea/itea">
+                iTea
+            </a>
+        </p>
+
+        <p>
+            <a href="/outreach/">
+                OutReach
+            </a>
+        </p>
+
+        
+      </div>
+    </div>
+
+    <div class="socials">
+        
+  
+    <a href="https://github.com/developmentAC" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM71.182 98.494c-2.156.385-2.952-.95-2.952-2.053 0-1.386.051-8.471.051-14.195 0-4.005-1.335-6.546-2.9-7.881C74.878 73.313 84.89 72.003 84.89 55.6c0-4.671-1.669-7.007-4.39-10.01.436-1.105 1.9-5.648-.436-11.552-3.568-1.104-11.731 4.595-11.731 4.595-3.389-.95-7.06-1.438-10.679-1.438-3.62 0-7.29.488-10.679 1.438 0 0-8.163-5.699-11.73-4.595-2.337 5.878-.899 10.422-.437 11.551-2.72 3.004-4.004 5.34-4.004 10.011 0 16.326 9.574 17.712 19.072 18.765-1.232 1.104-2.336 3.003-2.72 5.724-2.44 1.104-8.677 3.004-12.4-3.568-2.335-4.056-6.545-4.39-6.545-4.39-4.159-.05-.282 2.619-.282 2.619 2.772 1.283 4.723 6.212 4.723 6.212 2.49 7.624 14.4 5.057 14.4 5.057 0 3.568.052 9.37.052 10.422 0 1.104-.77 2.438-2.952 2.053C27.21 92.821 15.35 76.701 15.35 57.86c0-23.564 18.02-41.456 41.585-41.456s42.663 17.892 42.663 41.456c.026 18.842-11.474 34.988-28.416 40.635zM46 82.81c-.488.103-.95-.102-1.001-.436-.051-.385.282-.719.77-.822.488-.05.95.154 1.001.488.077.334-.257.668-.77.77zm-2.439-.23c0 .333-.385.615-.898.615-.565.052-.95-.23-.95-.616 0-.333.385-.616.899-.616.487-.051.95.231.95.616zm-3.516-.283c-.103.334-.616.488-1.053.334-.488-.103-.821-.488-.719-.822.103-.334.617-.488 1.053-.385.513.154.847.54.719.873zm-3.158-1.386c-.23.282-.718.23-1.104-.154-.385-.334-.487-.822-.23-1.053.23-.282.718-.23 1.103.154.334.334.462.847.231 1.053zm-2.336-2.336c-.23.154-.667 0-.95-.385-.282-.385-.282-.822 0-1.001.283-.231.72-.052.95.333.283.385.283.847 0 1.053zm-1.668-2.49c-.231.23-.616.103-.899-.154-.282-.334-.333-.719-.102-.899.23-.23.616-.102.898.154.282.334.334.72.103.899zm-1.72-1.9c-.103.231-.436.283-.719.103-.334-.154-.488-.436-.385-.667.103-.154.385-.231.719-.103.334.18.488.462.385.667z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="http://oliverbonhamcarter.com/live/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M66.4607844,93.6126043 C65.3791811,87.8380074 67.326067,85.6992679 72.7340834,83.9882762 C77.4931378,82.4911585 82.6848335,82.4911585 87.6602086,82.7050325 C100.855768,83.3466543 104.53322,85.27152 103.235296,98.9594532 C102.153692,110.508647 94.3661488,110.722521 82.0358715,110.080899 C69.4892736,109.439277 68.4076703,104.73405 66.4607844,93.6126043 Z M14.9764686,92.9709824 C14.9764686,94.895848 15.4091099,97.2484616 15.4091099,97.2484616 C16.7070338,91.4738647 22.7640122,87.6241335 28.6046698,87.1963856 C24.0619361,85.6992679 15.4091099,86.7686377 14.9764686,92.9709824 Z M98.2599206,97.2484616 C98.2599206,97.2484616 98.9088826,94.6819741 98.6925619,92.9709824 C98.2599206,87.4102595 88.7418118,85.27152 85.0643607,87.1963856 C90.9050184,87.6241335 96.9619967,91.4738647 98.2599206,97.2484616 Z M47.2082461,94.4681001 C45.0450396,106.231168 43.3144744,109.653151 30.5515557,109.867025 C19.3028817,110.294773 11.5153381,110.294773 10.6500555,97.4623355 C9.78477288,83.7744023 14.7601479,82.7050325 27.7393872,82.2772846 C32.4984416,82.0634106 37.6901373,82.2772846 42.2328711,83.9882762 C47.8572081,85.9131418 48.2898494,88.6935033 47.2082461,94.2542262 L47.2082461,94.4681001 Z M71.0035181,42.9244764 C75.3299312,43.5660983 75.1136106,40.9996108 76.6278552,38.4331233 C77.9257791,36.0805098 81.1705889,35.225014 83.5501161,36.9360056 C86.5786053,39.2886192 95.0151108,60.034393 97.1783174,64.7396201 C98.6925619,68.3754773 102.586334,76.0749398 103.451616,79.4969231 C94.7987902,78.8553012 87.8765292,77.3581835 79.0073824,77.9998054 C71.0035181,78.6414273 64.7302192,82.0634106 56.9426756,82.0634106 C49.155132,82.0634106 43.0981537,78.4275533 35.0942895,77.9998054 C26.2251426,77.3581835 19.086561,78.8553012 10.6500555,79.4969231 C11.2990175,76.5026877 21.0334469,55.3291659 23.1966535,50.8378128 C24.7108981,47.6297035 27.9557079,39.2886192 30.3352351,37.1498796 C32.4984416,35.225014 35.9595721,35.8666358 37.4738167,38.2192494 C39.2043819,40.7857369 38.5554199,43.7799723 43.0981537,43.1383504 C42.881833,36.0805098 35.3106101,29.0226692 28.6046698,33.3001484 C24.2782567,36.0805098 20.6008056,45.063216 18.0049578,49.5545691 C14.9764686,55.3291659 11.7316588,61.1037628 8.70316961,67.0922336 C5.8910011,72.8668304 0.0503434222,80.3524189 1.1319467,86.7686377 C1.78090866,90.8322428 5.45835979,87.6241335 5.8910011,95.5374699 C6.10732175,99.3872011 6.10732175,103.236932 7.83788699,106.87279 C11.5153381,114.572252 19.5192023,115 27.0904253,115 C34.0126862,115 43.3144744,115 47.4245668,108.369907 C50.8856973,103.023058 50.6693766,90.6183689 56.7263549,90.6183689 C62.7833333,90.6183689 62.7833333,102.809184 66.0281431,108.156033 C70.1382355,114.786126 79.0073824,115 86.145964,115 C101.072089,115 107.345388,111.791891 107.99435,96.6068397 C108.426991,87.6241335 111.671801,91.2599908 112.753404,87.4102595 C114.267649,81.2079148 108.426991,73.2945783 105.614823,67.9477294 C102.586334,61.9592586 99.3415239,55.9707878 96.0967141,50.196191 C93.7171869,45.7048379 89.8234151,36.5082577 85.7133227,33.7278963 C78.7910617,29.0226692 71.2198388,36.2943838 71.0035181,43.3522243 L71.0035181,42.9244764 Z"></path>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://jupyter.cs.allegheny.edu/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M112.125 86.25H103.5V34.5c0-6.325-5.175-11.5-11.5-11.5H23c-6.325 0-11.5 5.175-11.5 11.5v51.75H2.875A2.883 2.883 0 0 0 0 89.125v8.625C0 107.237 7.763 115 17.25 115h80.5c9.487 0 17.25-7.763 17.25-17.25v-8.625a2.883 2.883 0 0 0-2.875-2.875zm-92-51.75c0-1.558 1.317-2.875 2.875-2.875h69c1.558 0 2.875 1.317 2.875 2.875v51.75h-74.75V34.5zm86.25 63.25c0 4.756-3.869 8.625-8.625 8.625h-80.5c-4.756 0-8.625-3.869-8.625-8.625v-2.875H41.13c1.001 1.687 2.764 2.875 4.87 2.875h23c2.106 0 3.867-1.188 4.87-2.875h32.505v2.875zM49.892 70.015l2.032-2.032a2.875 2.875 0 0 0 0-4.066L45.506 57.5l6.416-6.418a2.875 2.875 0 0 0 0-4.067l-2.032-2.032a2.875 2.875 0 0 0-4.066 0L35.34 55.466a2.875 2.875 0 0 0 0 4.066l10.483 10.483a2.877 2.877 0 0 0 4.068 0zm13.185-2.03l2.033 2.032a2.875 2.875 0 0 0 4.066 0L79.66 59.534a2.875 2.875 0 0 0 0-4.066L69.176 44.985a2.875 2.875 0 0 0-4.066 0l-2.032 2.032a2.875 2.875 0 0 0 0 4.066l6.416 6.417-6.416 6.418a2.875 2.875 0 0 0 0 4.067z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+    </div>
+  </header>
+</div>
+
+  <div class="content-wrapper">
+    
+      <div class="breadcrumb">
+  
+
+
+
+
+
+<span >
+  <a href="http://localhost:1313/">Home</a>
+   / 
+</span>
+
+
+<span >
+  <a href="http://localhost:1313/outreach/">OutReach</a>
+   / 
+</span>
+
+
+<span  class="active">
+  <a href="http://localhost:1313/outreach/2_plotting/">2. Plotting and Distributions</a>
+  
+</span>
+
+</div>
+
+    
+    <main id="content" class="outreach">
+
+<h1><ol start="2">
+<li>Plotting and Distributions</li>
+</ol>
+</h1>
+<center>
+&#x200B;
+<img src="/images/outreach/plotting.png" alt="A Futuristic Classroom" style="width:700px;"/>
+</center>
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
+<p>We will spend a moment to study different ways of visually describing data using plots. Here we will develope some Python programming techniques to create some data to be used for plotting. In specific, we will look at several types of plots and then decide what types of features each plot has and how it could be helpful when describing data.</p>
+<p>But first, let&rsquo;s get into a <a href="http://oliverbonhamcarter.com/live/" target="_blank">Jupyter</a> client where we can run Python code.</p>
+<h3 id="a-normal-distribution-of-data--values">A (Normal) Distribution of data :: Values</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">statistics</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Calculating mean and standard deviation</span>
+</span></span><span class="line"><span class="cl"><span class="n">x_axis</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">20</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">mean</span> <span class="o">=</span> <span class="n">statistics</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x_axis</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">sd</span> <span class="o">=</span> <span class="n">statistics</span><span class="o">.</span><span class="n">stdev</span><span class="p">(</span><span class="n">x_axis</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">norm</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">mean</span><span class="p">,</span> <span class="n">sd</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span></code></pre></div><p>(What can we see in these numbers? Would it be easier to plot this data instead?)</p>
+<h3 id="a-basic-histogram">A Basic Histogram</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># libraries to help the code to perform</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># new functions</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># define the x axis.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#x = np.random.normal(170, 10, 250)</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">20</span><span class="p">,</span><span class="mi">30</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x-axis label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x-axis&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># frequency label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;y-axise&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;My Cool Histogram&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot the histogram in memory.</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Draw the histogram to the screen.</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="another-basic-histogram">Another basic histogram</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;apple&#39;</span><span class="p">,</span> <span class="s1">&#39;blueberry&#39;</span><span class="p">,</span> <span class="s1">&#39;cherry&#39;</span><span class="p">,</span> <span class="s1">&#39;orange&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">counts</span> <span class="o">=</span> <span class="p">[</span><span class="mi">40</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">55</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">bar_labels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;red&#39;</span><span class="p">,</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;_red&#39;</span><span class="p">,</span> <span class="s1">&#39;orange&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">bar_colors</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tab:red&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:blue&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:red&#39;</span><span class="p">,</span> <span class="s1">&#39;tab:orange&#39;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">fruits</span><span class="p">,</span> <span class="n">counts</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="n">bar_labels</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">bar_colors</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;fruit supply&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Fruit supply by kind and color&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">&#39;Fruit color&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><p>Read more about this type of code at <a href="https://realpython.com/python-histograms/">RealPython</a></p>
+<h3 id="distributions">Distributions</h3>
+<p>Let&rsquo;s start making some random data for plotting! There are different types of data to use. For instance, we could study typical data from several different <strong>distributions</strong> of numbers.</p>
+<p>A Reference: <a href="https://www.ibm.com/docs/en/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.ug_ca_dshb.doc/statisticaldistribution.html" target="_blank">distribution</a> type provides us with a statistical vocabulary with which we can use to explain what kinds of values are common, and which are uncommon for a field of numbers.</p>
+<p>Reference: <a href="https://www.w3schools.com/python/numpy/" target="_blank">W3schools</a></p>
+<hr>
+ <!-- Reference: [w3schools](https://www.w3schools.com/python/numpy/) -->
+<h3 id="line-plot--normal">Line plot :: Normal</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">statistics</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Plot between -10 and 10 with .001 steps.</span>
+</span></span><span class="line"><span class="cl"><span class="n">x_axis</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">20</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Calculating mean and standard deviation</span>
+</span></span><span class="line"><span class="cl"><span class="n">mean</span> <span class="o">=</span> <span class="n">statistics</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">x_axis</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">sd</span> <span class="o">=</span> <span class="n">statistics</span><span class="o">.</span><span class="n">stdev</span><span class="p">(</span><span class="n">x_axis</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">age</span> <span class="o">=</span> <span class="n">norm</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">mean</span><span class="p">,</span> <span class="n">sd</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x-axis label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># frequency label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;No. of people&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;A Normal Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">age</span> <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="histogram--normal">Histogram :: Normal</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mf">5.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mi">100000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="chronological-plot--normal">Chronological Plot :: Normal</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">statistics</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Plot between -10 and 10 with .001 steps.</span>
+</span></span><span class="line"><span class="cl"><span class="n">x_axis</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ages</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x-axis label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># frequency label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;No. of people&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;A Normal Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">ages</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="laplace-distribution">Laplace Distribution</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># An &#34;interface&#34; to matplotlib.axes.Axes.hist() method</span>
+</span></span><span class="line"><span class="cl"><span class="n">d</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">laplace</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">500</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">n</span><span class="p">,</span> <span class="n">bins</span><span class="p">,</span> <span class="n">patches</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">d</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="n">bins</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="n">color</span><span class="o">=</span><span class="s1">&#39;#0504aa&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="n">alpha</span><span class="o">=</span><span class="mf">0.7</span><span class="p">,</span> <span class="n">rwidth</span><span class="o">=</span><span class="mf">0.85</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.75</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Value&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Frequency&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Laplace Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mi">23</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="sa">r</span><span class="s1">&#39;$\mu=15, b=3$&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">maxfreq</span> <span class="o">=</span> <span class="n">n</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Set a clean upper y-axis limit.</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="n">ymax</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">maxfreq</span> <span class="o">/</span> <span class="mi">10</span><span class="p">)</span> <span class="o">*</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">maxfreq</span> <span class="o">%</span> <span class="mi">10</span> <span class="k">else</span> <span class="n">maxfreq</span> <span class="o">+</span> <span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="chronological-plot--laplace">Chronological plot :: Laplace</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">statistics</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Plot between -10 and 10 with .001 steps.</span>
+</span></span><span class="line"><span class="cl"><span class="n">x_axis</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ages</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x-axis label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># frequency label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;No. of people&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;A Normal Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">ages</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="binomial-distribution--values">Binomial Distribution :: Values</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="histogram--binomial">Histogram :: Binomial</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># frequencies</span>
+</span></span><span class="line"><span class="cl"><span class="n">ages</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">binomial</span><span class="p">(</span><span class="n">n</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">p</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">1000</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># print(f&#34; {ages}, {type(ages)}&#34;)  </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># setting the ranges and no. of intervals</span>
+</span></span><span class="line"><span class="cl"><span class="nb">range</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">bins</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plotting a histogram</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">ages</span><span class="p">,</span> <span class="n">bins</span><span class="p">,</span> <span class="nb">range</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl"><span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl"><span class="n">histtype</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="n">rwidth</span> <span class="o">=</span> <span class="mf">0.9</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x-axis label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Age&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># frequency label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;No. of people&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;A Binomial Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># function to show the plot</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><hr>
+<h3 id="poisson-distribution--values">Poisson Distribution :: Values</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="histogram--poisson">Histogram :: Poisson</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># frequencies</span>
+</span></span><span class="line"><span class="cl"><span class="n">ages</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span> 
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;</span><span class="si">{</span><span class="n">ages</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="nb">type</span><span class="p">(</span><span class="n">ages</span><span class="p">)</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>  
+</span></span><span class="line"><span class="cl"><span class="c1"># setting the ranges and no. of intervals</span>
+</span></span><span class="line"><span class="cl"><span class="nb">range</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">bins</span> <span class="o">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plotting a histogram</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ages</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">bins</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">    <span class="nb">range</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">histtype</span> <span class="o">=</span> <span class="s1">&#39;bar&#39;</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">rwidth</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x-axis label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># frequency label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;No. of people&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;A Uniform Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># function to show the plot</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><hr>
+<h3 id="histogram--uniform-distribution">Histogram :: Uniform Distribution</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">5.0</span><span class="p">,</span> <span class="mi">250</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="line-plot--uniform">Line Plot :: Uniform</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">5.0</span><span class="p">,</span> <span class="mi">100000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="another-histogram-plot--uniform">Another Histogram Plot :: Uniform</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">values</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.99</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl"><span class="n">count</span><span class="p">,</span> <span class="n">bins</span><span class="p">,</span> <span class="n">ignored</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="n">density</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">bins</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">bins</span><span class="p">),</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># add title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Uniform Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># label the axes</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Density&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Values&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># function to show the plot</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="chronological-plot--uniform">Chronological Plot :: Uniform</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">statistics</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Plot between -10 and 10 with .001 steps.</span>
+</span></span><span class="line"><span class="cl"><span class="n">x_axis</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ages</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x-axis label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># frequency label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;No. of people&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;A Uniform Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">ages</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><hr>
+<h3 id="normal-inverse-gaussian-continuous-random-variable-distribution--values">Normal Inverse Gaussian Continuous Random Variable Distribution :: Values</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norminvgauss</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mf">1.25</span><span class="p">,</span> <span class="mf">0.5</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">norminvgauss</span><span class="o">.</span><span class="n">rvs</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="line-plot--normal-inverse-gaussian-continuous-random-variable">Line Plot :: Normal Inverse Gaussian Continuous Random Variable</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norminvgauss</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="mf">1.25</span><span class="p">,</span> <span class="mf">0.5</span>
+</span></span><span class="line"><span class="cl"><span class="n">mean</span><span class="p">,</span> <span class="n">var</span><span class="p">,</span> <span class="n">skew</span><span class="p">,</span> <span class="n">kurt</span> <span class="o">=</span> <span class="n">norminvgauss</span><span class="o">.</span><span class="n">stats</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">moments</span><span class="o">=</span><span class="s1">&#39;mvsk&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">norminvgauss</span><span class="o">.</span><span class="n">ppf</span><span class="p">(</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="n">norminvgauss</span><span class="o">.</span><span class="n">ppf</span><span class="p">(</span><span class="mf">0.99</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">),</span> <span class="mi">100</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">norminvgauss</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="s1">&#39;r-&#39;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.6</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;norminvgauss pdf&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">rv</span> <span class="o">=</span> <span class="n">norminvgauss</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">rv</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="s1">&#39;k-&#39;</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;frozen pdf&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">vals</span> <span class="o">=</span> <span class="n">norminvgauss</span><span class="o">.</span><span class="n">ppf</span><span class="p">([</span><span class="mf">0.001</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">],</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">np</span><span class="o">.</span><span class="n">allclose</span><span class="p">([</span><span class="mf">0.001</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.999</span><span class="p">],</span> <span class="n">norminvgauss</span><span class="o">.</span><span class="n">cdf</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">vals</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">norminvgauss</span><span class="o">.</span><span class="n">rvs</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">density</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl"><span class="n">bins</span><span class="o">=</span><span class="s1">&#39;auto&#39;</span><span class="p">,</span> <span class="n">histtype</span><span class="o">=</span><span class="s1">&#39;stepfilled&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">([</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">x</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;best&#39;</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><hr>
+<h3 id="logistic-distribution--values">Logistic Distribution :: Values</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">random</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">logistic</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="histogram-plot--logistic">Histogram plot :: Logistic</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">values</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">logistic</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mf">.5</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">count</span><span class="p">,</span> <span class="n">bins</span><span class="p">,</span> <span class="n">ignored</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="n">density</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">bins</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">bins</span><span class="p">),</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Logistic Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Density&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Values&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># function to show the plot</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="chronological-plot--logistic">Chronological Plot :: Logistic</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">statistics</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Plot between -10 and 10 with .001 steps.</span>
+</span></span><span class="line"><span class="cl"><span class="n">x_axis</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ages</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">logistic</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mf">.5</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x-axis label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># frequency label</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;No. of people&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># plot title</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;A Logistic Distribution&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x_axis</span><span class="p">,</span> <span class="n">ages</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><hr>
+<p>Plots can also look different from these too!</p>
+<h3 id="bubble-plot">Bubble Plot</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Generate 100 random data points along 3 dimensions</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">scale</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x = [1,2,3,4,5,6]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># y = [1,2,3,4,5,6]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># scale = [1,2,3,4,5,6]</span>
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Map each onto a scatterplot we&#39;ll create with Matplotlib</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="n">scale</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">scale</span><span class="p">)</span><span class="o">*</span><span class="mi">500</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">&#34;Some random data, plotted as bubbles!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="heatmaps">Heatmaps</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">((</span><span class="mi">16</span><span class="p">,</span> <span class="mi">16</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;hot&#39;</span><span class="p">,</span> <span class="n">interpolation</span><span class="o">=</span><span class="s1">&#39;nearest&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><p><a href="https://stackoverflow.com/questions/33282368/plotting-a-2d-heatmap">Reference</a></p>
+<h3 id="another-heatmap">Another Heatmap</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># generate 2 2d grids for the x &amp; y bounds</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">tmp</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">-</span> <span class="n">y</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">z</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">x</span> <span class="o">/</span> <span class="mf">2.</span> <span class="o">+</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">5</span> <span class="o">+</span> <span class="n">y</span> <span class="o">**</span> <span class="mi">3</span><span class="p">)</span> <span class="o">*</span> <span class="n">tmp</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># x and y are bounds, so z </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># should be the value *inside* those bounds.</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Therefore, remove the last value </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># from the z array.</span>
+</span></span><span class="line"><span class="cl"><span class="n">z</span> <span class="o">=</span> <span class="n">z</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">z_min</span><span class="p">,</span> <span class="n">z_max</span> <span class="o">=</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">z</span><span class="p">)</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">z</span><span class="p">)</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">c</span> <span class="o">=</span> <span class="n">ax</span><span class="o">.</span><span class="n">pcolormesh</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl"><span class="n">cmap</span><span class="o">=</span><span class="s1">&#39;RdBu&#39;</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl"><span class="n">vmin</span><span class="o">=</span><span class="n">z_min</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl"><span class="n">vmax</span><span class="o">=</span><span class="n">z_max</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;pcolormesh&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># set the limits of the plot to the limits of the data</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax</span><span class="o">.</span><span class="n">axis</span><span class="p">([</span><span class="n">x</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">x</span><span class="o">.</span><span class="n">max</span><span class="p">(),</span> <span class="n">y</span><span class="o">.</span><span class="n">min</span><span class="p">(),</span> <span class="n">y</span><span class="o">.</span><span class="n">max</span><span class="p">()])</span>
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><!-- [Reference](https://stackoverflow.com/questions/33282368/plotting-a-2d-heatmap)  -->
+<p>Reference: <a href="https://stackoverflow.com/questions/33282368/plotting-a-2d-heatmap" target="_blank">Stackoverflow</a></p>
+<h3 id="scatter-plots">Scatter plots</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">load_iris</span>
+</span></span><span class="line"><span class="cl"><span class="n">iris</span> <span class="o">=</span> <span class="n">load_iris</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="n">df</span><span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">data</span><span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">iris</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">],</span> <span class="n">iris</span><span class="p">[</span><span class="s1">&#39;target&#39;</span><span class="p">]],</span>
+</span></span><span class="line"><span class="cl">    <span class="n">columns</span><span class="o">=</span> <span class="n">iris</span><span class="p">[</span><span class="s1">&#39;feature_names&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="s1">&#39;target&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="c1"># select setosa and versicolor</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">100</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">y</span> <span class="o">==</span> <span class="s1">&#39;Iris-setosa&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="c1"># extract sepal length and petal length</span>
+</span></span><span class="line"><span class="cl"><span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">100</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="c1"># plot data</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">X</span><span class="p">[:</span><span class="mi">50</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">X</span><span class="p">[:</span><span class="mi">50</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">            <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;o&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Setosa&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">50</span><span class="p">:</span><span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="n">X</span><span class="p">[</span><span class="mi">50</span><span class="p">:</span><span class="mi">100</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">            <span class="n">color</span><span class="o">=</span><span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="n">marker</span><span class="o">=</span><span class="s1">&#39;s&#39;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Versicolor&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Sepal length [cm]&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Petal length [cm]&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper left&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="c1"># plt.savefig(&#39;images/02_06.png&#39;, dpi=300)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><!-- Reference: [vitalflux](https://vitalflux.com/python-creating-scatter-plot-with-iris-dataset/) -->
+<p>Reference: <a href="https://vitalflux.com/python-creating-scatter-plot-with-iris-dataset/" target="_blank">Vitalflux</a></p>
+<p>What kind of plot does the following code produce? What can we learn from this plot?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fig</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="s1">&#39;constrained&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">dt</span> <span class="o">=</span> <span class="mf">0.01</span>
+</span></span><span class="line"><span class="cl"><span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="n">dt</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Fixing random state for reproducibility</span>
+</span></span><span class="line"><span class="cl"><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">19680801</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">nse1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>                 <span class="c1"># white noise 1</span>
+</span></span><span class="line"><span class="cl"><span class="n">nse2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">))</span>                 <span class="c1"># white noise 2</span>
+</span></span><span class="line"><span class="cl"><span class="n">r</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="o">-</span><span class="n">t</span> <span class="o">/</span> <span class="mf">0.05</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">cnse1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">convolve</span><span class="p">(</span><span class="n">nse1</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;same&#39;</span><span class="p">)</span> <span class="o">*</span> <span class="n">dt</span>   <span class="c1"># colored noise 1</span>
+</span></span><span class="line"><span class="cl"><span class="n">cnse2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">convolve</span><span class="p">(</span><span class="n">nse2</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">&#39;same&#39;</span><span class="p">)</span> <span class="o">*</span> <span class="n">dt</span>   <span class="c1"># colored noise 2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># two signals with a coherent part and a random part</span>
+</span></span><span class="line"><span class="cl"><span class="n">s1</span> <span class="o">=</span> <span class="mf">0.01</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span> <span class="o">+</span> <span class="n">cnse1</span>
+</span></span><span class="line"><span class="cl"><span class="n">s2</span> <span class="o">=</span> <span class="mf">0.01</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="mi">10</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span> <span class="o">+</span> <span class="n">cnse2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">ax1</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">s1</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">s2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax1</span><span class="o">.</span><span class="n">set_xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;Time (s)&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax1</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;s1 and s2&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax1</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">cxy</span><span class="p">,</span> <span class="n">f</span> <span class="o">=</span> <span class="n">ax2</span><span class="o">.</span><span class="n">csd</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="n">s2</span><span class="p">,</span> <span class="mi">256</span><span class="p">,</span> <span class="mf">1.</span> <span class="o">/</span> <span class="n">dt</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;CSD (dB)&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</span></span></code></pre></div><hr>
+<p>Check out more plotting and Python code at the following URLs. Note, you may have to copy and paste code into your browser&rsquo;s <a href="https://www.oliverbonhamcarter.com/live/" target="_blank"> Jupyter notebook</a>.</p>
+<ul>
+<li>
+<p><a href="https://www.w3schools.com/python/numpy/" target="_blank">W3schools</a></p>
+</li>
+<li>
+<p><a href="https://matplotlib.org/stable/gallery/lines_bars_and_markers/index.html" target="_blank">MatplotLib</a></p>
+</li>
+</ul>
+
+
+    </main>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+      <p>OBC says: Made with ❤️ and ✨'s &mdash; Powered by <a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> and the <a href="https://github.com/bjacquemet/personal-web" target='_blank' rel="external">Personal Web</a> theme. Icons come from the great <a href="https://fontawesome.com/license" target="_blank" rel="external">Font Awesome </a> library</p>
+      <p>© Oliver Bonham-Carter</p>
+      <p>    <figcaption></figcaption>
+        <p>
+          <center>
+          &#x200B;
+          </center>
+          </p>
+          <audio
+          controls
+          src="/sound/airhorn.mp3">
+              <a href="/sound/airhorn.mp3">
+                  Download audio
+              </a>
+      </audio>
+      
+</figure>
+    </p>
+    </div>
+  </footer>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,400i,600" rel="stylesheet">
+  
+
+  <script type="text/javascript">
+    document.querySelector('.mobile-header').addEventListener('click', function () {
+      var om = document.querySelector(".overlay-menu");
+      if (document.querySelector('.hamburger').classList.contains("cross")) {
+        document.querySelector('.hamburger').classList.remove("cross");
+        om.style.display = "none";
+        om.style.width = "0%";
+        om.style.height = "0%";
+      }
+      else {
+        document.querySelector('.hamburger').classList.add("cross");
+        om.style.width = "100%";
+        om.style.height = "100vh";
+        om.style.display = "block";
+      }
+    });
+  </script>
+  <figure>
+</body>
+</html>

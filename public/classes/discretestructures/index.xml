@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discrete Structures on I, Oliver Bonham-Carter, In June</title>
-    <link>https://example.com/classes/discretestructures/</link>
+    <link>http://localhost:1313/classes/discretestructures/</link>
     <description>Recent content in Discrete Structures on I, Oliver Bonham-Carter, In June</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Oliver Bonham-Carter</copyright>
-    <lastBuildDate>Sun, 26 Jun 2022 13:25:33 -0400</lastBuildDate>
-    
-	<atom:link href="https://example.com/classes/discretestructures/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/classes/discretestructures/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

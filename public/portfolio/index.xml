@@ -2,51 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio on I, Oliver Bonham-Carter, In June</title>
-    <link>https://example.com/portfolio/</link>
+    <link>http://localhost:1313/portfolio/</link>
     <description>Recent content in Portfolio on I, Oliver Bonham-Carter, In June</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Oliver Bonham-Carter</copyright>
     <lastBuildDate>Wed, 01 Dec 2021 19:47:09 +0200</lastBuildDate>
-    
-	<atom:link href="https://example.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Faculty Talk</title>
-      <link>https://example.com/portfolio/sample-project/index_facultytalk/</link>
+      <link>http://localhost:1313/portfolio/sample-project/index_facultytalk/</link>
       <pubDate>Wed, 01 Dec 2021 19:47:09 +0200</pubDate>
-      
-      <guid>https://example.com/portfolio/sample-project/index_facultytalk/</guid>
+      <guid>http://localhost:1313/portfolio/sample-project/index_facultytalk/</guid>
       <description>Abstract It is necessary to update the pedagogy in CS to produce computer scientists who are able to think holistically in the design and development of novel technologies which cater to more humanitarian interests. Allegheny’s Department of Computer Science, working in tandem with other schools and partners, aims to develop and integrate responsible thinking into the curricula and the technical aspects of its CS courses. This serves to inspire students, and results in the creation of open source projects, activities, programs and associated media in which responsible thinking plays a larger role in the technology.</description>
     </item>
-    
     <item>
       <title>GenExSt</title>
-      <link>https://example.com/portfolio/sample-project/index_genexst/</link>
+      <link>http://localhost:1313/portfolio/sample-project/index_genexst/</link>
       <pubDate>Sun, 02 May 2021 19:47:09 +0200</pubDate>
-      
-      <guid>https://example.com/portfolio/sample-project/index_genexst/</guid>
+      <guid>http://localhost:1313/portfolio/sample-project/index_genexst/</guid>
       <description>Abstract Interaction between genes is one driving force that can influence a biological outcome. In a genetic disease such as cancer, understanding genetic interactions may help us elucidate mechanisms sustaining cancer growth. A computational approach is one way to detect genetic interactions in the context of cancer. In this article, we introduce a tool, GenExSt, and its underlying method to study gene interactions. We applied our method to discover gene-pairs whose expressions demonstrate patterns of correlation.</description>
     </item>
-    
     <item>
       <title>BeagleTM</title>
-      <link>https://example.com/portfolio/sample-project/index_beagletm/</link>
+      <link>http://localhost:1313/portfolio/sample-project/index_beagletm/</link>
       <pubDate>Sat, 02 May 2020 19:47:09 +0200</pubDate>
-      
-      <guid>https://example.com/portfolio/sample-project/index_beagletm/</guid>
+      <guid>http://localhost:1313/portfolio/sample-project/index_beagletm/</guid>
       <description>Abstract Investigators in bioinformatics are often confronted with the difficult task of connecting ideas, which are found scattered around the literature, using robust keyword searches. It is often customary to identify only a few keywords in a research article to facilitate search algorithms, which is usually completed in absence of a general approach that would serve to index all possible keywords of an article’s characteristic attributes. Based on only a hand-full of keywords, articles are therefore prioritized by search algorithms that point investigators to seeming subsets of their knowledge.</description>
     </item>
-    
     <item>
       <title>My Thesis Work</title>
-      <link>https://example.com/portfolio/sample-project/index_thesis/</link>
+      <link>http://localhost:1313/portfolio/sample-project/index_thesis/</link>
       <pubDate>Mon, 02 May 2016 19:47:09 +0200</pubDate>
-      
-      <guid>https://example.com/portfolio/sample-project/index_thesis/</guid>
+      <guid>http://localhost:1313/portfolio/sample-project/index_thesis/</guid>
       <description>Abstract After synthesis, a protein is still immature until it has been customized for a specific task. Post-translational modifications (PTMs) are steps in biosynthesis to perform this customization of protein for unique functionalities. PTMs are also important to protein survival because they rapidly enable protein adaptation to environmental stress factors by conformation change. The overarching contribution of this thesis is the construction of a computational profiling framework for the study of biological signals stemming from PTMs associated with stressed proteins.</description>
     </item>
-    
   </channel>
 </rss>

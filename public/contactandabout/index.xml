@@ -2,14 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact and About on I, Oliver Bonham-Carter, In June</title>
-    <link>https://example.com/contactandabout/</link>
+    <link>http://localhost:1313/contactandabout/</link>
     <description>Recent content in Contact and About on I, Oliver Bonham-Carter, In June</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Oliver Bonham-Carter</copyright>
-    
-	<atom:link href="https://example.com/contactandabout/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:1313/contactandabout/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
