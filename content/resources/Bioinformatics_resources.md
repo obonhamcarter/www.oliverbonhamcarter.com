@@ -113,7 +113,7 @@ Welcome to a resources page for Bioinformatics research. Here you will find a li
 * Cerebral Palsy Associated Disorders: [https://www.cerebralpalsyguidance.com/cerebral-palsy/associated-disorders/](https://www.cerebralpalsyguidance.com/cerebral-palsy/associated-disorders/)
 * Cerebral Palsy Guide: [https://www.cerebralpalsyguide.com/cerebral-palsy/coexisting-conditions/cancer/](https://www.cerebralpalsyguide.com/cerebral-palsy/coexisting-conditions/cancer/)
 * The Cerebral Palsy Toolkit: [https://www.levinperconti.com/birth-injury/cerebral-palsy/guide-toolkit/](https://www.levinperconti.com/birth-injury/cerebral-palsy/guide-toolkit/)
-
+* Causes: [https://www.cerebralpalsyguidance.com/cerebral-palsy/causes/](https://www.cerebralpalsyguidance.com/cerebral-palsy/causes/)
 ---
 
 ### Note
