@@ -60,7 +60,8 @@ tomli==2.0.1
 tornado==6.2
 tqdm==4.59.0
 traitlets==5.3.0
-urllib3==1.26.6
+# urllib3==1.26.6
+urllib3==2.2.2
 values==2020.12.3
 webencodings==0.5.1
 zipp==3.8.1
