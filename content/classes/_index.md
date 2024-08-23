@@ -10,9 +10,7 @@ description: 'Classes Section'
 
 #### This semester, I am teaching ...
 
-- [:man_biking: Discrete Structures](/classes/discretestructures/)
-
-- [:woman_climbing: Junior Seminar](/classes/juniorseminar/juniorseminar/)
+- [:bar_chart: Data Science](/classes/dataanalytics/dataanalytics)
 
 <center>
 &#x200B;
@@ -34,7 +32,8 @@ description: 'Classes Section'
 &#x200B;
 </center>
 
-- [:bar_chart: Data Analytics](/classes/dataanalytics/dataanalytics)
+- [:man_biking: Discrete Structures](/classes/discretestructures/)
+- [:woman_climbing: Junior Seminar](/classes/juniorseminar/juniorseminar/)
 - [:compass: Academic Discord](/classes/academicdiscord/academicdiscord/)
 - [:computer_disk: Operating Systems](/classes/operatingsystems/operatingsystems/)
 - [:dna: Bioinformatics](/classes/bioinformatics/bioinformatics/)
