@@ -10,7 +10,7 @@ description: 'Classes Section'
 
 #### This semester, I am teaching ...
 
-- [:bar_chart: Data Science](/classes/dataanalytics/dataanalytics)
+- [:bar_chart: Data Science](/classes/dataScience/dataScience)
 
 <center>
 &#x200B;
