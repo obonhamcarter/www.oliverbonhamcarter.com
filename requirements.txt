@@ -64,6 +64,6 @@ traitlets==5.3.0
 # urllib3==1.26.6
 urllib3
 # values==2020.12.3
-values
+values==66.0.3
 webencodings==0.5.1
 zipp==3.8.1
