@@ -50,8 +50,8 @@ pytz==2021.1
 pyzmq==23.2.1
 requests==2.26.0
 retrying==1.3.3
-# runcmd==2020.12.3
-runcmd
+runcmd==2020.12.3
+#runcmd
 scipy==1.7.3
 seaborn==0.12.2
 six==1.16.0
@@ -61,9 +61,9 @@ tomli==2.0.1
 tornado==6.2
 tqdm==4.59.0
 traitlets==5.3.0
-# urllib3==1.26.6
-urllib3
-# values==2020.12.3
-values==66.0.3
+urllib3==1.26.6
+#urllib3
+values==2020.12.3
+#values==66.0.3
 webencodings==0.5.1
 zipp==3.8.1
