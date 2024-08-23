@@ -34,20 +34,14 @@ Alden Hall, 101 Lab
 
 [Schedule an appointment](/contactandabout/)
 
-### Syllabus and classDocs
 
-* See [README.md](https://github.com/AlleghenyCollege-CIS-301-F2024/classDocs) at `classDocs/`
+### Syllabus, classDocs/ Repository
 
-### classDocs/ Repository
+* <a href="https://github.com/AlleghenyCollege-CIS-301-F2024/classDocs" target="_blank">classDocs/ at GitHub</a>
 
-* <a href="https://github.com/CMPSC-301-Allegheny-College-Spring-2023/classDocs" target="_blank">classDocs/ at GitHub</a>
-
-<!-- * [classDocs/ at GitHub](https://github.com/CMPSC-301-Allegheny-College-Spring-2023/classDocs) -->
-
-### Grade book Repository
-
-<!-- * [GradeBook repository](https://classroom.github.com/a/9QhtvWWZ) -->
-* <a href="https://classroom.github.com/a/9QhtvWWZ" target="_blank">Gradebook Repository</a>
+<!-- ### Grade book Repository!
+* <a href="" target="_blank">Gradebook Repository</a>
+ -->
 
 ### Resources
 
@@ -55,6 +49,6 @@ Alden Hall, 101 Lab
 
 ---
 
-### Ungraded Class Activities
+<!-- ### Ungraded Class Activities
 
- + [:sparkles: Activity 01](/base/dataanalytics/activity01)
+ + [:sparkles: Activity 01](/base/dataanalytics/activity01) -->
