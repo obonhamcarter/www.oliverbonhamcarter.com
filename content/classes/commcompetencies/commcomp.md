@@ -21,7 +21,7 @@ An exploration of four communication competencies: reading, writing, speaking, a
 
 ### Office Hours
 
-[Schedule an appointment](/contactandabout/)
+* [Schedule an appointment](/contactandabout/)
 
 ### classDocs/ Repository
 

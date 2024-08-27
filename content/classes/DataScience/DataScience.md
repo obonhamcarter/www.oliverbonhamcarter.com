@@ -32,7 +32,7 @@ Alden Hall, 101 Lab
 
 ### Office Hours
 
-[Schedule an appointment](/contactandabout/)
+* [Schedule an appointment](/contactandabout/)
 
 
 ### Syllabus, classDocs/ Repository
