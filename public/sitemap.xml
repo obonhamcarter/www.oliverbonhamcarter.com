@@ -2,8 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/classes/</loc>
+    <lastmod>2024-08-27T18:19:30-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/classes/commcompetencies/commcomp/</loc>
+    <lastmod>2024-08-27T18:19:30-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2023-09-15T00:50:03-04:00</lastmod>
+    <lastmod>2024-08-27T18:19:30-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -99,11 +109,6 @@
   </url><url>
     <loc>http://localhost:1313/resources/writing/</loc>
     <lastmod>2022-08-27T17:00:25-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/classes/</loc>
-    <lastmod>2022-08-26T00:42:54-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

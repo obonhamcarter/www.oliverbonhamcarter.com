@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Oliver Bonham-Carter</copyright>
-    <lastBuildDate>Fri, 15 Sep 2023 00:50:03 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 18:19:30 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comm Competencies</title>
+      <link>http://localhost:1313/classes/commcompetencies/commcomp/</link>
+      <pubDate>Tue, 27 Aug 2024 18:19:30 -0400</pubDate>
+      <guid>http://localhost:1313/classes/commcompetencies/commcomp/</guid>
+      <description>SWS*105-04: Intro to Comm Competencies &amp;#x200B; Academic Bulletin Description SWS-105 Intro to Comm Competencies (4 Credits) An exploration of four communication competencies: reading, writing, speaking, and listening. Students develop engaging voices as speakers and writers through study of concepts such as purpose, occasion, audience, and genre. The use of reading and listening to interpret ideas of others and form one&amp;rsquo;s own will be applied toward thesis-driven written and spoken texts. The topical material covered in the seminar varies from section to section and year to year.</description>
+    </item>
     <item>
       <title>RSE</title>
       <link>http://localhost:1313/rse/rse/</link>

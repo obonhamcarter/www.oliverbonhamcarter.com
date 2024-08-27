@@ -11,6 +11,7 @@ description: 'Classes Section'
 #### This semester, I am teaching ...
 
 - [:bar_chart: Data Science](/classes/dataScience/dataScience)
+- [:heart_hands: SWS-105 Intro to Comm Competencies](/classes/commcompetencies/commcomp)
 
 <center>
 &#x200B;
