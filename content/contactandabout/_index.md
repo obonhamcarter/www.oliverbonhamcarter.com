@@ -15,7 +15,9 @@ images: ["/images/flintAndMe2.jpg"]
 
 To be sure that I have enough time with each person during my office hours, I ask that you please schedule an appointment. If the offered times are not convenient for you, other arrangements can be made to meet (in-person and online).
 
-[Schedule an office hours appointment](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUgwUVdYS3FiT0VXfGRlZmF1bHR8NTUwMTVhMzEzZGZkZDQ1MTg0MzdhY2YzNmVkZDJkOWY)
+<!-- [Schedule an office hours appointment](https://calendar.app.google/hc2VB2dsJDDm1FPj7) -->
+ <a href="https://calendar.app.google/hc2VB2dsJDDm1FPj7" target="_blank">Schedule an office hours appointment</a>
+
 
 #### Office Hour Location
 
