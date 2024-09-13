@@ -38,11 +38,11 @@
       <description>Welcome to a resources page for Junior Seminar research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.&#xA;Software&#xA;RStudio R Programming Language Python Programming Language Git for Mac Git for Windows Git for all platforms Online Tools&#xA;sentiment viz Tweet Sentiment Visualization Online R programming Snippets &amp;ndash; Run any R code you line online JDoodle Tutorials</description>
     </item>
     <item>
-      <title>Data Analytics Resources</title>
+      <title>Data Science Resources</title>
       <link>http://localhost:1313/resources/dataanalytics_resources/</link>
       <pubDate>Mon, 16 Jan 2023 21:00:00 -0400</pubDate>
       <guid>http://localhost:1313/resources/dataanalytics_resources/</guid>
-      <description>Welcome to a resources page for Bioinformatics research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.&#xA;&amp;#x200B; Textbooks&#xA;Wickham, Hadley, and Garrett Grolemund. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data., O&amp;rsquo;Reilly Media, Inc., 2016.&#xA;Book Website Latest version of the book Julia Silge And David Robinson. Text Mining With R: A Tidy Approach.</description>
+      <description>Welcome to a resources page for Data Science research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.&#xA;&amp;#x200B; Textbooks&#xA;Wickham, Hadley, and Garrett Grolemund. R for Data Science: Import, Tidy, Transform, Visualize, and Model Data., O&amp;rsquo;Reilly Media, Inc., 2016.&#xA;Book Website Latest version of the book Julia Silge And David Robinson. Text Mining With R: A Tidy Approach.</description>
     </item>
     <item>
       <title>BioMedical and Bioinformatics Resources</title>
