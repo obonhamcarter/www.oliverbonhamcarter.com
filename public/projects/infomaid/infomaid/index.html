@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang='en'><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>Infomaid - I, Oliver Bonham-Carter, In June</title>
+  <link rel='canonical' href='http://localhost:1313/projects/infomaid/infomaid/' />
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='description' content='' />
+  <meta name='theme-color' content='#0077b6' />
+  
+    <link rel="shortcut icon" href="/images/levelup.png" type="image/x-icon" />
+    <link rel="icon" href="/images/levelup.png" type="image/x-icon" />
+  
+
+  <meta name="generator" content="Hugo 0.130.0">
+
+  
+
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/sass/style.min.eabe1aa4bd266a15f7b39b122bd6a5cc75cb067e5373631ac21d7815d6240d6f.css" integrity="sha256-6r4apL0mahX3s5sSK9alzHXLBn5Tc2Mawh14FdYkDW8=" media="screen">
+<link rel="stylesheet" href="http://localhost:1313/syntax.min.css" integrity="" media="screen">
+
+  <meta property="og:url" content="http://localhost:1313/projects/infomaid/infomaid/">
+  <meta property="og:site_name" content="I, Oliver Bonham-Carter, In June">
+  <meta property="og:title" content="Infomaid">
+  <meta property="og:description" content="A Textual AI and RAG-Enabled Learning Application A simple textual AI RAG application using Ollama for generative AI, chatting with PDFs AND chatting (querying) documents prepared in xml!
+GitHub link: https://github.com/developmentAC/infomaid
+Overview Infomaid is a simple AI prompt-based solution with built in Retrieval augmented generation (RAG) support!
+Welcome to this simple AI application! Infomaid is an experimental AI prompt-driven solution (i.e., each “chat” involves writing a separate prompt to use with a new execution of Infomaid) to help complete text-based work with information.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-10-16T23:52:09-04:00">
+    <meta property="article:modified_time" content="2024-10-16T23:52:09-04:00">
+
+  
+  <meta itemprop="name" content="Infomaid">
+  <meta itemprop="description" content="A Textual AI and RAG-Enabled Learning Application A simple textual AI RAG application using Ollama for generative AI, chatting with PDFs AND chatting (querying) documents prepared in xml!
+GitHub link: https://github.com/developmentAC/infomaid
+Overview Infomaid is a simple AI prompt-based solution with built in Retrieval augmented generation (RAG) support!
+Welcome to this simple AI application! Infomaid is an experimental AI prompt-driven solution (i.e., each “chat” involves writing a separate prompt to use with a new execution of Infomaid) to help complete text-based work with information.">
+  <meta itemprop="datePublished" content="2024-10-16T23:52:09-04:00">
+  <meta itemprop="dateModified" content="2024-10-16T23:52:09-04:00">
+  <meta itemprop="wordCount" content="1880">
+</head>
+<body>
+
+  <header style="background-image:linear-gradient(
+      rgba(0,0,0,0),rgba(1,1,1,1)
+    ),url(&#39;http://localhost:1313/images/stars.png&#39;)">
+  <div class="intro">
+    <div class="logo-container">
+      <a href="/">
+        <img src='http://localhost:1313/images/dunno.jpg' alt="Profile 404 Page not found" class="rounded-logo">
+      </a>
+    </div>
+    <h2>I, Oliver Bonham-Carter 👋</h2>
+    <h3>Assistant Professor in Computer Science, Allegheny College</h3>
+    <div class="menu">
+      
+
+        <p>
+            <a href="/classes/">
+                My Classes
+            </a>
+        </p>
+
+        <p>
+            <a href="/contactandabout/">
+                Contact and About
+            </a>
+        </p>
+
+        <p>
+            <a href="/forfun/">
+                Just For Fun
+            </a>
+        </p>
+
+        <p>
+            <a href="/portfolio/">
+                Portfolio
+            </a>
+        </p>
+
+        <p>
+            <a href="/projects/">
+                Projects
+            </a>
+        </p>
+
+        <p>
+            <a href="/resources/">
+                Resources
+            </a>
+        </p>
+
+        <p>
+            <a href="/forfun/itea/itea">
+                iTea
+            </a>
+        </p>
+
+        <p>
+            <a href="/outreach/">
+                OutReach
+            </a>
+        </p>
+
+      
+    </div>
+  </div>
+
+  <div class="socials">
+      
+  
+    <a href="https://github.com/developmentAC" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM71.182 98.494c-2.156.385-2.952-.95-2.952-2.053 0-1.386.051-8.471.051-14.195 0-4.005-1.335-6.546-2.9-7.881C74.878 73.313 84.89 72.003 84.89 55.6c0-4.671-1.669-7.007-4.39-10.01.436-1.105 1.9-5.648-.436-11.552-3.568-1.104-11.731 4.595-11.731 4.595-3.389-.95-7.06-1.438-10.679-1.438-3.62 0-7.29.488-10.679 1.438 0 0-8.163-5.699-11.73-4.595-2.337 5.878-.899 10.422-.437 11.551-2.72 3.004-4.004 5.34-4.004 10.011 0 16.326 9.574 17.712 19.072 18.765-1.232 1.104-2.336 3.003-2.72 5.724-2.44 1.104-8.677 3.004-12.4-3.568-2.335-4.056-6.545-4.39-6.545-4.39-4.159-.05-.282 2.619-.282 2.619 2.772 1.283 4.723 6.212 4.723 6.212 2.49 7.624 14.4 5.057 14.4 5.057 0 3.568.052 9.37.052 10.422 0 1.104-.77 2.438-2.952 2.053C27.21 92.821 15.35 76.701 15.35 57.86c0-23.564 18.02-41.456 41.585-41.456s42.663 17.892 42.663 41.456c.026 18.842-11.474 34.988-28.416 40.635zM46 82.81c-.488.103-.95-.102-1.001-.436-.051-.385.282-.719.77-.822.488-.05.95.154 1.001.488.077.334-.257.668-.77.77zm-2.439-.23c0 .333-.385.615-.898.615-.565.052-.95-.23-.95-.616 0-.333.385-.616.899-.616.487-.051.95.231.95.616zm-3.516-.283c-.103.334-.616.488-1.053.334-.488-.103-.821-.488-.719-.822.103-.334.617-.488 1.053-.385.513.154.847.54.719.873zm-3.158-1.386c-.23.282-.718.23-1.104-.154-.385-.334-.487-.822-.23-1.053.23-.282.718-.23 1.103.154.334.334.462.847.231 1.053zm-2.336-2.336c-.23.154-.667 0-.95-.385-.282-.385-.282-.822 0-1.001.283-.231.72-.052.95.333.283.385.283.847 0 1.053zm-1.668-2.49c-.231.23-.616.103-.899-.154-.282-.334-.333-.719-.102-.899.23-.23.616-.102.898.154.282.334.334.72.103.899zm-1.72-1.9c-.103.231-.436.283-.719.103-.334-.154-.488-.436-.385-.667.103-.154.385-.231.719-.103.334.18.488.462.385.667z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="http://oliverbonhamcarter.com/live/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M66.4607844,93.6126043 C65.3791811,87.8380074 67.326067,85.6992679 72.7340834,83.9882762 C77.4931378,82.4911585 82.6848335,82.4911585 87.6602086,82.7050325 C100.855768,83.3466543 104.53322,85.27152 103.235296,98.9594532 C102.153692,110.508647 94.3661488,110.722521 82.0358715,110.080899 C69.4892736,109.439277 68.4076703,104.73405 66.4607844,93.6126043 Z M14.9764686,92.9709824 C14.9764686,94.895848 15.4091099,97.2484616 15.4091099,97.2484616 C16.7070338,91.4738647 22.7640122,87.6241335 28.6046698,87.1963856 C24.0619361,85.6992679 15.4091099,86.7686377 14.9764686,92.9709824 Z M98.2599206,97.2484616 C98.2599206,97.2484616 98.9088826,94.6819741 98.6925619,92.9709824 C98.2599206,87.4102595 88.7418118,85.27152 85.0643607,87.1963856 C90.9050184,87.6241335 96.9619967,91.4738647 98.2599206,97.2484616 Z M47.2082461,94.4681001 C45.0450396,106.231168 43.3144744,109.653151 30.5515557,109.867025 C19.3028817,110.294773 11.5153381,110.294773 10.6500555,97.4623355 C9.78477288,83.7744023 14.7601479,82.7050325 27.7393872,82.2772846 C32.4984416,82.0634106 37.6901373,82.2772846 42.2328711,83.9882762 C47.8572081,85.9131418 48.2898494,88.6935033 47.2082461,94.2542262 L47.2082461,94.4681001 Z M71.0035181,42.9244764 C75.3299312,43.5660983 75.1136106,40.9996108 76.6278552,38.4331233 C77.9257791,36.0805098 81.1705889,35.225014 83.5501161,36.9360056 C86.5786053,39.2886192 95.0151108,60.034393 97.1783174,64.7396201 C98.6925619,68.3754773 102.586334,76.0749398 103.451616,79.4969231 C94.7987902,78.8553012 87.8765292,77.3581835 79.0073824,77.9998054 C71.0035181,78.6414273 64.7302192,82.0634106 56.9426756,82.0634106 C49.155132,82.0634106 43.0981537,78.4275533 35.0942895,77.9998054 C26.2251426,77.3581835 19.086561,78.8553012 10.6500555,79.4969231 C11.2990175,76.5026877 21.0334469,55.3291659 23.1966535,50.8378128 C24.7108981,47.6297035 27.9557079,39.2886192 30.3352351,37.1498796 C32.4984416,35.225014 35.9595721,35.8666358 37.4738167,38.2192494 C39.2043819,40.7857369 38.5554199,43.7799723 43.0981537,43.1383504 C42.881833,36.0805098 35.3106101,29.0226692 28.6046698,33.3001484 C24.2782567,36.0805098 20.6008056,45.063216 18.0049578,49.5545691 C14.9764686,55.3291659 11.7316588,61.1037628 8.70316961,67.0922336 C5.8910011,72.8668304 0.0503434222,80.3524189 1.1319467,86.7686377 C1.78090866,90.8322428 5.45835979,87.6241335 5.8910011,95.5374699 C6.10732175,99.3872011 6.10732175,103.236932 7.83788699,106.87279 C11.5153381,114.572252 19.5192023,115 27.0904253,115 C34.0126862,115 43.3144744,115 47.4245668,108.369907 C50.8856973,103.023058 50.6693766,90.6183689 56.7263549,90.6183689 C62.7833333,90.6183689 62.7833333,102.809184 66.0281431,108.156033 C70.1382355,114.786126 79.0073824,115 86.145964,115 C101.072089,115 107.345388,111.791891 107.99435,96.6068397 C108.426991,87.6241335 111.671801,91.2599908 112.753404,87.4102595 C114.267649,81.2079148 108.426991,73.2945783 105.614823,67.9477294 C102.586334,61.9592586 99.3415239,55.9707878 96.0967141,50.196191 C93.7171869,45.7048379 89.8234151,36.5082577 85.7133227,33.7278963 C78.7910617,29.0226692 71.2198388,36.2943838 71.0035181,43.3522243 L71.0035181,42.9244764 Z"></path>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://jupyter.cs.allegheny.edu/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M112.125 86.25H103.5V34.5c0-6.325-5.175-11.5-11.5-11.5H23c-6.325 0-11.5 5.175-11.5 11.5v51.75H2.875A2.883 2.883 0 0 0 0 89.125v8.625C0 107.237 7.763 115 17.25 115h80.5c9.487 0 17.25-7.763 17.25-17.25v-8.625a2.883 2.883 0 0 0-2.875-2.875zm-92-51.75c0-1.558 1.317-2.875 2.875-2.875h69c1.558 0 2.875 1.317 2.875 2.875v51.75h-74.75V34.5zm86.25 63.25c0 4.756-3.869 8.625-8.625 8.625h-80.5c-4.756 0-8.625-3.869-8.625-8.625v-2.875H41.13c1.001 1.687 2.764 2.875 4.87 2.875h23c2.106 0 3.867-1.188 4.87-2.875h32.505v2.875zM49.892 70.015l2.032-2.032a2.875 2.875 0 0 0 0-4.066L45.506 57.5l6.416-6.418a2.875 2.875 0 0 0 0-4.067l-2.032-2.032a2.875 2.875 0 0 0-4.066 0L35.34 55.466a2.875 2.875 0 0 0 0 4.066l10.483 10.483a2.877 2.877 0 0 0 4.068 0zm13.185-2.03l2.033 2.032a2.875 2.875 0 0 0 4.066 0L79.66 59.534a2.875 2.875 0 0 0 0-4.066L69.176 44.985a2.875 2.875 0 0 0-4.066 0l-2.032 2.032a2.875 2.875 0 0 0 0 4.066l6.416 6.417-6.416 6.418a2.875 2.875 0 0 0 0 4.067z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+  </div>
+</header>
+
+<div class="mobile-header">
+  <p> I, Oliver Bonham-Carter, In June </p>
+  <div class="hamburger">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+</div>
+
+<div class="overlay-menu">
+  <header>
+    <div class="intro">
+      <div class="logo-container">
+        <a href="/">
+          <img src='http://localhost:1313/images/dunno.jpg' alt="Profile 404 Page not found" class="rounded-logo">
+        </a>
+      </div>
+      <h2>I, Oliver Bonham-Carter 👋</h2>
+      <h3>Assistant Professor in Computer Science, Allegheny College</h3>
+      <div class="menu">
+        
+
+        <p>
+            <a href="/classes/">
+                My Classes
+            </a>
+        </p>
+
+        <p>
+            <a href="/contactandabout/">
+                Contact and About
+            </a>
+        </p>
+
+        <p>
+            <a href="/forfun/">
+                Just For Fun
+            </a>
+        </p>
+
+        <p>
+            <a href="/portfolio/">
+                Portfolio
+            </a>
+        </p>
+
+        <p>
+            <a href="/projects/">
+                Projects
+            </a>
+        </p>
+
+        <p>
+            <a href="/resources/">
+                Resources
+            </a>
+        </p>
+
+        <p>
+            <a href="/forfun/itea/itea">
+                iTea
+            </a>
+        </p>
+
+        <p>
+            <a href="/outreach/">
+                OutReach
+            </a>
+        </p>
+
+        
+      </div>
+    </div>
+
+    <div class="socials">
+        
+  
+    <a href="https://github.com/developmentAC" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M102.679 0H12.32C5.52 0 0 5.519 0 12.321v90.358C0 109.48 5.519 115 12.321 115h90.358c6.802 0 12.321-5.519 12.321-12.321V12.32C115 5.52 109.481 0 102.679 0zM71.182 98.494c-2.156.385-2.952-.95-2.952-2.053 0-1.386.051-8.471.051-14.195 0-4.005-1.335-6.546-2.9-7.881C74.878 73.313 84.89 72.003 84.89 55.6c0-4.671-1.669-7.007-4.39-10.01.436-1.105 1.9-5.648-.436-11.552-3.568-1.104-11.731 4.595-11.731 4.595-3.389-.95-7.06-1.438-10.679-1.438-3.62 0-7.29.488-10.679 1.438 0 0-8.163-5.699-11.73-4.595-2.337 5.878-.899 10.422-.437 11.551-2.72 3.004-4.004 5.34-4.004 10.011 0 16.326 9.574 17.712 19.072 18.765-1.232 1.104-2.336 3.003-2.72 5.724-2.44 1.104-8.677 3.004-12.4-3.568-2.335-4.056-6.545-4.39-6.545-4.39-4.159-.05-.282 2.619-.282 2.619 2.772 1.283 4.723 6.212 4.723 6.212 2.49 7.624 14.4 5.057 14.4 5.057 0 3.568.052 9.37.052 10.422 0 1.104-.77 2.438-2.952 2.053C27.21 92.821 15.35 76.701 15.35 57.86c0-23.564 18.02-41.456 41.585-41.456s42.663 17.892 42.663 41.456c.026 18.842-11.474 34.988-28.416 40.635zM46 82.81c-.488.103-.95-.102-1.001-.436-.051-.385.282-.719.77-.822.488-.05.95.154 1.001.488.077.334-.257.668-.77.77zm-2.439-.23c0 .333-.385.615-.898.615-.565.052-.95-.23-.95-.616 0-.333.385-.616.899-.616.487-.051.95.231.95.616zm-3.516-.283c-.103.334-.616.488-1.053.334-.488-.103-.821-.488-.719-.822.103-.334.617-.488 1.053-.385.513.154.847.54.719.873zm-3.158-1.386c-.23.282-.718.23-1.104-.154-.385-.334-.487-.822-.23-1.053.23-.282.718-.23 1.103.154.334.334.462.847.231 1.053zm-2.336-2.336c-.23.154-.667 0-.95-.385-.282-.385-.282-.822 0-1.001.283-.231.72-.052.95.333.283.385.283.847 0 1.053zm-1.668-2.49c-.231.23-.616.103-.899-.154-.282-.334-.333-.719-.102-.899.23-.23.616-.102.898.154.282.334.334.72.103.899zm-1.72-1.9c-.103.231-.436.283-.719.103-.334-.154-.488-.436-.385-.667.103-.154.385-.231.719-.103.334.18.488.462.385.667z"/>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="http://oliverbonhamcarter.com/live/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M66.4607844,93.6126043 C65.3791811,87.8380074 67.326067,85.6992679 72.7340834,83.9882762 C77.4931378,82.4911585 82.6848335,82.4911585 87.6602086,82.7050325 C100.855768,83.3466543 104.53322,85.27152 103.235296,98.9594532 C102.153692,110.508647 94.3661488,110.722521 82.0358715,110.080899 C69.4892736,109.439277 68.4076703,104.73405 66.4607844,93.6126043 Z M14.9764686,92.9709824 C14.9764686,94.895848 15.4091099,97.2484616 15.4091099,97.2484616 C16.7070338,91.4738647 22.7640122,87.6241335 28.6046698,87.1963856 C24.0619361,85.6992679 15.4091099,86.7686377 14.9764686,92.9709824 Z M98.2599206,97.2484616 C98.2599206,97.2484616 98.9088826,94.6819741 98.6925619,92.9709824 C98.2599206,87.4102595 88.7418118,85.27152 85.0643607,87.1963856 C90.9050184,87.6241335 96.9619967,91.4738647 98.2599206,97.2484616 Z M47.2082461,94.4681001 C45.0450396,106.231168 43.3144744,109.653151 30.5515557,109.867025 C19.3028817,110.294773 11.5153381,110.294773 10.6500555,97.4623355 C9.78477288,83.7744023 14.7601479,82.7050325 27.7393872,82.2772846 C32.4984416,82.0634106 37.6901373,82.2772846 42.2328711,83.9882762 C47.8572081,85.9131418 48.2898494,88.6935033 47.2082461,94.2542262 L47.2082461,94.4681001 Z M71.0035181,42.9244764 C75.3299312,43.5660983 75.1136106,40.9996108 76.6278552,38.4331233 C77.9257791,36.0805098 81.1705889,35.225014 83.5501161,36.9360056 C86.5786053,39.2886192 95.0151108,60.034393 97.1783174,64.7396201 C98.6925619,68.3754773 102.586334,76.0749398 103.451616,79.4969231 C94.7987902,78.8553012 87.8765292,77.3581835 79.0073824,77.9998054 C71.0035181,78.6414273 64.7302192,82.0634106 56.9426756,82.0634106 C49.155132,82.0634106 43.0981537,78.4275533 35.0942895,77.9998054 C26.2251426,77.3581835 19.086561,78.8553012 10.6500555,79.4969231 C11.2990175,76.5026877 21.0334469,55.3291659 23.1966535,50.8378128 C24.7108981,47.6297035 27.9557079,39.2886192 30.3352351,37.1498796 C32.4984416,35.225014 35.9595721,35.8666358 37.4738167,38.2192494 C39.2043819,40.7857369 38.5554199,43.7799723 43.0981537,43.1383504 C42.881833,36.0805098 35.3106101,29.0226692 28.6046698,33.3001484 C24.2782567,36.0805098 20.6008056,45.063216 18.0049578,49.5545691 C14.9764686,55.3291659 11.7316588,61.1037628 8.70316961,67.0922336 C5.8910011,72.8668304 0.0503434222,80.3524189 1.1319467,86.7686377 C1.78090866,90.8322428 5.45835979,87.6241335 5.8910011,95.5374699 C6.10732175,99.3872011 6.10732175,103.236932 7.83788699,106.87279 C11.5153381,114.572252 19.5192023,115 27.0904253,115 C34.0126862,115 43.3144744,115 47.4245668,108.369907 C50.8856973,103.023058 50.6693766,90.6183689 56.7263549,90.6183689 C62.7833333,90.6183689 62.7833333,102.809184 66.0281431,108.156033 C70.1382355,114.786126 79.0073824,115 86.145964,115 C101.072089,115 107.345388,111.791891 107.99435,96.6068397 C108.426991,87.6241335 111.671801,91.2599908 112.753404,87.4102595 C114.267649,81.2079148 108.426991,73.2945783 105.614823,67.9477294 C102.586334,61.9592586 99.3415239,55.9707878 96.0967141,50.196191 C93.7171869,45.7048379 89.8234151,36.5082577 85.7133227,33.7278963 C78.7910617,29.0226692 71.2198388,36.2943838 71.0035181,43.3522243 L71.0035181,42.9244764 Z"></path>
+  
+  </svg>
+</div>
+</a>
+  
+
+  
+    <a href="https://jupyter.cs.allegheny.edu/" class="social-link" target="_blank" rel="noopener" ><div class="icon">
+  <svg width="35px" height="35px" viewBox="0 0 115 115" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+  
+  <path d="M112.125 86.25H103.5V34.5c0-6.325-5.175-11.5-11.5-11.5H23c-6.325 0-11.5 5.175-11.5 11.5v51.75H2.875A2.883 2.883 0 0 0 0 89.125v8.625C0 107.237 7.763 115 17.25 115h80.5c9.487 0 17.25-7.763 17.25-17.25v-8.625a2.883 2.883 0 0 0-2.875-2.875zm-92-51.75c0-1.558 1.317-2.875 2.875-2.875h69c1.558 0 2.875 1.317 2.875 2.875v51.75h-74.75V34.5zm86.25 63.25c0 4.756-3.869 8.625-8.625 8.625h-80.5c-4.756 0-8.625-3.869-8.625-8.625v-2.875H41.13c1.001 1.687 2.764 2.875 4.87 2.875h23c2.106 0 3.867-1.188 4.87-2.875h32.505v2.875zM49.892 70.015l2.032-2.032a2.875 2.875 0 0 0 0-4.066L45.506 57.5l6.416-6.418a2.875 2.875 0 0 0 0-4.067l-2.032-2.032a2.875 2.875 0 0 0-4.066 0L35.34 55.466a2.875 2.875 0 0 0 0 4.066l10.483 10.483a2.877 2.877 0 0 0 4.068 0zm13.185-2.03l2.033 2.032a2.875 2.875 0 0 0 4.066 0L79.66 59.534a2.875 2.875 0 0 0 0-4.066L69.176 44.985a2.875 2.875 0 0 0-4.066 0l-2.032 2.032a2.875 2.875 0 0 0 0 4.066l6.416 6.417-6.416 6.418a2.875 2.875 0 0 0 0 4.067z" />
+  
+  </svg>
+</div>
+</a>
+  
+
+    </div>
+  </header>
+</div>
+
+  <div class="content-wrapper">
+    
+      <div class="breadcrumb">
+  
+
+
+
+
+
+<span >
+  <a href="http://localhost:1313/">Home</a>
+   / 
+</span>
+
+
+<span >
+  <a href="http://localhost:1313/projects/">Projects</a>
+   / 
+</span>
+
+
+<span  class="active">
+  <a href="http://localhost:1313/projects/infomaid/infomaid/">Infomaid</a>
+  
+</span>
+
+</div>
+
+    
+    <main id="content" class="projects">
+
+<h1>Infomaid</h1>
+
+
+<h3 id="a-textual-ai-and-rag-enabled-learning-application">A Textual AI and RAG-Enabled Learning Application</h3>
+<p>A simple textual AI RAG application using Ollama for generative AI, chatting with PDFs AND chatting (querying) documents prepared in xml!</p>
+<p><img src="/images/projects/infomaid/graphics/infomaid_logo_yellow.png" alt="logo"></p>
+<p>GitHub link: <a href="https://github.com/developmentAC/infomaid">https://github.com/developmentAC/infomaid</a></p>
+<!-- 
+[![MIT Licence](https://img.shields.io/bower/l/bootstrap)](https://opensource.org/licenses/MIT) -->
+<!-- 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+  - [Set Up Local Models for Ollama](#set-up-local-models-for-ollama)
+- [Setting Up the Project](#setting-up-the-project)
+- [Execution](#execution)
+  - [Parameters](#parameters)
+  - [Generation](#generation)
+    - [Output](#output)
+  - [Working with PDF Data](#working-with-pdf-data)
+    - [Sample Project](#sample-project)
+- [Testing the Code](#testing-the-code)
+- [Ethical Note](#ethical-note)
+- [A Work In Progress](#a-work-in-progress) -->
+<h2 id="overview">Overview</h2>
+<p><em>Infomaid</em> is a simple AI prompt-based solution with built in Retrieval augmented generation (RAG) support!</p>
+<p>Welcome to this simple AI application! <em>Infomaid</em> is an experimental AI prompt-driven solution (i.e., each &ldquo;chat&rdquo; involves writing a separate prompt to use with a new execution of <em>Infomaid</em>) to help complete text-based work with information.</p>
+<p>The software runs locally, without the need to send information for processing to another machine online. This application requires <a href="https://www.ollama.com/">Ollama</a>, for service. Parts of this project code for working with PDFs were borrowed from Pixegami&rsquo;s RAG tutorial at <a href="https://github.com/pixegami/rag-tutorial-v2">Reference</a>. Much thanks!</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before you start, make sure you have the following softwares installed.</p>
+<ul>
+<li>
+<p>Special note: This project was developed on the MacOS (Sonoma). Other OSs such as Windows and Linux have not been tested.</p>
+</li>
+<li>
+<p>Python</p>
+<ul>
+<li>
+<p><a href="https://www.python.org">All about Python</a></p>
+</li>
+<li>
+<p>Note: This project was created with Python V3.11. Earlier versions may also be compatible with this project. If you are using an earlier version of Python, then you will have to modify the <code>pyproject.toml</code> file from the project.</p>
+</li>
+<li>
+<p>To change from Python v3.10 through v3.13, to just Python v3.9 we make the following change in <code>pyproject.toml</code>. Note: This may cause other errors.</p>
+</li>
+</ul>
+<p>Originally:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">python</span> <span class="p">=</span> <span class="s2">&#34;&gt;=3.10,&lt;3.13&#34;</span> 
+</span></span></code></pre></div><p>After editing:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">python</span> <span class="p">=</span> <span class="s2">&#34;^3.9&#34;</span>
+</span></span></code></pre></div><ul>
+<li>
+<p>Check to see if you already have Python installed on your machine before installing a new version.</p>
+</li>
+<li>
+<p>Poetry: Used to manage the virtual environment and to <em>frame</em> the project as a command line app.</p>
+</li>
+<li>
+<p><a href="https://python-poetry.org/docs/#installation">Instructions to install Poetry</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Ollama: The AI server.</p>
+<ul>
+<li><a href="https://www.ollama.com/">Instructions to install Ollama</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="set-up-local-models-for-ollama">Set Up Local Models for Ollama</h3>
+<p>The below commands will install the models that Ollama will require to perform its functions. Note, a typical model for Ollama is about 4 GB in size. As there are two models to install, this project will take about 8 GB of space.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ollama pull mistral
+</span></span><span class="line"><span class="cl">ollama pull nomic-embed-text
+</span></span></code></pre></div><h2 id="setting-up-the-project">Setting Up the Project</h2>
+<p>We will use Poetry to manage the virtual environment for the project. Use <code>install</code> to download all the necessary packages for your project.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry install
+</span></span></code></pre></div><p>Check that the software is working on your system.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --help
+</span></span></code></pre></div><p>Use online help to help you to remember how to use the parameters. Sample commands are privided to copy and paste with editing.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --bighelp
+</span></span></code></pre></div><p>Some of the types of parameters are the following.</p>
+<ul>
+<li>Use general chat, give me one result, ask me for a prompt</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --count <span class="m">1</span>
+</span></span></code></pre></div><ul>
+<li>Ask a silly question from the command line! Provide two outputs.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --count <span class="m">2</span> --prompt <span class="s2">&#34;name four shapes&#34;</span>
+</span></span></code></pre></div><ul>
+<li>Reset and build the internal data of pdf data.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --resetdb
+</span></span></code></pre></div><ul>
+<li>
+<p>Use pdfs as data source with a provided prompt file (<code>myPrompt.txt</code>) in which instructions are provided about what the results should look like.</p>
+<ul>
+<li>Note: if no prompt is supplied, then the program will stop to ask for one during execution.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --usepdfdata --promptfile <span class="s2">&#34;promptFiles/myPrompt.txt&#34;</span>
+</span></span></code></pre></div><ul>
+<li>Query pdfs with prompt. Provide two outputs.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --count <span class="m">2</span> --usepdfdata --prompt <span class="s2">&#34;what is the article&#39;s main idea?&#34;</span>
+</span></span></code></pre></div><h2 id="execution">Execution</h2>
+<h3 id="parameters">Parameters</h3>
+<ul>
+<li>
+<p><strong>bighelp</strong> - Provides CLI commands to use the project.</p>
+</li>
+<li>
+<p><strong>count</strong> - The number of results to give. It is sometimes a good idea to have several results from which to choose as not all output is the same.</p>
+</li>
+<li>
+<p><strong>promptfile</strong> - The parameter to load a text file in which a complicated prompt is provided.  The text file can be used to describe the prompt for the outputs using PDF data, in addition to the regular generative output.</p>
+</li>
+<li>
+<p><strong>model</strong> - Used to delare a model if different from the default, <code>mistral</code> for general usage (i.e. not for RAG using the PDF data).</p>
+<ul>
+<li>Note: the model must first be <code>pull</code>ed to the local machine for usage. The command to pull a specific model is <code>ollama pull [myModel]</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>pdfmodel</strong> - Use a specific model other than the default <code>nomic-embed-text</code> to work with the PDF data.</p>
+</li>
+<li>
+<p><strong>prompt</strong> - The initial set of instructions about what kind of information work to complete using Ollama.</p>
+</li>
+<li>
+<p><strong>usepdfdata</strong> - A toggle to specify using RAG support (i.e., PDF data sources). In absence of this parameter at the command line, the <em>Infomaid</em> will not use data from PDF documents.</p>
+</li>
+<li>
+<p><strong>resetdb</strong> - PDF documents are placed in the <code>data/</code> directory to provide the content to build a dataset with which the user may interacte. To prepare this dataset after documents have been placd in <code>data/</code>, the parameter <code>--resetdb</code> is used to clear out the former PDF content and to update the dataset with the new PDFs.</p>
+<ul>
+<li>Note: Always use this parameter when changing PDF content to avoid informational contamination of the results.</li>
+</ul>
+</li>
+</ul>
+<h3 id="generation">Generation</h3>
+<p>With <em>Infomaid</em>, users may ask the AI to prepare information from prompts such as outlines, emails, and other types of information. Requests can be made with a prompt that may be entered at the command line, inputted after execution, or entered as a text file. The text file may contain large prompts where there are lots of details to consider. In addition, the text file may help to automate jobs where the prompt is created automatically by another task.</p>
+<h4 id="output">Output</h4>
+<p>All results are placed in the <code>0_out/</code> directory. The output files are listed according to the Ollama model that was used to create their content. Automatically created will be a hidden file called  <code>.mistral_currentStoryIndex.txt</code> that will keep track of the file indexing system. If the file is removed, then <em>Infomaid</em> may overwrite the existing files. For new jobs on <em>Infomaid</em>, it is recommended that <code>0_out/</code> be removed, or moved somewhere outside of the project directory, in efforts to organize output by prompt.</p>
+<h3 id="working-with-pdf-data">Working with PDF Data</h3>
+<p><em>Infomaid</em> also allows the user to interact with PDF documents to search for ideas which are contained (somewhere) in the documents. <em>Retrieval Augmented Generation</em>, or (RAG), is a natural language processing (NLP) technique that harnesses information retrieval from documents for the delivery of generated information through the use of generative-based artificial intelligence (AI) models.</p>
+<h4 id="sample-project">Sample Project</h4>
+<p>For instance, imagine that the user wishes to create a draft of a recommendation letter for someone (i.e., a student) who has supplied a current curriculum vitae (CV) as a PDF document. Using <em>Infomaid</em>, a draft of the letter may be written that has been informed by the CV. To use this RAG functionality in this project, the command line parameter, <code>--usepdfdata</code>, must be utilized to execute the program. See the project&rsquo;s online help for a sample bash command line scrip to engage the RAG feature.</p>
+<p>A prompt for such a task would be the following;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Write a letter of recommendation for MIT graduate school for AstroBill. Use the details from the data to complete the draft.
+</span></span></code></pre></div><p>To set up the project, the PDF of the CV must first be copied into the <code>data/</code> directory of the project. It is important to note that other non-related PDF documents ought to be removed from this directory to prevent interference with the letter-writing task. The following command is necessary to update the working dataset involving PDFs.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --resetdb
+</span></span></code></pre></div><p>The below output will confirm that the database has been updated with the new PDF-derived information</p>
+<p>Output:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Resetting database: <span class="o">{</span>resetDB<span class="o">}</span>
+</span></span><span class="line"><span class="cl">Clearing Database
+</span></span><span class="line"><span class="cl">Number of existing documents in DB: <span class="m">0</span>
+</span></span><span class="line"><span class="cl">Adding new documents: <span class="m">113</span>
+</span></span></code></pre></div><p>Next, the prompt may be introduced with the following command. Note, this command will return three potential letters that may differ in quality.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --count <span class="m">3</span> --usepdfdata --prompt <span class="s2">&#34;Write a letter of recommendation for MIT graduate school for AstroBill. Use the details from the data to complete the draft.&#34;</span>
+</span></span></code></pre></div><p>Same command using the <code>--promptfile FILE.TXT</code> parameter</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">poetry run infomaid --count <span class="m">3</span> --usepdfdata --promptfile promptFiles/mit.txt
+</span></span></code></pre></div><p>Command Output:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Code prompt: Write a letter of recommendation <span class="k">for</span> MIT graduate school <span class="k">for</span> AstroBill. Use the details from the data to <span class="nb">complete</span> the draft. Model: mistral Number of stories to create: <span class="m">3</span>
+</span></span></code></pre></div><p>The results are Markdown files that will appear in the <code>0_out/</code> directory.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Dear Admissions Committee,
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">I am writing this letter in the highest regard and with great enthusiasm to recommend a remarkable individual, AstroBill, for your esteemed graduate program at MIT. AstroBill, also known as Bill on planet Zirconia, is a multifaceted genius with an insatiable thirst for knowledge and innovation that sets him apart from his peers.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">In summary, AstroBill&#39;s unique blend of intellect, creativity, adaptability, determination, and compassion make him an outstanding candidate for MIT&#39;s graduate program. His diverse skills and experiences will enrich any academic or professional environment, and I have no doubt that he will continue to excel in your esteemed institution.
+</span></span></code></pre></div><p>(Or whatever!! Now the letter can be edited to add a <em>human-touch</em> and extra value.)</p>
+<h2 id="testing-the-code">Testing the Code</h2>
+<p>The code may be tested to determine functionality. At present, there are two tests; (1) general execution and (2) to determine whether the querying system if working for pdf data.</p>
+<p>To run tests using <code>pytest</code> which is already installed, use the below commands.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">poetry</span> <span class="n">install</span> <span class="c1"># initialize project</span>
+</span></span><span class="line"><span class="cl"><span class="n">poetry</span> <span class="n">run</span> <span class="n">infomaid</span> <span class="o">--</span><span class="n">resetdb</span> <span class="o">--</span><span class="n">usepdf</span> <span class="c1"># populate pdf db</span>
+</span></span><span class="line"><span class="cl"><span class="n">poetry</span> <span class="n">run</span> <span class="n">pytest</span> <span class="c1"># run tests with the pdf database.</span>
+</span></span></code></pre></div><h2 id="ethical-note">Ethical Note</h2>
+<p>While there is a lot of convenience in using AI to prepare drafts of letters and other communications, in all this automation, it is important to have a human presence to preside over the generated textual (or graphical work). While AI systems excel at processing vast amounts of data and executing tasks with remarkable efficiency, they lack the nuanced understanding and ethical judgment inherent to human cognition, in addition to the sense of ethics that ought to come from the human world.</p>
+<p>Involving ethics in decisions where machines have made the choices (as strange as that may seem) is essential in domains involving communication. Human oversight ensures that communications, whether they involve customer interactions, inter-office correspondence, or public statements, adhere to ethical standards, tone, and context sensitivity. In addition, decisions influenced by AI algorithms must be subjected to human judgment before implementation. Human evaluators can consider broader implications, ethical ramifications, and potential biases that AI systems might overlook. This &ldquo;human-touch&rdquo; can therefore help to safeguard against the potential and unintended consequences which may occur at the intersection of data and decision-making, to name one such area.</p>
+<p>With this in mind, the <em>Infomaid</em> project must be used responsibly. The project is to serve educational purposes &ndash; it is to instruct on the uses of AI, allow for discovery and to entertain (in a way!). Please use <em>Infomaid</em> responsibly.</p>
+<hr>
+<h2 id="a-work-in-progress">A Work In Progress</h2>
+<p>Check back often to see the evolution of the project!! <em>Infomaid</em> is a work-in-progress. Updates will come periodically.</p>
+<p>If you would like to contribute to this project, <strong>then please do!</strong> For instance, if you see some low-hanging fruit or task that you could easily complete, that could add value to the project, then I would love to have your insight.</p>
+<p>Otherwise, please create an Issue for bugs or errors. Since I am a teaching faculty member at Allegheny College, I may not have all the time necessary to quickly fix the bugs. I welcome the OpenSource Community to further the development of this project. Much thanks in advance.</p>
+<p>If you appreciate this project, please consider clicking the project&rsquo;s <em>Star</em> button. :-)</p>
+
+
+    </main>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+      <p>OBC says: Made with ❤️ and ✨'s &mdash; Powered by <a href="https://gohugo.io/" target="_blank" rel="external">Hugo</a> and the <a href="https://github.com/bjacquemet/personal-web" target='_blank' rel="external">Personal Web</a> theme. Icons come from the great <a href="https://fontawesome.com/license" target="_blank" rel="external">Font Awesome </a> library</p>
+      <p>© Oliver Bonham-Carter</p>
+      <p>    <figcaption></figcaption>
+        <p>
+          <center>
+          &#x200B;
+          </center>
+          </p>
+          <audio
+          controls
+          src="/sound/airhorn.mp3">
+              <a href="/sound/airhorn.mp3">
+                  Download audio
+              </a>
+      </audio>
+      <audio
+      controls
+      src="/sound/Evil_laugh_2.oga">
+          <a href="/sound/Evil_laugh_2.oga">
+              Download audio
+          </a>
+  </audio>
+</figure>
+    </p>
+    </div>
+  </footer>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,400i,600" rel="stylesheet">
+  
+
+  <script type="text/javascript">
+    document.querySelector('.mobile-header').addEventListener('click', function () {
+      var om = document.querySelector(".overlay-menu");
+      if (document.querySelector('.hamburger').classList.contains("cross")) {
+        document.querySelector('.hamburger').classList.remove("cross");
+        om.style.display = "none";
+        om.style.width = "0%";
+        om.style.height = "0%";
+      }
+      else {
+        document.querySelector('.hamburger').classList.add("cross");
+        om.style.width = "100%";
+        om.style.height = "100vh";
+        om.style.display = "block";
+      }
+    });
+  </script>
+  <figure>
+</body>
+</html>

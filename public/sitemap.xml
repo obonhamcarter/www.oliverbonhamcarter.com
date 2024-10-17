@@ -2,17 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-10-16T23:52:09-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/projects/infomaid/infomaid/</loc>
+    <lastmod>2024-10-16T23:52:09-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-10-16T23:52:09-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/classes/</loc>
     <lastmod>2024-08-27T18:19:30-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/classes/commcompetencies/commcomp/</loc>
-    <lastmod>2024-08-27T18:19:30-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-27T18:19:30-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -128,11 +138,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/projects/gradealert/gradealert/</loc>
-    <lastmod>2022-08-01T22:17:24-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2022-08-01T22:17:24-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -263,6 +268,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/classes/template/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/projects/infomaid/readme/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

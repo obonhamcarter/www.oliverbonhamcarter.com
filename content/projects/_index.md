@@ -14,6 +14,7 @@ description: 'Projects Section'
 + :computer: Learn about classes from the  <a href="https://www.cis.allegheny.edu/teaching/bulletin/" target="_blank">Academic Bulletin</a> 
 #### Read about some of my more interesting projects!
 
++ [:battery: InfoMaid](/projects/infomaid/infomaid)
 + [:battery: Sentiminer](/projects/sentiminer/sentiminer)
 + [:battery: GradeAlert](/projects/gradealert/gradealert)
 + [:battery: BeagleTM2](/portfolio/sample-project/index_beagletm/)
