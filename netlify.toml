@@ -1,8 +1,6 @@
  [build]
  publish = "public"
- command = """
- hugo --minify --gc &&
- jupyter lite build --output-dir public/live
+ command = "pip install jupyterlite && hugo --minify --gc && jupyter lite build --output-dir public/live"
  """
 
  [build.environment]
