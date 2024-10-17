@@ -1,7 +1,8 @@
 # The following requirement dependancies were taken from https://github.com/jupyterlite/demo/blob/main/requirements.txt
 
 # Core modules (mandatory)
-jupyterlite-core==0.4.0
+#jupyterlite-core==0.4.0
+jupyterlite-core==0.4.3
 jupyterlab~=4.2.4
 notebook~=7.2.1
 
