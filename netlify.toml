@@ -1,12 +1,16 @@
 [[plugins]]
   package = "@netlify/buildbot-extensions"
   [plugins.inputs]
-    command = "npm install -g poetry"
+    command = """
+
+    npm install -g poetry" &&
+    npm install -D @netlify/buildbot-extensions
+"""
 
 [build]
   publish = "public"
   command = """
-    npm install -D @netlify/buildbot-extensions &&
+    
     pip install -q poetry &&
     poetry config virtualenvs.in-project true &&
     poetry install -v &&
