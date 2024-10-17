@@ -1,7 +1,7 @@
  [build]
  publish = "public"
  command = """
- hugo --minify  &&
+ hugo --minify --gc &&
  jupyter lite build --output-dir public/live
  """
 
