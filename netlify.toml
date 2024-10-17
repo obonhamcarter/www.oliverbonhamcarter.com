@@ -5,6 +5,7 @@
  poetry config virtualenvs.in-project true &&
  poetry install -v &&
  jupyter lite build --output-dir public/live
+ """
 
  [build.environment]
  NODE_VERSION = "16"
