@@ -5,7 +5,7 @@
 jupyterlite-core==0.4.3
 jupyterlab~=4.2.5
 notebook~=7.2.1
-seaborn==0.13.2
+seaborn==0.13.2 # Not sure that this library installs properly ...
 
 
 # Python kernel (optional)
