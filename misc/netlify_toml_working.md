@@ -1,18 +1,8 @@
 [build]
   publish = "public"
   command = """
-    # Install JupyterLite and dependencies
     pip install jupyterlite &&
-    # Build the Hugo site
     hugo --minify --gc &&
-
-    # ref for below code: https://github.com/r-wasm/jupyterlite-webr-kernel
-    git clone https://github.com/r-wasm/jupyterlite-webr-kernel
-    cd jupyterlite-webr-kernel
-    pip install .
-    cd ..
-    
-    # Build the JupyterLite environment
     jupyter lite build --output-dir public/live
   """
 
@@ -22,7 +12,7 @@
   PYTHON_VERSION = "3.11"
 
 [[headers]]
-  for = "/*" # This defines which paths this specific [[headers]] block will cover.
+  for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
