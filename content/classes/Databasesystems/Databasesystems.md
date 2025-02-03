@@ -1,8 +1,11 @@
++++
+title = 'DataBase Systems'
+date = 2023-08-02T12:00:00-04:00
+draft = false
++++
+
 ---
-title: "DataBase Systems"
-date: 2023-08-2T12:00:00-04:00
-draft: false
----
+
 #### CMPSC-305-00: Database Systems
 
 <img src="/images/databasesystems/dbs.png" alt="drawing" width="100" height="400"/>

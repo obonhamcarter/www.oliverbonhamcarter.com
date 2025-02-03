@@ -37,6 +37,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/classes/databasesystems/databasesystems/</loc>
+    <lastmod>2023-08-02T12:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/outreach/5_ml_basics/</loc>
     <lastmod>2023-04-20T22:05:15-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -247,11 +252,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/post/shortcodes/</loc>
-    <lastmod>2019-04-29T16:18:12+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/post/config-file/</loc>
     <lastmod>2019-04-20T16:18:12+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -276,10 +276,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/contactandabout/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/classes/databasesystems/databasesystems/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>

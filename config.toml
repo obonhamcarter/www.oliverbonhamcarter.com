@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://oliverbonhamcarter.com/"
 languageCode = "en-us"
 title = "I, Oliver Bonham-Carter, In June"
 theme = "personal-web_files"
@@ -13,7 +13,7 @@ pygmentsCodeFences=true
 
 [params.intro]
   main = "I, Oliver Bonham-Carter :wave:"
-  sub = "Assistant Professor in Computer Science, Allegheny College"
+  sub = "Associate Professor in The Department of Computer and Information Science, Allegheny College"
 
 [params.main]
   latestPublishHeader = " "

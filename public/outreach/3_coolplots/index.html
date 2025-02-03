@@ -11,7 +11,7 @@
     <link rel="icon" href="/images/levelup.png" type="image/x-icon" />
   
 
-  <meta name="generator" content="Hugo 0.130.0">
+  <meta name="generator" content="Hugo 0.138.0">
 
   
 
@@ -27,7 +27,7 @@
   <meta property="og:title" content="3. Cool Plots">
   <meta property="og:description" content="Here we spend some time to look at plots which are not like the traditional plots that we have seen before. Below are different ways to use graphics to explore data and describe trends to show patterns.
 But first, let’s get into a Jupyter client where we can run Python code.
-The Koch Snowflake (a fractle) ​ import matplotlib.pyplot as plt import numpy as np def koch_snowflake(order, scale=10): &#34;&#34;&#34; Return two lists x, y of point coordinates of the Koch snowflake.">
+The Koch Snowflake (a fractle) ​ import matplotlib.pyplot as plt import numpy as np def koch_snowflake(order, scale=10): &#34;&#34;&#34; Return two lists x, y of point coordinates of the Koch snowflake. Parameters ---------- order : int The recursion depth. scale : float The extent of the snowflake (edge length of the base triangle). &#34;&#34;&#34; def _koch_snowflake_complex(order): if order == 0: # initial triangle angles = np.array([0, 120, 240]) &#43; 90 return scale / np.sqrt(3) * np.exp(np.deg2rad(angles) * 1j) else: ZR = 0.5 - 0.5j * np.sqrt(3) / 3 p1 = _koch_snowflake_complex(order - 1) # start points p2 = np.roll(p1, shift=-1) # end points dp = p2 - p1 # connection vectors new_points = np.empty(len(p1) * 4, dtype=np.complex128) new_points[::4] = p1 new_points[1::4] = p1 &#43; dp / 3 new_points[2::4] = p1 &#43; dp * ZR new_points[3::4] = p1 &#43; dp / 3 * 2 return new_points points = _koch_snowflake_complex(order) x, y = points.real, points.imag return x, y x, y = koch_snowflake(order=5) plt.figure(figsize=(8, 8)) plt.axis(&#39;equal&#39;) plt.fill(x, y) plt.show() Love this kind of plot? Then check out more like it at MatPlotLib for filled polygon analysis.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="outreach">
@@ -38,7 +38,7 @@ The Koch Snowflake (a fractle) ​ import matplotlib.pyplot as plt import numpy 
   <meta itemprop="name" content="3. Cool Plots">
   <meta itemprop="description" content="Here we spend some time to look at plots which are not like the traditional plots that we have seen before. Below are different ways to use graphics to explore data and describe trends to show patterns.
 But first, let’s get into a Jupyter client where we can run Python code.
-The Koch Snowflake (a fractle) ​ import matplotlib.pyplot as plt import numpy as np def koch_snowflake(order, scale=10): &#34;&#34;&#34; Return two lists x, y of point coordinates of the Koch snowflake.">
+The Koch Snowflake (a fractle) ​ import matplotlib.pyplot as plt import numpy as np def koch_snowflake(order, scale=10): &#34;&#34;&#34; Return two lists x, y of point coordinates of the Koch snowflake. Parameters ---------- order : int The recursion depth. scale : float The extent of the snowflake (edge length of the base triangle). &#34;&#34;&#34; def _koch_snowflake_complex(order): if order == 0: # initial triangle angles = np.array([0, 120, 240]) &#43; 90 return scale / np.sqrt(3) * np.exp(np.deg2rad(angles) * 1j) else: ZR = 0.5 - 0.5j * np.sqrt(3) / 3 p1 = _koch_snowflake_complex(order - 1) # start points p2 = np.roll(p1, shift=-1) # end points dp = p2 - p1 # connection vectors new_points = np.empty(len(p1) * 4, dtype=np.complex128) new_points[::4] = p1 new_points[1::4] = p1 &#43; dp / 3 new_points[2::4] = p1 &#43; dp * ZR new_points[3::4] = p1 &#43; dp / 3 * 2 return new_points points = _koch_snowflake_complex(order) x, y = points.real, points.imag return x, y x, y = koch_snowflake(order=5) plt.figure(figsize=(8, 8)) plt.axis(&#39;equal&#39;) plt.fill(x, y) plt.show() Love this kind of plot? Then check out more like it at MatPlotLib for filled polygon analysis.">
   <meta itemprop="datePublished" content="2023-03-29T23:43:43-04:00">
   <meta itemprop="dateModified" content="2023-03-29T23:43:43-04:00">
   <meta itemprop="wordCount" content="1301">
@@ -55,7 +55,7 @@ The Koch Snowflake (a fractle) ​ import matplotlib.pyplot as plt import numpy 
       </a>
     </div>
     <h2>I, Oliver Bonham-Carter 👋</h2>
-    <h3>Assistant Professor in Computer Science, Allegheny College</h3>
+    <h3>Associate Professor in The Department of Computer and Information Science, Allegheny College</h3>
     <div class="menu">
       
 
@@ -167,7 +167,7 @@ The Koch Snowflake (a fractle) ​ import matplotlib.pyplot as plt import numpy 
         </a>
       </div>
       <h2>I, Oliver Bonham-Carter 👋</h2>
-      <h3>Assistant Professor in Computer Science, Allegheny College</h3>
+      <h3>Associate Professor in The Department of Computer and Information Science, Allegheny College</h3>
       <div class="menu">
         
 
@@ -730,7 +730,6 @@ The Koch Snowflake (a fractle) ​ import matplotlib.pyplot as plt import numpy 
   </footer>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,400i,600" rel="stylesheet">
   
-
   <script type="text/javascript">
     document.querySelector('.mobile-header').addEventListener('click', function () {
       var om = document.querySelector(".overlay-menu");

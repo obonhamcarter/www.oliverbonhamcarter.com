@@ -38,13 +38,6 @@
       <description>&lt;p&gt;Menu in the sidebar can be defined within the &lt;code&gt;config.toml&lt;/code&gt; or directly in the files.&#xA;I prefer the config file approach, as this menu is pretty simple.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Shortcodes</title>
-      <link>http://localhost:1313/post/shortcodes/</link>
-      <pubDate>Mon, 29 Apr 2019 19:12:12 +0100</pubDate>
-      <guid>http://localhost:1313/post/shortcodes/</guid>
-      <description>&lt;p&gt;Introduction of the shortcodes defined in the personal-web theme.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Config File</title>
       <link>http://localhost:1313/post/config-file/</link>
       <pubDate>Sat, 20 Apr 2019 19:12:12 +0100</pubDate>
@@ -56,7 +49,7 @@
       <link>http://localhost:1313/post/define-specific-og-image/</link>
       <pubDate>Sat, 20 Apr 2019 11:14:59 +0200</pubDate>
       <guid>http://localhost:1313/post/define-specific-og-image/</guid>
-      <description>Within any page, you can add in the FrontMatter a images array that will be used to define a specific Open Graph image.&#xA;For example, see content/_index.md page:&#xA;images: [&amp;#34;/images/sample.jpg&amp;#34;] </description>
+      <description>&lt;p&gt;Within any page, you can add in the FrontMatter a images array that will be used to define a specific Open Graph image.&lt;/p&gt;&#xA;&lt;p&gt;For example, see &lt;code&gt;content/_index.md&lt;/code&gt; page:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-YAML&#34; data-lang=&#34;YAML&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;images&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/images/sample.jpg&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
