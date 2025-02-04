@@ -4,7 +4,7 @@ date: 2023-01-16T21:00:00-04:00
 draft: false
 ---
 
-Welcome to a resources page for Data Science research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work.
+:rocket: Welcome to a resources page for Data Science research. Here you will find a list of links for data, tools, tutorials and related resources that may be very helpful to your work. Note: If you find any resources that you think are important, please let me know [obonhamcarter(a)allegheny(dot)com]. :smile:
 
 ---
 
