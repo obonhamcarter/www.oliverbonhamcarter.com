@@ -58,12 +58,19 @@ draft: false
 &#x200B;
 </center>
 
-
  + Who was the [creator](https://en.wikipedia.org/wiki/Arthur_Conan_Doyle) of Sherlock Holmes?
 
-
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
 
 ---
+
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
 
 ### Sherlock in Film
 
@@ -73,26 +80,27 @@ draft: false
 + __The Empty House__: with Jeremy Brett as Sherlock Holmes and Edward Hardwicke as Dr. Watson.
 {{< youtube KeIGNlltnhQ >}}
 
++ __The Second Stain__: with Jeremy Brett as Sherlock Holmes and Edward Hardwicke as Dr. Watson.
+{{< youtube lEwmmquJmXs >}}
 
- + __Sherlock Holmes: The House of Fear (1945)__
-Follow Sherlock and Dr. Watson on another thrilling adventure!
-Staring Basil Rathbone and Nigel Bruce
-[Read some background from wikipedia](https://en.wikipedia.org/wiki/The_House_of_Fear_1945)
-{{< youtube DN4UA3rT11M >}}
++ __The Bruce Partington Plans__: with Jeremy Brett as Sherlock Holmes and Edward Hardwicke as Dr. Watson.
+{{< youtube 3t9icMCiBUM >}}
 
++ __The Copper Beeches_: with Jeremy Brett as Sherlock Holmes and Edward Hardwicke as Dr. Watson.
+{{< youtube nnwOdEu4A6Q >}}
 
- + __The Hound of the BaskerVilles__: A great Sherlock Holmes mystery of cold hard murder.
-Staring Basil Rathbone and Nigel Bruce
-{{<youtube AwKv0fkFZ54>}}
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
 
+---
+
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
 
  + __The Hound of the BaskerVilles__: Still the same amazing story which has been updated to the 1980's! Wow!
 Staring Jeremy Brett and Edward Hardwicke.
 {{<youtube LFXT7_cKgKo>}}
-
- + __Nightmare: Birth of Horror - Hound of the Baskervilles (BBC 1996)__
-Find out more about the inspiration behind Arthur Conan Doyle's famous novel.
-{{<youtube NJEoHy7R9IQ>}}
-
----
-
