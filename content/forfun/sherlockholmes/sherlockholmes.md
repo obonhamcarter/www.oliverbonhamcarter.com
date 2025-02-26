@@ -74,6 +74,9 @@ draft: false
 
 ### Sherlock in Film
 
++ __The Copper Beeches_: with Jeremy Brett as Sherlock Holmes and Edward Hardwicke as Dr. Watson.
+{{< youtube nnwOdEu4A6Q >}}
+
 + __A Scandal in Bohemia__: with Jeremy Brett as Sherlock Holmes and David Burke as Dr. Watson.
 {{< youtube ZaDfTP7zohQ >}}
 
@@ -85,9 +88,6 @@ draft: false
 
 + __The Bruce Partington Plans__: with Jeremy Brett as Sherlock Holmes and Edward Hardwicke as Dr. Watson.
 {{< youtube 3t9icMCiBUM >}}
-
-+ __The Copper Beeches_: with Jeremy Brett as Sherlock Holmes and Edward Hardwicke as Dr. Watson.
-{{< youtube nnwOdEu4A6Q >}}
 
 <!-- add a line drop -->
 <center>
