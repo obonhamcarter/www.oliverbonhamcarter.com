@@ -75,7 +75,7 @@ draft: false
 ### Sherlock in Film
 
 + __A Scandal in Bohemia__: with Jeremy Brett as Sherlock Holmes and David Burke as Dr. Watson.
-{{<youtube ZaDfTP7zohQ>}}
+{{< youtube ZaDfTP7zohQ >}}
 
 + __The Empty House__: with Jeremy Brett as Sherlock Holmes and Edward Hardwicke as Dr. Watson.
 {{< youtube KeIGNlltnhQ >}}
