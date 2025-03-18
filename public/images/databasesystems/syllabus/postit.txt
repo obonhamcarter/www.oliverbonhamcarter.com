@@ -1,1 +1,0 @@
-scp obc_syllabus_CS312s2022.pdf obonhamcarter@cs.allegheny.edu:/home/obonhamcarter/public_html/cs312

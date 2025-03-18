@@ -1,1 +1,0 @@
-scp syllabus_cs102_fall2019.pdf obonhamcarter@cs.allegheny.edu:/home/o/obonhamcarter/public_html/cs102/syllabus_cs102_fall2019.pdf
