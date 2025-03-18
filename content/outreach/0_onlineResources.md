@@ -4,6 +4,8 @@ date = 2025-02-04T11:42:33-05:00
 draft = false
 +++
 
+### Welcome!
+
 :rocket: Welcome to a resources page for Data Science research. Here you will find a list of links for pages of online analysis tools. This means that you can play with data without having to write a line of code. Note: If you find any resources that you think are important, please let me know [obonhamcarter(a)allegheny(dot)com]. :smile:
 
 <!-- add a line drop -->
@@ -12,11 +14,15 @@ draft = false
 </center>
 
 <center>
-<img src="/images/main/dashboard_02.png" alt="dashboard" style="width:700px;"/>
+<img src="/images/outreach/plotting.png" alt="dashboard" style="width:700px;"/>
 <!-- <img src="/images/outreach/fc1.jpg" alt="Futuristic Classrooms" width = "600" height = "600"/> -->
 </center>
 
-Welcome! Here, you will find a list of interactive Data Analytics resources. Come play with data without having to write a line of code!
+
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
 
 * __Music__
   + [How Music Taste Evolved](https://pudding.cool/2017/03/music-history/)
