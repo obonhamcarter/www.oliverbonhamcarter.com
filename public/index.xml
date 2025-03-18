@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Oliver Bonham-Carter</copyright>
-    <lastBuildDate>Wed, 16 Oct 2024 23:52:09 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 11:42:33 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Online Resources</title>
+      <link>http://localhost:1313/outreach/0_onlineresources/</link>
+      <pubDate>Tue, 04 Feb 2025 11:42:33 -0500</pubDate>
+      <guid>http://localhost:1313/outreach/0_onlineresources/</guid>
+      <description>&lt;p&gt;&amp;#x1f680; Welcome to a resources page for Data Science research. Here you will find a list of links for pages of online analysis tools. This means that you can play with data without having to write a line of code. Note: If you find any resources that you think are important, please let me know [obonhamcarter(a)allegheny(dot)com]. &amp;#x1f604;&lt;/p&gt;&#xA;&lt;!-- add a line drop --&gt;&#xA;&lt;center&gt;&#xA;&amp;#x200B;&#xA;&lt;/center&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/main/dashboard_02.png&#34; alt=&#34;dashboard&#34; style=&#34;width:700px;&#34;/&gt;&#xA;&lt;!-- &lt;img src=&#34;http://localhost:1313/images/outreach/fc1.jpg&#34; alt=&#34;Futuristic Classrooms&#34; width = &#34;600&#34; height = &#34;600&#34;/&gt; --&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;Welcome! Here, you will find a list of interactive Data Analytics resources. Come play with data without having to write a line of code!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Infomaid</title>
       <link>http://localhost:1313/projects/infomaid/infomaid/</link>
@@ -87,13 +94,6 @@
       <description>&lt;p&gt;These steps assume that you have already built a website with Hugo, and have installed a theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;netlify&#34;&gt;Netlify&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go to &lt;a href=&#34;https://netlify.com&#34;&gt;Netlify&amp;rsquo;s website&lt;/a&gt; and sign up or log in. &lt;img src=&#34;http://localhost:1313/images/screenshots/1_login.png&#34; alt=&#34;Netlify Login&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Go to the &amp;ldquo;Sites&amp;rdquo; tab and click on &amp;ldquo;Add new site&amp;rdquo; &lt;img src=&#34;http://localhost:1313/images/screenshots//2_site.png&#34; alt=&#34;Add New Site&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Select &amp;ldquo;Import an existing project&amp;rdquo; &lt;img src=&#34;http://localhost:1313/images/screenshots//3_existing-project.png&#34; alt=&#34;Import an existing project&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Connect to GitHub by clicking on the &amp;ldquo;GitHub&amp;rdquo; button &lt;img src=&#34;http://localhost:1313/images/screenshots//4_github.png&#34; alt=&#34;Connect to GitHub&#34;&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Choose the repository to link to your site on Netlify. &lt;img src=&#34;http://localhost:1313/images/screenshots//5_import.png&#34; alt=&#34;Import an existing project&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Online Resources</title>
-      <link>http://localhost:1313/outreach/0_onlineresources/</link>
-      <pubDate>Wed, 25 Jan 2023 21:30:44 -0500</pubDate>
-      <guid>http://localhost:1313/outreach/0_onlineresources/</guid>
-      <description>&lt;!-- add a line drop --&gt;&#xA;&lt;center&gt;&#xA;&amp;#x200B;&#xA;&lt;/center&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/outreach/bluePlot.jpg&#34; alt=&#34;Futuristic Classrooms&#34; style=&#34;width:700px;&#34;/&gt;&#xA;&lt;!-- &lt;img src=&#34;http://localhost:1313/images/outreach/fc1.jpg&#34; alt=&#34;Futuristic Classrooms&#34; width = &#34;600&#34; height = &#34;600&#34;/&gt; --&gt;&#xA;&lt;/center&gt;&#xA;&lt;p&gt;Welcome! Here, you will find a list of interactive Data Analytics resources. Come play with data without having to write a line of code!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Music&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pudding.cool/2017/03/music-history/&#34;&gt;How Music Taste Evolved&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pudding.cool/projects/music-history/&#34;&gt;How Billboard’s Top Hits Changed&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pudding.cool/projects/vocabulary/&#34;&gt;Largest Vocabulary in Hip Hop&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://observablehq.com/@ca25d09366015836/csc-485-final-project-report&#34;&gt;Interactive Info Visualization of Spotify Music Genre Overtime&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://observablehq.com/@uw-info474/exploratory-data-analysis-of-various-music-datasets&#34;&gt;Exploratory Data Analysis of Various Music Datasets&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Library&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Build a Hugo Site with a Theme</title>
       <link>http://localhost:1313/resources/hugotutorial/</link>
       <pubDate>Fri, 20 Jan 2023 18:28:30 -0500</pubDate>
@@ -147,7 +147,7 @@
       <link>http://localhost:1313/forfun/sherlockholmes/sherlockholmes/</link>
       <pubDate>Thu, 18 Aug 2022 01:48:18 -0400</pubDate>
       <guid>http://localhost:1313/forfun/sherlockholmes/sherlockholmes/</guid>
-      <description>&lt;!-- &lt;figure &gt;&#xA;  &lt;audio controls preload=&#34;metadata&#34;&gt;&#xA;    &lt;source src=&#34;http://localhost:1313/sound/airhorn.mp3&#34; type=&#34;audio/mpeg&#34;&gt;&#xA;  &lt;/audio&gt;&#xA;  &lt;figcaption&gt;air horn&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA; --&gt;&#xA;&lt;h4 id=&#34;on-the-worlds-most-famous-consulting-detective&#34;&gt;On the world&amp;rsquo;s most famous &lt;strong&gt;Consulting Detective&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/forfun/bakerstreet.png&#34; alt=&#34;221b BakerStreet&#34; style=&#34;width:200px;&#34;/&gt;&#xA;&lt;/center&gt;&#xA;&lt;!-- add a line drop --&gt;&#xA;&lt;center&gt;&#xA;&amp;#x200B;&#xA;&lt;/center&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/forfun/sh_train_i.jpg&#34; alt=&#34;221b BakerStreet&#34; width = &#34;300&#34; height = &#34;400&#34;&gt;&#xA;&lt;/center&gt;&#xA;&lt;!-- add a line drop --&gt;&#xA;&lt;center&gt;&#xA;&amp;#x200B;&#xA;&lt;/center&gt;&#xA;&lt;h3 id=&#34;sherlock-in-words&#34;&gt;Sherlock in words&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;_Read all the Sherlock Holmes stories online at the _&#xA;&lt;a href=&#34;https://sherlock-holm.es/&#34;&gt;The complete Sherlock Holmes Canon&lt;/a&gt;, or just skip to the cool quotes from his adventures at &lt;a href=&#34;https://en.wikiquote.org/wiki/Sherlock_Holmes&#34;&gt;Wikiquote&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Dr. Bell &amp;ndash; the professor of medicine who taugh at Sir Arthur Conan Doyal&amp;rsquo;s medical school who would form the image of the famous Sherlock Holmes. &lt;a href=&#34;https://flashbak.com/the-man-who-was-sherlock-holmes-441368/&#34;&gt;The Man Who Was Sherlock Holmes&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;!-- &lt;figure &gt;&#xA;  &lt;audio controls preload=&#34;metadata&#34;&gt;&#xA;    &lt;source src=&#34;http://localhost:1313/sound/airhorn.mp3&#34; type=&#34;audio/mpeg&#34;&gt;&#xA;  &lt;/audio&gt;&#xA;  &lt;figcaption&gt;air horn&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA; --&gt;&#xA;&lt;h4 id=&#34;on-the-worlds-most-famous-__consulting-detective__&#34;&gt;On the world&amp;rsquo;s most famous &lt;strong&gt;Consulting Detective&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/forfun/bakerstreet.png&#34; alt=&#34;221b BakerStreet&#34; style=&#34;width:200px;&#34;/&gt;&#xA;&lt;/center&gt;&#xA;&lt;!-- add a line drop --&gt;&#xA;&lt;center&gt;&#xA;&amp;#x200B;&#xA;&lt;/center&gt;&#xA;&lt;center&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/forfun/sh_train_i.jpg&#34; alt=&#34;221b BakerStreet&#34; width = &#34;300&#34; height = &#34;400&#34;&gt;&#xA;&lt;/center&gt;&#xA;&lt;!-- add a line drop --&gt;&#xA;&lt;center&gt;&#xA;&amp;#x200B;&#xA;&lt;/center&gt;&#xA;&lt;h3 id=&#34;sherlock-in-words&#34;&gt;Sherlock in words&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;_Read all the Sherlock Holmes stories online at the _&#xA;&lt;a href=&#34;https://sherlock-holm.es/&#34;&gt;The complete Sherlock Holmes Canon&lt;/a&gt;, or just skip to the cool quotes from his adventures at &lt;a href=&#34;https://en.wikiquote.org/wiki/Sherlock_Holmes&#34;&gt;Wikiquote&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Dr. Bell &amp;ndash; the professor of medicine who taugh at Sir Arthur Conan Doyal&amp;rsquo;s medical school who would form the image of the famous Sherlock Holmes. &lt;a href=&#34;https://flashbak.com/the-man-who-was-sherlock-holmes-441368/&#34;&gt;The Man Who Was Sherlock Holmes&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>iTea</title>
@@ -178,13 +178,6 @@
       <description>&lt;!-- &#xA;##### Sentiminer&#xA;##### Date: 22 March 2022&#xA;##### Oliver Bonham-Carter, [Allegheny College](https://allegheny.edu/)&#xA;##### email: obonhamcarter@allegheny.edu&#xA;&#xA;--- --&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/projects/sentiminer/graphics/sentiminer_logo.png&#34; alt=&#34;logo&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- &#xA;[![MIT Licence](https://img.shields.io/bower/l/bootstrap)](https://opensource.org/licenses/MIT)&#xA;&#xA;[![BLM](https://img.shields.io/badge/BlackLivesMatter-yellow)](https://blacklivesmatter.com/) --&gt;&#xA;&lt;p&gt;GitHub link: &lt;a href=&#34;https://github.com/developmentAC/sentiminer&#34;&gt;https://github.com/developmentAC/sentiminer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;Overview&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#mechanism&#34;&gt;Mechanism&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#commands&#34;&gt;Commands&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#output&#34;&gt;Output&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#evolution&#34;&gt;Evolution&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&lt;p&gt;Sentiment analysis is the semantic study of emotion in language. This form of analysis is used to determine the level of satisfaction or dissatisfaction in textual data such as reviews, survey responses, online and social media posting and similar. Due to the often high volume of feedback from the above types of textual data, sentiment analysis provides an automated solution for determining the &amp;ldquo;feeling&amp;rdquo; of the text.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Operating Systems</title>
-      <link>http://localhost:1313/classes/operatingsystems/operatingsystems/</link>
-      <pubDate>Sun, 26 Jun 2022 13:25:34 -0400</pubDate>
-      <guid>http://localhost:1313/classes/operatingsystems/operatingsystems/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Academic Discord</title>
       <link>http://localhost:1313/classes/academicdiscord/academicdiscord/</link>
       <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
@@ -211,20 +204,6 @@
       <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
       <guid>http://localhost:1313/classes/juniorseminar/juniorseminar/</guid>
       <description>&lt;h4 id=&#34;cmpsc-580-00-junior-seminar&#34;&gt;CMPSC-580-00: Junior Seminar&lt;/h4&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/juniorseminar/cogs.png&#34; alt=&#34;drawing&#34; width=&#34;100&#34; height=&#34;200&#34;/&gt;&#xA;&lt;h3 id=&#34;when-do-we-meet&#34;&gt;When Do We Meet?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/CMPSC-580-Allegheny-College-Spring-2024/classDocs?tab=readme-ov-file#Meeting-times&#34; target=&#34;_blank&#34;&gt;Meeting Times&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;academic-bulletin-description&#34;&gt;Academic Bulletin Description&lt;/h3&gt;&#xA;&lt;p&gt;A team-based investigation of select topics in computer science, preparing students for the proposal and completion of a senior project. Working in teams to complete hands-on activities, students learn how to read research papers, state and motivate research questions, design and conduct experiments, and collect and organize evidence for evaluating scientific hypotheses. During a weekly laboratory session students use state-of-the-art technology to gain practical skills in scientific and technical writing, the presentation of computational and mathematical concepts, and the visualization of experimental data. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions. Prerequisite: CMPSC*101 and at least one of the core courses. Distribution Requirements: None.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tuple Swapping</title>
-      <link>http://localhost:1313/classes/discretestructures/surveys/newtuple/</link>
-      <pubDate>Sun, 26 Jun 2022 13:25:33 -0400</pubDate>
-      <guid>http://localhost:1313/classes/discretestructures/surveys/newtuple/</guid>
-      <description>&lt;h2 id=&#34;project-goals&#34;&gt;Project Goals&lt;/h2&gt;&#xA;&lt;p&gt;This assignment invites you to run and observe one Python program called&#xA;&lt;code&gt;perform-ordered-pair-swap&lt;/code&gt;. Instead of using the&#xA;&lt;a href=&#34;https://python-poetry.org/&#34;&gt;Poetry&lt;/a&gt; tool for managing dependencies and&#xA;packaging these programs, which the &lt;a href=&#34;http://localhost:1313/proactive-skills/introduction-proactive-skills/&#34;&gt;technical&#xA;skills&lt;/a&gt; advise as a best&#xA;practice, this program is a script, without any dependencies on other Python&#xA;packages, that you can run through the Python interpreter. As you continue to&#xA;practice a different way to run a Python program, this project invites you to&#xA;explore how to (i) find and fix defects in a function and (ii) create and use&#xA;fixed-size tuples that can contain arbitrary types of data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tuple Swapping</title>
-      <link>http://localhost:1313/classes/discretestructures/surveys/topic0/</link>
-      <pubDate>Fri, 24 Jun 2022 13:25:33 -0400</pubDate>
-      <guid>http://localhost:1313/classes/discretestructures/surveys/topic0/</guid>
-      <description>&lt;h2 id=&#34;tuple-swapping&#34;&gt;Tuple Swapping&lt;/h2&gt;&#xA;&lt;h2 id=&#34;project-goals&#34;&gt;Project Goals&lt;/h2&gt;&#xA;&lt;p&gt;This this This assignment invites you to run and observe one Python program called&#xA;&lt;code&gt;perform-ordered-pair-swap&lt;/code&gt;. Instead of using the&#xA;&lt;a href=&#34;https://python-poetry.org/&#34;&gt;Poetry&lt;/a&gt; tool for managing dependencies and&#xA;packaging these programs, which the &lt;a href=&#34;http://localhost:1313/proactive-skills/introduction-proactive-skills/&#34;&gt;technical&#xA;skills&lt;/a&gt; advise as a best&#xA;practice, this program is a script, without any dependencies on other Python&#xA;packages, that you can run through the Python interpreter. As you continue to&#xA;practice a different way to run a Python program, this project invites you to&#xA;explore how to (i) find and fix defects in a function and (ii) create and use&#xA;fixed-size tuples that can contain arbitrary types of data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Faculty Talk</title>
@@ -267,13 +246,6 @@
       <pubDate>Thu, 02 May 2019 19:25:30 +0200</pubDate>
       <guid>http://localhost:1313/post/archetypes/</guid>
       <description>&lt;p&gt;The archetypes are defined in the &lt;code&gt;archetypes&lt;/code&gt; folder, for both post and portfolio.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Manage Your Menu</title>
-      <link>http://localhost:1313/post/manage-your-menu/</link>
-      <pubDate>Thu, 02 May 2019 19:06:29 +0200</pubDate>
-      <guid>http://localhost:1313/post/manage-your-menu/</guid>
-      <description>&lt;p&gt;Menu in the sidebar can be defined within the &lt;code&gt;config.toml&lt;/code&gt; or directly in the files.&#xA;I prefer the config file approach, as this menu is pretty simple.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Config File</title>

@@ -31,13 +31,6 @@
       <description>&lt;p&gt;The archetypes are defined in the &lt;code&gt;archetypes&lt;/code&gt; folder, for both post and portfolio.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Manage Your Menu</title>
-      <link>http://localhost:1313/post/manage-your-menu/</link>
-      <pubDate>Thu, 02 May 2019 19:06:29 +0200</pubDate>
-      <guid>http://localhost:1313/post/manage-your-menu/</guid>
-      <description>&lt;p&gt;Menu in the sidebar can be defined within the &lt;code&gt;config.toml&lt;/code&gt; or directly in the files.&#xA;I prefer the config file approach, as this menu is pretty simple.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Config File</title>
       <link>http://localhost:1313/post/config-file/</link>
       <pubDate>Sat, 20 Apr 2019 19:12:12 +0100</pubDate>

@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-16T23:52:09-04:00</lastmod>
+    <lastmod>2025-02-04T11:42:33-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/outreach/0_onlineresources/</loc>
+    <lastmod>2025-02-04T11:42:33-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/outreach/</loc>
+    <lastmod>2025-02-04T11:42:33-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -47,11 +57,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/outreach/</loc>
-    <lastmod>2023-04-20T22:05:15-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/resources/womenincomputing/</loc>
     <lastmod>2023-04-05T12:47:10-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -79,11 +84,6 @@
   </url><url>
     <loc>http://localhost:1313/resources/hugonetlify/</loc>
     <lastmod>2023-01-30T18:28:30-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/outreach/0_onlineresources/</loc>
-    <lastmod>2023-01-25T21:30:44-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -167,11 +167,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/classes/operatingsystems/operatingsystems/</loc>
-    <lastmod>2022-06-26T13:25:34-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/classes/academicdiscord/academicdiscord/</loc>
     <lastmod>2022-06-26T13:25:33-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -194,16 +189,6 @@
   </url><url>
     <loc>http://localhost:1313/classes/juniorseminar/juniorseminar/</loc>
     <lastmod>2022-06-26T13:25:33-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/classes/discretestructures/surveys/newtuple/</loc>
-    <lastmod>2022-06-26T13:25:33-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/classes/discretestructures/surveys/topic0/</loc>
-    <lastmod>2022-06-24T13:25:33-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -244,11 +229,6 @@
   </url><url>
     <loc>http://localhost:1313/post/archetypes/</loc>
     <lastmod>2019-05-02T19:25:30+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/post/manage-your-menu/</loc>
-    <lastmod>2019-05-02T19:06:29+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
