@@ -130,6 +130,13 @@ pygmentsCodeFences=true
    url = "/outreach/"
    weight = -80
 
+[[menu.main]]
+   identifier = "DataGators"
+   name = "DataGators"
+   title = "DataGators"
+   url = "https://data-gators.com/"
+   weight = -70
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"
