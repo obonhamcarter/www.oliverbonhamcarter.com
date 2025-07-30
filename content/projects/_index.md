@@ -14,10 +14,11 @@ description: 'Projects Section'
 + :computer: Learn about classes from the  <a href="https://www.cis.allegheny.edu/teaching/bulletin/" target="_blank">Academic Bulletin</a> 
 #### Read about some of my more interesting projects!
 
++ [:battery: Rinfomaid](/projects/rinfomaid/rinfomaid)
 + [:battery: InfoMaid](/projects/infomaid/infomaid)
 + [:battery: Sentiminer](/projects/sentiminer/sentiminer)
 + [:battery: GradeAlert](/projects/gradealert/gradealert)
-+ [:battery: BeagleTM2](/portfolio/sample-project/index_beagletm/)
++ [:battery: BeagleTA](/projects/beagleta/beagleTA/)
 + <a href="https://github.com/developmentAC" target="_blank">:battery: Other projects at GitHub!</a>
 ---
 
