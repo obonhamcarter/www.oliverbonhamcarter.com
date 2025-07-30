@@ -1,7 +1,7 @@
 ---
 title: "Rinfomaid"
 date: 2025-07-29T23:06:09-04:00
-draft: true
+draft: false
 ---
 
 ### Rinfomaid: A textual AI application, markdown archival and RAG document query system written in Rust. Neat-o!, right?

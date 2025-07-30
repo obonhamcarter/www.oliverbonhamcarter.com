@@ -1,7 +1,7 @@
 ---
 title: "BeagleTA"
 date: 2025-07-29T23:16:26-04:00
-draft: true
+draft: false
 ---
 
 # BeagleTA: A Text Analysis Processing Pipeline for the analysis of relationships between documents based on word usage
