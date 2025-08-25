@@ -1,6 +1,7 @@
 ---
 title: Classes
 description: 'Classes Section'
+draft: false
 ---
 ### So, what _**do**_ I teach here?
 
@@ -10,8 +11,10 @@ description: 'Classes Section'
 
 #### This semester, I am teaching ...
 
-- [:bar_chart: Data Science](/classes/dataScience/dataScience)
-- [:heart_hands: SWS-105 Intro to Comm Competencies](/classes/commcompetencies/commcomp)
+<!-- Links are all lover case regardless of how they appear in the file listing. -->
+
+- [:abacus: Data Structures](/classes/datastructures/datastructures)
+- [:bar_chart: Data Science](/classes/datascience/datascience)
 
 <center>
 &#x200B;
@@ -33,13 +36,15 @@ description: 'Classes Section'
 &#x200B;
 </center>
 
-- [:man_biking: Discrete Structures](/classes/discretestructures/)
-- [:woman_climbing: Junior Seminar](/classes/juniorseminar/juniorseminar/)
+
+- [:heart_hands: SWS-105 Intro to Comm Competencies](/classes/commcompetencies/commcomp)
+- [:rocket: Junior Seminar](/classes/juniorseminar/juniorseminar/)
 - [:compass: Academic Discord](/classes/academicdiscord/academicdiscord/)
-- [:computer_disk: Operating Systems](/classes/operatingsystems/operatingsystems/)
+- [:computer: Operating Systems](/classes/operatingsystems/operatingsystems/)
 - [:dna: Bioinformatics](/classes/bioinformatics/bioinformatics/)
 <!-- need to go to index on discretestructures since there are "blog files" to host there... -->
 - [:thread: Database Systems](/classes/databasesystems/databasesystems/)
+- [:bike: Discrete Structures](/classes/discretestructures/)
 
 ---
 
