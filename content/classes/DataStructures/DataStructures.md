@@ -6,6 +6,8 @@ draft: false
 
 #### CMPSC 101 Data Structures, Fall 2025
 
+<img src="/images/binaryTree.png" alt="drawing" />
+
 Please visit the GitHub page for this class as [https://cmpsc101fall2025datastructures.github.io/site/](https://cmpsc101fall2025datastructures.github.io/site/).
 
 #### The Academic Bulletin Description
