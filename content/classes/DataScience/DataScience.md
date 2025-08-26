@@ -39,11 +39,13 @@ If you are already on the department's Discord server, then you will be given ac
 
 ### Syllabus, classDocs/ Repository
 
-* <a href="https://github.com/AlleghenyCollege-CIS-301-F2024/classDocs" target="_blank">classDocs/ at GitHub</a>
+The syllabus and other class documents are available in the classDocs/ repository on GitHub.
 
-<!-- ### Grade book Repository!
-* <a href="" target="_blank">Gradebook Repository</a>
- -->
+* <a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs" target="_blank">classDocs/ at GitHub</a>
+
+### Grade book Repository!
+* <a href="https://classroom.github.com/a/toR1cj0d" target="_blank">Gradebook Repository</a>
+
 
 ### Resources
 
