@@ -22,13 +22,13 @@ If you are already on the department's Discord server, then you will be given ac
 
 ### Meeting Times
 
+**Alden Hall, 101 Lecture**
 M/W/F 9:00 AM - 9:50 AM
-27 August 2024 - 12 December 2024
-Alden Hall, 101 Lecture
+8/26/2025 - 12/11/2025
 
-W 2:30 PM - 4:20 PM
-27 August 2024 - 12 December 2024
-Alden Hall, 101 Lab
+**Alden Hall, 101 Lab**
+W 2:30 PM - 4:00 PM
+8/26/2025 - 12/11/2025
 
 ### Office Hours
 
