@@ -6,9 +6,11 @@ draft: false
 
 #### CMPSC 101 Data Structures, Fall 2025
 
-<img src="/images/binaryTree.png" alt="drawing" />
+<a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/binaryTree.png" alt="drawing" /></a>
 
-The GitHub page for this class is located at; [https://cmpsc101fall2025datastructures.github.io/site/](https://cmpsc101fall2025datastructures.github.io/site/).
+The website for this class is located at; 
+<a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank">GitHub Pages</a>
+
 
 #### The Academic Bulletin Description
 
