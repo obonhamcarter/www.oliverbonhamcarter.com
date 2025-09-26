@@ -8,8 +8,23 @@ draft: false
 
 <a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/binaryTree.png" alt="drawing" /></a>
 
-The website for this class is located at; 
+The website for this class is located at;
 <a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank">GitHub Pages</a>
+
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
+
+### Quick Links
+
+* <a href="https://forms.gle/PQRJH3PoZwbNgC3y8" target="_blank">Daily Attendance Form</a>
+* <a href="https://classroom.github.com/a/34hXX52q" target="_blank">Gradebook Repository</a>
+* <a href="https://forms.gle/hjrJLnpHrauFmJqH8" target="_blank">Tokens Form</a>
+
+* Course Website:
+  * <a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank">Course syllabus</a>
+  * <a href="https://cmpsc101fall2025datastructures.github.io/site/materials/0_materials.html" target="_blank">Lessons Material</a>
 
 
 #### The Academic Bulletin Description

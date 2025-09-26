@@ -4,9 +4,27 @@ date: 2022-06-26T13:25:33-04:00
 draft: false
 ---
 
-#### CMPSC-301-00: Data Science
+#### CMPSC-301-00: Data Science, Fall 2025
 
-<img src="/images/dataanalytics/volcano.png" alt="drawing" width="100" height="400"/>
+<a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs" target="_blank" rel="noopener noreferrer"><img src="/images/dataanalytics/volcano.png" alt="drawing" /></a>
+
+The website for this class is located at;
+<a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs/" target="_blank">GitHub Pages</a>
+
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
+
+### Quick Links
+
+* <a href="https://forms.gle/K8yZJNJTU8soNQX27" target="_blank">Daily Attendance Form</a>
+* <a href="https://classroom.github.com/a/toR1cj0d" target="_blank">Gradebook Repository</a>
+* <a href="https://forms.gle/hDnBiDa8R1BcMhT88" target="_blank">Tokens Form</a>
+
+* ClassDocs:
+  * <a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs?tab=readme-ov-file#cmpsc-301-data-science-course-syllabus" target="_blank">Course syllabus</a>
+  * <a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs/tree/main/lessons" target="_blank">Course Lesson Materials</a>
 
 ### Academic Bulletin Description
 
