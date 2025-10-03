@@ -59,6 +59,7 @@ draft = false
   + [What’s Really Warming the World?](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
   + [FiveThirtyEight: (Presidential) Latest Polls](https://projects.fivethirtyeight.com/polls/)
   + [Skyscraper Page](https://skyscraperpage.com/diagrams/)
+  + [The National Registry of Exonerations](https://exonerationregistry.org/Exonerations-in-the-United-States-Map#crimeState)
 
 * __Good Articles About Data and Tools__
   + [WPdatatables](https://wpdatatables.com/interactive-data-visualization/)
