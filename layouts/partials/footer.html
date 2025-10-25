@@ -28,6 +28,165 @@
     </p>
     </div>
   </footer>
+  
+  <!-- Clipboard CSS - Embedded for reliability -->
+  <style>
+/* Clipboard Copy Button Styles */
+.copy-button {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background: #0066cc;
+    color: #ffffff;
+    border: 2px solid #004499;
+    border-radius: 6px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    z-index: 20;
+    opacity: 0.9;
+    line-height: 1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    /* Ensure button is clearly visible */
+    min-width: 35px;
+    text-align: center;
+}
+
+.copy-button:hover {
+    opacity: 1;
+    background: #0052a3;
+    border-color: #003366;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.copy-button:active {
+    transform: scale(0.95);
+}
+
+.copy-button.copied {
+    background: #28a745;
+    border-color: #1e7e34;
+    color: white;
+    opacity: 1;
+}
+
+.copy-button.copy-error {
+    background: #dc3545;
+    border-color: #c82333;
+    color: white;
+    opacity: 1;
+}
+
+/* Ensure code blocks have relative positioning for button placement */
+pre {
+    position: relative !important;
+}
+
+.highlight, .highlight pre, .chroma {
+    position: relative !important;
+}
+
+/* For Hugo's Chroma highlighter */
+.highlight {
+    position: relative !important;
+}
+
+/* Adjust copy button for code blocks */
+.copy-button {
+    /* Position inside the code content area */
+    position: absolute !important;
+    top: 12px !important;
+    right: 15px !important;
+    /* Ensure only one copy button per code block */
+    pointer-events: auto;
+    /* Better integration with code content */
+    margin: 0;
+    float: none;
+    /* Make sure it's inside the border/background */
+    z-index: 20;
+}
+
+/* Ensure proper positioning context for code blocks */
+.highlight, .chroma, pre {
+    position: relative !important;
+    /* Ensure the button container has the right background */
+    isolation: isolate;
+}
+
+/* Specific styling for code elements to ensure button visibility */
+.chroma, .highlight {
+    /* Ensure button area is part of the code background */
+    overflow: visible;
+}
+
+.chroma .copy-button, .highlight .copy-button {
+    /* Ensure button inherits proper background context */
+    position: absolute;
+    /* Make button more prominent against dark code background */
+    background: #ff6b35 !important;
+    border-color: #e55a2b !important;
+}
+
+.chroma .copy-button:hover, .highlight .copy-button:hover {
+    background: #e55a2b !important;
+    border-color: #d04e24 !important;
+}
+
+/* Hide any duplicate buttons that might still appear */
+.highlight .highlight .copy-button,
+pre .highlight .copy-button {
+    display: none;
+}
+
+/* Responsive adjustments for copy button in content area */
+@media (max-width: 768px) {
+    .chroma, .highlight, pre {
+        padding-right: 55px; /* Adequate padding on mobile */
+    }
+    
+    .copy-button {
+        right: 10px !important;
+        padding: 6px 8px;
+        font-size: 12px;
+        top: 10px !important;
+    }
+}
+
+/* Make sure the button doesn't interfere with text selection */
+.copy-button {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .copy-button {
+        top: 4px;
+        right: 4px;
+        padding: 4px 6px;
+        font-size: 12px;
+    }
+}
+
+/* Dark theme adjustments if needed */
+@media (prefers-color-scheme: dark) {
+    .copy-button {
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+    }
+    
+    .copy-button:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+}
+  </style>
+  
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Raleway:400,400i,600" rel="stylesheet">
   {{ template "_internal/google_analytics.html" . }}
   <script type="text/javascript">
@@ -46,6 +205,129 @@
         om.style.display = "block";
       }
     });
+  </script>
+  
+  <!-- Clipboard functionality - Embedded for reliability -->
+  <script>
+// Clipboard functionality for code blocks
+document.addEventListener('DOMContentLoaded', function() {
+    // Find all code blocks - prioritize .highlight containers first to avoid duplicates
+    const processedContainers = new Set();
+    
+    // First, handle Hugo's highlighted code blocks (.highlight containers)
+    document.querySelectorAll('.highlight').forEach(function(container) {
+        if (processedContainers.has(container)) return;
+        
+        const codeElement = container.querySelector('code');
+        if (!codeElement) return;
+        
+        addCopyButton(container, codeElement);
+        processedContainers.add(container);
+        
+        // Also mark any nested pre elements as processed
+        const nestedPre = container.querySelector('pre');
+        if (nestedPre) {
+            processedContainers.add(nestedPre);
+        }
+    });
+    
+    // Then handle standalone pre blocks that weren't already processed
+    document.querySelectorAll('pre').forEach(function(container) {
+        if (processedContainers.has(container)) return;
+        
+        const codeElement = container.querySelector('code');
+        if (!codeElement) return;
+        
+        // Skip if this pre is inside a .highlight container
+        if (container.closest('.highlight')) return;
+        
+        addCopyButton(container, codeElement);
+        processedContainers.add(container);
+    });
+    
+    function addCopyButton(targetContainer, codeElement) {
+        // Skip if copy button already exists
+        if (targetContainer.querySelector('.copy-button')) {
+            return;
+        }
+        
+        // Create copy button
+        const copyButton = document.createElement('button');
+        copyButton.className = 'copy-button';
+        copyButton.title = 'Copy to clipboard';
+        copyButton.innerHTML = '<i class="fas fa-copy"></i>';
+        
+        // Position the container relatively
+        targetContainer.style.position = 'relative';
+        
+        // Add click event
+        copyButton.addEventListener('click', function() {
+            // Get the text content of the code block
+            const textToCopy = codeElement.textContent || codeElement.innerText;
+            
+            // Copy to clipboard
+            if (navigator.clipboard && window.isSecureContext) {
+                // Use modern clipboard API
+                navigator.clipboard.writeText(textToCopy).then(function() {
+                    showCopyFeedback(copyButton, true);
+                }).catch(function(err) {
+                    console.error('Failed to copy: ', err);
+                    fallbackCopyTextToClipboard(textToCopy, copyButton);
+                });
+            } else {
+                // Fallback for older browsers
+                fallbackCopyTextToClipboard(textToCopy, copyButton);
+            }
+        });
+        
+        // Add button to the target container
+        targetContainer.appendChild(copyButton);
+    }
+    
+    // Fallback copy function for older browsers
+    function fallbackCopyTextToClipboard(text, button) {
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-999999px';
+        textArea.style.top = '-999999px';
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        
+        try {
+            const successful = document.execCommand('copy');
+            showCopyFeedback(button, successful);
+        } catch (err) {
+            console.error('Fallback: Oops, unable to copy', err);
+            showCopyFeedback(button, false);
+        }
+        
+        document.body.removeChild(textArea);
+    }
+    
+    // Show visual feedback when copying
+    function showCopyFeedback(button, success) {
+        const originalIcon = button.innerHTML;
+        
+        if (success) {
+            button.innerHTML = '<i class="fas fa-check"></i>';
+            button.classList.add('copied');
+            button.title = 'Copied!';
+        } else {
+            button.innerHTML = '<i class="fas fa-exclamation-triangle"></i>';
+            button.classList.add('copy-error');
+            button.title = 'Copy failed';
+        }
+        
+        // Reset after 2 seconds
+        setTimeout(function() {
+            button.innerHTML = originalIcon;
+            button.classList.remove('copied', 'copy-error');
+            button.title = 'Copy to clipboard';
+        }, 2000);
+    }
+});
   </script>
   <figure>
 </body>

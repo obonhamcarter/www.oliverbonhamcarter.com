@@ -184,5 +184,85 @@ header
   text-align: right
   display: block
 
+// Enhanced code block styling for better width utilization
+.chroma, .highlight, pre
+  padding: 20px 70px 20px 20px  // Extra right padding for copy button inside
+  margin: 20px 0
+  border-radius: 8px
+  overflow-x: auto
+  // Use full available width and center properly
+  width: 100%
+  box-sizing: border-box
+  // Better horizontal scrolling
+  white-space: pre
+  word-wrap: normal
+  scrollbar-width: thin
+  scrollbar-color: #666 #333
+  // Ensure copy button area is preserved during scroll
+  position: relative
+  // Minimum height to accommodate button
+  min-height: 60px
+  // Webkit scrollbar styling
+  &::-webkit-scrollbar
+    height: 8px
+  &::-webkit-scrollbar-track
+    background: rgba(255, 255, 255, 0.1)
+    border-radius: 4px
+  &::-webkit-scrollbar-thumb
+    background: rgba(255, 255, 255, 0.3)
+    border-radius: 4px
+    &:hover
+      background: rgba(255, 255, 255, 0.5)
+
+/* Regular pre tags (not highlighted) */
+pre:not(.chroma)
+  background-color: #f8f8f8
+  border: 1px solid #e1e8ed
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace
+  font-size: 14px
+  line-height: 1.4
+  
+// Ensure copy button is visible on light backgrounds too
+pre:not(.chroma) .copy-button
+  background: #0066cc !important
+  border-color: #004499 !important
+  color: #ffffff !important
+  
+pre:not(.chroma) .copy-button:hover
+  background: #0052a3 !important
+  border-color: #003366 !important
+
+// Improved text readability and layout adjustments for larger text
+// Ensure sidebar photo remains visible with larger text sizes
+header
+  min-width: 250px  // Minimum width to ensure photo visibility
+  
+// Better spacing for larger text
+p, li, div
+  word-wrap: break-word
+  overflow-wrap: break-word
+
+// Ensure content doesn't become too narrow on smaller screens
++tablet
+  .content-wrapper
+    min-width: 300px
+
++smartphone
+  .content-wrapper
+    min-width: 280px
+
+// Additional styling for better code display
 .chroma
-  padding: 10px
+  font-size: 14px
+  line-height: 1.5
+  border: 1px solid #3a3a3a
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+
+// Inline code styling
+code:not(.chroma code)
+  background-color: #f1f3f4
+  padding: 2px 6px
+  border-radius: 4px
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace
+  font-size: 0.9em
+  color: #d63384

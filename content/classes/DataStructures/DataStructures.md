@@ -6,7 +6,13 @@ draft: false
 
 #### CMPSC 101 Data Structures, Fall 2025
 
-<a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/binaryTree.png" alt="drawing" /></a>
+<!-- 
+<a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/binaryTree.png" alt="drawing" style="width:300px;" /></a>
+ -->
+
+<a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/binaryTree.png" alt="drawing" style="width:500px; display:block; margin:0 auto;" /></a>
+
+
 
 The website for this class is located at;
 <a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank">GitHub Pages</a>

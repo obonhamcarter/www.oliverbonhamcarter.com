@@ -1,0 +1,85 @@
+/* Clipboard Copy Button Styles */
+.copy-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    z-index: 100;
+    opacity: 0.8;
+    line-height: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.copy-button:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.copy-button:active {
+    transform: scale(0.95);
+}
+
+.copy-button.copied {
+    background: #28a745;
+    color: white;
+    opacity: 1;
+}
+
+.copy-button.copy-error {
+    background: #dc3545;
+    color: white;
+    opacity: 1;
+}
+
+/* Ensure code blocks have relative positioning for button placement */
+pre {
+    position: relative !important;
+}
+
+.highlight, .highlight pre, .chroma {
+    position: relative !important;
+}
+
+/* For Hugo's Chroma highlighter */
+.highlight {
+    position: relative !important;
+}
+
+/* Make sure the button doesn't interfere with text selection */
+.copy-button {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .copy-button {
+        top: 4px;
+        right: 4px;
+        padding: 4px 6px;
+        font-size: 12px;
+    }
+}
+
+/* Dark theme adjustments if needed */
+@media (prefers-color-scheme: dark) {
+    .copy-button {
+        background: rgba(255, 255, 255, 0.2);
+        color: #fff;
+    }
+    
+    .copy-button:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+}
