@@ -246,10 +246,107 @@ p, li, div
 +tablet
   .content-wrapper
     min-width: 300px
+    // Tablet-specific margin adjustments
+    padding: 25px 35px  // Moderate padding for tablet
+    
+  // Tablet margin adjustments
+  #content
+    margin: 15px 25px
+    
+  // Adjust margins for tablet screens
+  p
+    margin-bottom: 18px
+    
+  h1, h2, h3, h4, h5
+    margin-top: 25px
+    margin-bottom: 18px
 
 +smartphone
   .content-wrapper
     min-width: 280px
+    // Mobile-specific margin adjustments
+    padding: 15px 20px  // Reduce side padding on mobile
+    
+  // Mobile margin adjustments for better mobile experience
+  #content
+    margin: 10px 15px  // Reduce margins on mobile
+    
+  // Adjust paragraph margins for mobile
+  p
+    margin-bottom: 15px  // Smaller paragraph spacing on mobile
+    margin-top: 10px
+    
+  // Adjust heading margins for mobile  
+  h1, h2, h3, h4, h5
+    margin-top: 20px
+    margin-bottom: 15px
+    
+  // Adjust list margins for mobile
+  ul, ol
+    margin: 10px 0
+    padding-left: 25px  // Reduce list indentation on mobile
+    
+  // Adjust blockquote margins for mobile
+  blockquote
+    margin: 15px 10px
+    
+  // Adjust image margins for mobile
+  img
+    margin: 10px 0
+    
+  // Mobile-specific code block margins
+  .chroma, .highlight, pre
+    margin: 15px 0
+    padding: 15px 45px 15px 15px  // Less right padding on mobile
+    
+  // Mobile navigation margins
+  .menu
+    margin: 10px 0
+    
+  // Mobile footer margins
+  footer
+    margin-top: 20px
+    padding: 15px 20px
+    
+  // Fix for yellow margin on right side of mobile screens
+  .content-wrapper
+    margin-right: 0 !important
+    padding-right: 10px !important  // Reduce right padding to minimize yellow margin
+    
+  // Ensure content uses full width on mobile
+  #content
+    margin-right: 5px !important
+    padding-right: 5px !important
+    
+  // Reduce yellow background margin on mobile
+  body
+    margin-right: 0 !important
+    padding-right: 0 !important
+    
+  // Ensure main content area uses full width
+  main
+    margin-right: 0 !important
+    padding-right: 5px !important
+    
+  // Specific fix for yellow margin - override viewport and container widths
+  html
+    margin-right: 0 !important
+    padding-right: 0 !important
+    
+  // Force content containers to use full available width
+  .container, .wrapper, div
+    max-width: 100% !important
+    margin-right: 0 !important
+
+// Mobile-specific override for yellow background margin reduction
++smartphone
+  // Override any yellow background showing on the right
+  html, body
+    background-color: white !important
+    margin: 0 !important
+    padding: 0 !important
+    width: 100% !important
+    overflow-x: hidden !important
 
 // Additional styling for better code display
 .chroma
