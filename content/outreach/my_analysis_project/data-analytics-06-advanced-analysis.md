@@ -14,6 +14,14 @@ Welcome to our final lesson in the data analytics series! Today we'll learn abou
 ### Setting Up for Advanced Analysis
 
 ```python
+# Install required packages for data analytics
+import piplite
+await piplite.install(['seaborn', 'matplotlib', 'pandas', 'numpy', 'scipy', 'plotly'])
+print("Packages installed successfully!")
+print("You can now import and use: seaborn, matplotlib, pandas, numpy, scipy, plotly")
+```
+
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

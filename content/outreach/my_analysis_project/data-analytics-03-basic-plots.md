@@ -16,6 +16,14 @@ They say "a picture is worth a thousand words" - and this is especially true wit
 First, let's import the tools we need and recreate our student dataset:
 
 ```python
+# Install required packages for data analytics
+import piplite
+await piplite.install(['seaborn', 'matplotlib', 'pandas', 'numpy', 'scipy', 'plotly'])
+print("Packages installed successfully!")
+print("You can now import and use: seaborn, matplotlib, pandas, numpy, scipy, plotly")
+```
+
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt  # This is our main plotting tool

@@ -16,6 +16,14 @@ Statistics help us summarize our data with just a few key numbers. Think of stat
 Let's use our familiar student dataset and add some new information:
 
 ```python
+# Install required packages for data analytics
+import piplite
+await piplite.install(['seaborn', 'matplotlib', 'pandas', 'numpy', 'scipy', 'plotly'])
+print("Packages installed successfully!")
+print("You can now import and use: seaborn, matplotlib, pandas, numpy, scipy, plotly")
+```
+
+```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

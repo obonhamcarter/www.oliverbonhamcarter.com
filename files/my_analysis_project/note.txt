@@ -1,1 +1,1 @@
-These notesbook files are from the OutReach/my_analysis_project. Please address this menu item for more details.
+Be sure to copy the Jupyter files from contents/outreach/my_analysis_project/ to files/ of the root of the project. The notebook files will then be available when Jupyterlite is launched after deployment with Netlify.
