@@ -7,7 +7,13 @@ jupyterlite-core==0.5.1
 jupyterlab~=4.3.5
 #notebook~=7.2.1
 notebook~=7.3.2
-seaborn==0.13.2 # Not sure that this library installs properly ...
+
+# Data science libraries for JupyterLite notebooks
+seaborn>=0.13.2
+matplotlib>=3.5.0
+pandas>=1.5.0
+numpy>=1.24.0
+scipy>=1.10.0
 
 
 # Python kernel (optional)
