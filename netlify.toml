@@ -5,15 +5,9 @@
     pip install -r requirements.txt &&
     # Build the Hugo site
     hugo --minify --gc &&
-
-    # ref for below code: https://github.com/r-wasm/jupyterlite-webr-kernel
-    git clone https://github.com/r-wasm/jupyterlite-webr-kernel
-    cd jupyterlite-webr-kernel
-    pip install .
-    cd ..
     
-    # Build the JupyterLite environment
-    jupyter lite build --output-dir public/live
+    # Build the JupyterLite environment with contents from files directory
+    jupyter lite build --contents files --output-dir public/live
   """
 
 [build.environment]

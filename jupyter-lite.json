@@ -4,33 +4,15 @@
     "baseUrl": "/live/",
     "appName": "JupyterLite"
   },
-  "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.24.1/full/",
-  "pipliteUrls": [
-    "https://cdn.jsdelivr.net/pyodide/v0.24.1/full/",
-    "https://pypi.org/simple/"
-  ],
-  "pipliteWheelUrl": "https://cdn.jsdelivr.net/pyodide/v0.24.1/full/",
-  "pyodideKernelPluginURL": "https://unpkg.com/@jupyterlite/pyodide-kernel-extension@0.2.3/static/",
   "litePluginSettings": {
     "@jupyterlite/pyodide-kernel-extension:kernel": {
-      "pipliteWheelUrl": "https://cdn.jsdelivr.net/pyodide/v0.24.1/full/",
+      "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.26.2/full/",
+      "pipliteWheelUrl": "https://cdn.jsdelivr.net/pyodide/v0.26.2/full/",
       "pipliteUrls": [
-        "https://cdn.jsdelivr.net/pyodide/v0.24.1/full/",
+        "https://cdn.jsdelivr.net/pyodide/v0.26.2/full/",
         "https://pypi.org/simple/"
       ],
-      "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.24.1/full/",
       "disablePyPIFallback": false
     }
-  },
-  "piplite": {
-    "wheels": [
-      "seaborn",
-      "matplotlib", 
-      "pandas",
-      "numpy",
-      "scipy",
-      "plotly",
-      "ipywidgets"
-    ]
   }
 }

@@ -1,0 +1,13 @@
+# This configuration file helps JupyterLite pre-install packages
+# Place this file in the files/ directory so it gets built into JupyterLite
+
+# List of packages to install in JupyterLite
+# These will be available in the Pyodide kernel
+dependencies = [
+    "numpy",
+    "pandas", 
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "plotly"
+]
