@@ -1,0 +1,1 @@
+Be sure to copy the Jupyter files into files/ of the root of the project. The notebook files will then be available for loading the live/ feature of JupyterLite.
