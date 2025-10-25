@@ -1,6 +1,6 @@
 ---
 title: "Overview Python Programming Basics"
-date: 2024-10-25T10:00:00Z
+date: 2025-10-25T10:00:00Z
 draft: false
 weight: 10
 tags: ["python", "programming", "basics"]

@@ -1,6 +1,6 @@
 ---
 title: "Overview Python Data Visualization"
-date: 2024-10-24T14:00:00Z
+date: 2025-10-24T14:00:00Z
 draft: false
 weight: 20
 tags: ["python", "matplotlib", "seaborn", "visualization"]
