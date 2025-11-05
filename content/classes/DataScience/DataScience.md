@@ -21,7 +21,7 @@ The website for this class is located at;
 
 ### Quick Links
 
-* <a href="https://forms.gle/K8yZJNJTU8soNQX27" target="_blank">Daily Attendance Form</a>
+* Daily Attendance: please use sign-in paper in class
 * <a href="https://classroom.github.com/a/toR1cj0d" target="_blank">Gradebook Repository</a>
 * <a href="https://forms.gle/hDnBiDa8R1BcMhT88" target="_blank">Tokens Form</a>
 
