@@ -1,21 +1,20 @@
 ---
 title: "Data Structures"
-date: 2025-08-25T11:45:37-04:00
+date: 2026-01-09T11:45:37-04:00
 draft: false
 ---
 
-#### CMPSC 101 Data Structures, Fall 2025
+#### CMPSC 101 Data Structures, Spring 2026
 
 <!-- 
 <a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/binaryTree.png" alt="drawing" style="width:300px;" /></a>
  -->
 
-<a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/binaryTree.png" alt="drawing" style="width:500px; display:block; margin:0 auto;" /></a>
-
-
-
+<center>
+<a href="https://cmpsc101fall2026datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/cs101s2026.png" alt="drawing" style="width:500px; display:block; margin:0 auto;" /></a>
 The website for this class is located at;
 <a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank">GitHub Pages</a>
+</center>
 
 <!-- add a line drop -->
 <center>
@@ -25,13 +24,11 @@ The website for this class is located at;
 ### Quick Links
 
 * Daily Attendance: please use sign-in paper in class
-* <a href="https://classroom.github.com/a/34hXX52q" target="_blank">Gradebook Repository</a>
-* <a href="https://forms.gle/hjrJLnpHrauFmJqH8" target="_blank">Tokens Form</a>
+* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPLsKNw7rXTECajC6TqLhdLtUppAXRdiWFVKmyYRAjtHcOgg/viewform?usp=publish-editor" target="_blank">Tokens Form</a>
 
 * Course Website:
-  * <a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank">Course syllabus</a>
-  * <a href="https://cmpsc101fall2025datastructures.github.io/site/materials/0_materials.html" target="_blank">Lessons Material</a>
-
+  * <a href="https://cmpsc101fall2026datastructures.github.io/site/" target="_blank">Course syllabus</a>
+  * <a href="https://cmpsc101fall2026datastructures.github.io/site/materials/0_materials.html" target="_blank">Lessons Material</a>
 
 #### The Academic Bulletin Description
 

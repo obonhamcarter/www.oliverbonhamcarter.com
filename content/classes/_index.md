@@ -14,7 +14,6 @@ draft: false
 <!-- Links are all lover case regardless of how they appear in the file listing. -->
 
 - [:abacus: Data Structures](/classes/datastructures/datastructures)
-- [:bar_chart: Data Science](/classes/datascience/datascience)
 
 <center>
 &#x200B;
@@ -37,6 +36,7 @@ draft: false
 </center>
 
 
+- [:bar_chart: Data Science](/classes/datascience/datascience)
 - [:heart_hands: SWS-105 Intro to Comm Competencies](/classes/commcompetencies/commcomp)
 - [:rocket: Junior Seminar](/classes/juniorseminar/juniorseminar/)
 - [:compass: Academic Discord](/classes/academicdiscord/academicdiscord/)
