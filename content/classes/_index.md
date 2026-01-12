@@ -19,9 +19,11 @@ draft: false
 &#x200B;
 </center>
 
-<img src="/images/main/starComputing1.jpg" alt="computing under the stars" width="100"/>
+<!-- <img src="/images/main/starComputing1.jpg" alt="computing under the stars" width="100"/> -->
 
-<!-- <img src="/images/main/starComputing1.jpg" alt="computing under the stars" width="100" height="400"/> -->
+<center>
+<img src="/images/main/starComputing1.jpg" alt="computing under the stars" style="width: 500px; max-width: 100%;"/>
+</center>
 
 <!-- add a line drop -->
 <center>
