@@ -6,14 +6,10 @@ draft: false
 
 #### CMPSC 101 Data Structures, Spring 2026
 
-<!-- 
-<a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/binaryTree.png" alt="drawing" style="width:300px;" /></a>
- -->
-
 <center>
-<a href="https://cmpsc101fall2026datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/cs101s2026.png" alt="drawing" style="width:500px; display:block; margin:0 auto;" /></a>
+<a href="https://cmpsc101spring2026datastructures.github.io/site/" target="_blank" rel="noopener noreferrer"><img src="/images/cs101s2026.png" alt="drawing" style="width:500px; display:block; margin:0 auto;" /></a>
 The website for this class is located at;
-<a href="https://cmpsc101fall2025datastructures.github.io/site/" target="_blank">GitHub Pages</a>
+<a href="https://cmpsc101spring2026datastructures.github.io/site/" target="_blank">GitHub Pages</a>
 </center>
 
 <!-- add a line drop -->
@@ -27,8 +23,8 @@ The website for this class is located at;
 * <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPLsKNw7rXTECajC6TqLhdLtUppAXRdiWFVKmyYRAjtHcOgg/viewform?usp=publish-editor" target="_blank">Tokens Form</a>
 
 * Course Website:
-  * <a href="https://cmpsc101fall2026datastructures.github.io/site/" target="_blank">Course syllabus</a>
-  * <a href="https://cmpsc101fall2026datastructures.github.io/site/materials/0_materials.html" target="_blank">Lessons Material</a>
+  * <a href="https://cmpsc101spring2026datastructures.github.io/site/" target="_blank">Course syllabus</a>
+  * <a href="https://cmpsc101spring2026datastructures.github.io/site/materials/0_materials.html" target="_blank">Lessons Material</a>
 
 #### The Academic Bulletin Description
 
@@ -41,14 +37,16 @@ If you are already on the department's Discord server, then you will be given ac
 ### Meeting Times
 
 **Lecture**
-+ M/W/F 10:00 AM - 10:50 AM
-+ 8/26/2025 - 12/11/2025
-+ Alden Hall, 101
+
++ M/W/F 9:00 AM - 9:50 AM
++ 12 Jan 2026 - 27 April 2026
++ Alden Hall, 109
 
 **Lab**
+
 + Th 2:30 PM - 4:00 PM
-+ 8/26/2025 - 12/11/2025
-+ Alden Hall, 101
++ 12 Jan 2026 - 27 April 2026
++ Alden Hall, 109
 
 ### Office Hours
 
