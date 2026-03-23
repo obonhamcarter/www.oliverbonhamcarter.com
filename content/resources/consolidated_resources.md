@@ -11,9 +11,34 @@ draft = false
 
 ![Network](/images/main/research_01.png)
 
-Table of Contents
+## Welcome Statement
+
+Hi! Welcome to research!
+
+Of research, a wise person once wrote that, __one never completes a research project in isolation of others__. This bright quote signifies that finding and correctly harnessing appropriate __resources__ for research is what makes for a successful conclusion.
+
+Research is a systematic process of investigating a specific topic or question to gather information, analyze data, and reach conclusions. It involves forming hypotheses, collecting data, analyzing it, and sharing findings.
+
+### The Role of Resources in Research
+
+To conduct research effectively, you need access to various resources that support your investigations. These resources provide the foundation for your work, helping you:
+
+* **Access existing knowledge**: Books, journal articles, databases, and websites offer a wealth of information on a particular topic.
+* **Methodology and framework**: Resources guide you on how to approach research, including best practices, data collection methods, and analytical techniques.
+* **Data and evidence**: Primary and secondary data are essential for supporting or challenging hypotheses.
+* **Tools for analysis**: Software, surveys, lab equipment, and online tools help you interpret complex information accurately and efficiently.
+* **Collaboration and networking**: Interacting with other researchers or joining academic communities can facilitate knowledge sharing and new inquiry directions.
+
+<center>
+<img src="/images/main/network_01.png" alt="logo" style="width:400px;"/>
+</center>
+
+---
+
+## Table of Contents
 - [Welcome Statement](#welcome-statement)
   - [The Role of Resources in Research](#the-role-of-resources-in-research)
+- [Table of Contents](#table-of-contents)
 - [Software \& Development Tools {#software-development-tools}](#software--development-tools-software-development-tools)
   - [Essential Installations](#essential-installations)
   - [Data Science Platforms](#data-science-platforms)
@@ -68,30 +93,6 @@ Table of Contents
   - [Get Involved](#get-involved)
   - [Awards \& Recognition](#awards--recognition)
 - [Note](#note)
-
-## Welcome Statement
-
-Hi! Welcome to research!
-
-Of research, a wise person once wrote that, __one never completes a research project in isolation of others__. This bright quote signifies that finding and correctly harnessing appropriate __resources__ for research is what makes for a successful conclusion.
-
-Research is a systematic process of investigating a specific topic or question to gather information, analyze data, and reach conclusions. It involves forming hypotheses, collecting data, analyzing it, and sharing findings.
-
-### The Role of Resources in Research
-
-To conduct research effectively, you need access to various resources that support your investigations. These resources provide the foundation for your work, helping you:
-
-* **Access existing knowledge**: Books, journal articles, databases, and websites offer a wealth of information on a particular topic.
-* **Methodology and framework**: Resources guide you on how to approach research, including best practices, data collection methods, and analytical techniques.
-* **Data and evidence**: Primary and secondary data are essential for supporting or challenging hypotheses.
-* **Tools for analysis**: Software, surveys, lab equipment, and online tools help you interpret complex information accurately and efficiently.
-* **Collaboration and networking**: Interacting with other researchers or joining academic communities can facilitate knowledge sharing and new inquiry directions.
-
-<center>
-<img src="/images/main/network_01.png" alt="logo" style="width:400px;"/>
-</center>
-
----
 
 ## Software & Development Tools {#software-development-tools}
 
@@ -459,18 +460,10 @@ The National Center for Women & Information Technology (NCWIT) is the farthest-r
 
 * [NCWIT](https://ncwit.org/)
 
-<!-- add a line drop -->
-<center>
-&#x200B;
-
-<img src="/images/resources/ncwit_asp.png" alt="Aspirations Logo" style="width:200px;"/>
-
-&#x200B;
-</center>
-
 ### Aspirations in Computing (AiC)
 
 * [Aspirations In Computing (AiC)](https://www.aspirations.org/)
+
   * [Why Aspirations Matters](https://www.aspirations.org/about-aic/why-it-matters)
   * [AiC Program Elements](https://www.aspirations.org/about-aic/program-elements)
   * [AspireIT: Computing Learning Experiences](https://www.aspirations.org/get-involved/aspireit-near-peer-computing-programs)
@@ -480,14 +473,6 @@ The National Center for Women & Information Technology (NCWIT) is the farthest-r
 * [Join the AIC Community](https://www.aspirations.org/get-involved/join-the-aic-community)
 * [Volunteer With AIC](https://www.aspirations.org/get-involved/volunteer-with-aic)
 
-<!-- add a line drop -->
-<center>
-&#x200B;
-
-<img src="/images/resources/ncwit_aic_award.png" alt="AIC Award" style="width:200px;"/>
-
-&#x200B;
-</center>
 
 ### Awards & Recognition
 
