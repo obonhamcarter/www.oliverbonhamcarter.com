@@ -1,59 +1,47 @@
 ---
-title: "Resources"
-date: 2022-06-27T15:39:25-04:00
+title: Resources
+description: 'Research and Writing Resources for Data Science'
 draft: false
 ---
 
 <!-- add a line drop -->
-<center>
-&#x200B;
-</center>
+<center> &#x200B; </center>
 
+![Resources](/images/main/research_01.png)
 
-![Network](/images/main/research_01.png)
+<!-- add a line drop -->
+<center> &#x200B; </center>
 
-#### Welcome Statement
+## Welcome to Data Gators Resources
 
-Hi! Welcome to research!
+This section provides a comprehensive collection of resources to support your computational research and academic writing. Whether you're looking for data sources, software tools, programming tutorials, or writing guidance, you'll find curated materials to help advance your work.
 
-Of research, a wise person once wrote that, __one never completes a research project in isolation of others__. This bright quote signifies that finding and correctly harnessing appropriate __resources__ for research is what makes for a successful conclusion. 
+### Available Resources
 
+#### 📊 [Data Science Research Resources](consolidated_resources/)
+A comprehensive guide to essential tools, platforms, and resources for data science research, including:
+- Software & development tools
+- Online platforms & interactive tools
+- Programming resources for Python and R
+- Textbooks & learning materials
+- Data sources & databases
+- Bioinformatics & biomedical resources
 
-Research is a systematic process of investigating a specific topic or question to gather information, analyze data, and reach conclusions. It involves forming hypotheses, collecting data, analyzing it, and sharing findings.
+#### ✍️ [Academic Writing Resources](writing_i/)
+Guidelines and support for academic writing, featuring:
+- Steps for writing effective thesis introductions
+- Online writing centers and support services
+- Writing best practices for research papers
 
-**The Role of Resources in Research**
+### How to Use These Resources
 
-To conduct research effectively, you need access to various resources that support your investigations. These resources provide the foundation for your work, helping you:
+These resources are designed to help you:
+- **Get Started** – Find the right tools and platforms for your research project
+- **Learn New Skills** – Access tutorials and textbooks to expand your knowledge
+- **Find Data** – Discover databases and data sources relevant to your field
+- **Improve Your Writing** – Get guidance on academic writing and communication
 
-* **Access existing knowledge**: Books, journal articles, databases, and websites offer a wealth of information on a particular topic.
-* **Methodology and framework**: Resources guide you on how to approach research, including best practices, data collection methods, and analytical techniques.
-* **Data and evidence**: Primary and secondary data are essential for supporting or challenging hypotheses.
-* **Tools for analysis**: Software, surveys, lab equipment, and online tools help you interpret complex information accurately and efficiently.
-* **Collaboration and networking**: Interacting with other researchers or joining academic communities can facilitate knowledge sharing and new inquiry directions.
+Can't find what you're looking for? Visit our [contacts page](../contacts/) to get in touch with the Data Gators team for personalized assistance.
 
-<center>
-<img src="/images/main/network_01.png" alt="logo" style="width:400px;"/>
-</center>
-
-**Keeping Track of Resources**
-
-As you work on your research project, keep a note of the resources you use. This helps in several ways:
-
-* **Organization**: You'll have a centralized repository for your notes, calculations, datasets, and code.
-* **Reusability**: You can revisit these elements for future projects or reuse code from one project to another.
-* **Citation**: Properly documenting your resources enables you to cite them accurately, making your work reproducible by others.
-
-**Resources That We Use**
-
-On this page, we've curated some of the resources we use in our research. These include texts, tutorials, and other handy elements that have contributed to our projects' success. We hope you find these resources helpful for your own research endeavors! More resources will be added ad they are discovered. If you you find something noteworthy, please let us know!
-
-
-
-
-<!-- 
-<center>
-<img src="/images/resources/binaryInSpace.png" alt="Galloping Horse" style="width:300px;"/>
-</center> -->
-
-
----
+<!-- add a line drop -->
+<center> &#x200B; </center>
