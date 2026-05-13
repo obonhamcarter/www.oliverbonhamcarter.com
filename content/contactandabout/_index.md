@@ -59,7 +59,7 @@ USA
 
 
 
-Interested in learning more about me? Please see my [Curriculum Vitae](https://github.com/obonhamcarter/curriculum-vitae/releases/download/obc_cv-2.0.5/cv_obc.pdf)
+Interested in learning more about me? Please see my [Curriculum Vitae](https://github.com/obonhamcarter/curriculum-vitae/releases/download/13May2026_version/cv_obc.pdf)
 
 <!-- (/images/profdev/cv/cv_obc.pdf)! -->
 
