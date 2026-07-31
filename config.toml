@@ -1,5 +1,5 @@
 baseURL = "https://oliverbonhamcarter.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "I, Oliver Bonham-Carter, In June"
 theme = "personal-web_files"
 copyright="© Oliver Bonham-Carter"
@@ -148,7 +148,7 @@ pygmentsCodeFences=true
     disable = true
     respectDoNotTrack = true
     useSessionStorage = false
-  [privacy.twitter]
+  [privacy.x]
     disable = false
     enableDNT = true
     simple = false

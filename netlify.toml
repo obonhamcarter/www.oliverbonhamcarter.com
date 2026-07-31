@@ -18,9 +18,11 @@
 
 [build.environment]
 #  HUGO_VERSION = "0.109.0"
-  HUGO_VERSION = "0.140.0"
+#  HUGO_VERSION = "0.140.0"
+  HUGO_VERSION = "0.164.0"
   HUGO_BASEURL = "/"
   PYTHON_VERSION = "3.11"
+  PYTHON_VERSION = "3.13"
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
