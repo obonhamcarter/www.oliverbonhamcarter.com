@@ -17,14 +17,36 @@ The website for this class is located at;
 &#x200B;
 </center>
 
+### Meeting Times
+
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
+
+- **Lecture:** 
+M/W/F 9:00 AM - 9:50 AM
+25 August 2026 - 10 December 2026
+  - **Location:** Alden Hall 109
+
+- **Lab:**
+Friday, 2:30 PM - 4:00 PM
+Th 2:30 PM - 4:00 PM
+25 August 2026 - 10 December 2026
+  - **Location:** Alden Hall 207
+
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
+
 ### Quick Links
 
-* Daily Attendance: please use sign-in paper in class
-* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPLsKNw7rXTECajC6TqLhdLtUppAXRdiWFVKmyYRAjtHcOgg/viewform?usp=publish-editor" target="_blank">Tokens Form</a>
+- [Token Form ](https://docs.google.com/forms/d/e/1FAIpQLSeV9T-m43aq0Cf9IpZfFTwDte3wTx4kc5KPwW4i1rY6zDNYZQ/viewform?usp=publish-editor) for Automatic Extension
 
-* Course Website:
-  * <a href="https://cmpsc101spring2026datastructures.github.io/site/" target="_blank">Course syllabus</a>
-  * <a href="https://cmpsc101spring2026datastructures.github.io/site/materials/0_materials.html" target="_blank">Lessons Material</a>
+- The website for this class is located at;
+<a href="https://dodatascience.com/" target="_blank">https://dodatastructures.com/</a>
+
 
 #### The Academic Bulletin Description
 

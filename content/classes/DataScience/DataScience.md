@@ -10,9 +10,22 @@ draft: false
 
 <a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs/" target="_blank" rel="noopener noreferrer"><img src="/images/dataanalytics/volcano.png" alt="drawing" style="width:700px; display:block; margin:0 auto;" /></a>
 
-The website for this class is located at;
-<a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs/" target="_blank">GitHub Pages</a>
+### Meeting Times
 
+<!-- add a line drop -->
+<center>
+&#x200B;
+</center>
+
+- **Lecture:** 
+M/W/F 10:00 AM - 10:50 AM
+25 August 2026 - 10 December 2026
+  - **Location:** Alden Hall 101
+
+- **Lab:** Friday, 2:30 PM - 4:00 PM
+Th 2:30 PM - 4:00 PM
+25 August 2026 - 10 December 2026
+  - **Location:** Alden Hall 101
 
 <!-- add a line drop -->
 <center>
@@ -21,13 +34,10 @@ The website for this class is located at;
 
 ### Quick Links
 
-* Daily Attendance: please use sign-in paper in class
-* <a href="https://classroom.github.com/a/toR1cj0d" target="_blank">Gradebook Repository</a>
-* <a href="https://forms.gle/hDnBiDa8R1BcMhT88" target="_blank">Tokens Form</a>
+- [Token Form ](https://docs.google.com/forms/d/e/1FAIpQLSeBd0_nyJhIwlgQ4-doGfYIj_iTTMI47ffGefnYohwbEkA1lA/viewform?usp=publish-editor) for Automatic Extension
 
-* ClassDocs:
-  * <a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs?tab=readme-ov-file#cmpsc-301-data-science-course-syllabus" target="_blank">Course syllabus</a>
-  * <a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs/tree/main/lessons" target="_blank">Course Lesson Materials</a>
+- The website for this class is located at;
+<a href="https://dodatascience.com/" target="_blank">https://dodatascience.com/</a>
 
 ### Academic Bulletin Description
 
@@ -40,18 +50,6 @@ In order to acquire the proper skills in technical writing, critical reading, an
 ### Discord
 
 If you are already on the department's Discord server, then you will be given access to the course's Discord channel, called `#data-science`. If not, then you will need to join the department's Discord server before you can be added to the course's channel.
-
-### Meeting Times
-
-**Lecture**
-+ M/W/F 9:00 AM - 9:50 AM
-+ 8/26/2025 - 12/11/2025
-+ Alden Hall, 101
-
-**Lab**
-+ W: 2:30 PM - 4:00 PM
-+ 8/26/2025 - 12/11/2025
-+ Alden Hall, 101
   
 ### Office Hours
 
