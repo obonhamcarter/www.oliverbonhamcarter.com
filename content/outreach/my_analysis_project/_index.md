@@ -8,8 +8,6 @@ tags: ["python", "data-analytics", "pandas", "statistics", "data-science"]
 categories: ["outreach", "tutorials", "data-analytics-series"]
 ---
 
-# My Analysis Project: Learn Data Analytics Step by Step
-
 Welcome to **My Analysis Project** - a complete data analytics course designed to take you from beginner to confident data analyst! This hands-on series teaches you how to work with real data using Python, one of the most popular programming languages for data science.
 
 ## 🎯 What You'll Learn
