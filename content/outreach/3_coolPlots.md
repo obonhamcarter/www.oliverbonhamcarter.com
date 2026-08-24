@@ -22,10 +22,6 @@ These aren't your typical bar charts and line graphs. These are the artistic mas
 
 ## Part 1: Fractals - Infinite Beauty from Simple Rules 🌀
 
----
-
-## Part 1: Fractals - Infinite Beauty from Simple Rules 🌀
-
 **What is a Fractal?**
 A fractal is a never-ending pattern that looks similar at every scale. Zoom in on a fractal, and you'll see the same pattern repeat! Nature is full of fractals: snowflakes, coastlines, mountains, tree branches, and even broccoli! 
 
@@ -686,7 +682,8 @@ plt.show()
 
 ### Advanced Scatter Plots - Masks and Regions 🎯
 
-This scatter plot uses a clever trick: it shows different regions using different marker styles and creates a beautiful circular boundary! 
+This scatter plot uses a clever trick: it shows different regions using different marker styles and creates a beautiful circular boundary!
+
 ---
 
 ### Advanced Scatter Plots - Masks and Regions 🎯
