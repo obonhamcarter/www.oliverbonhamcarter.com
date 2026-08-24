@@ -394,7 +394,7 @@ plt.show()
 
 ``` python
 from numpy import random
-x = random.logistic(loc=1, scale=2, size=(2, 3))
+x = np.random.logistic(loc=1, scale=2, size=(2, 3))
 print(x)
 ```
 
@@ -403,7 +403,7 @@ print(x)
 ``` python
 import matplotlib.pyplot as plt
 
-values = random.logistic(loc=1, scale=.5, size=(200, 1))
+values = np.random.logistic(loc=1, scale=.5, size=(200, 1))
 count, bins, ignored = plt.hist(values, 20, density=True)
 plt.plot(bins, np.ones_like(bins),color='r')
 plt.title('Logistic Distribution')
@@ -423,7 +423,7 @@ import statistics
 
 # Plot between -10 and 10 with .001 steps.
 x_axis = np.arange(-10, 10, 0.01)
-ages = random.logistic(loc=1, scale=.5, size=(2000, 1))
+ages = np.random.logistic(loc=1, scale=.5, size=(2000, 1))
 # x-axis label
 plt.xlabel('age')
 # frequency label
