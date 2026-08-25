@@ -4,11 +4,16 @@ date: 2022-06-26T13:25:33-04:00
 draft: false
 ---
 
-#### CMPSC-301-00: Data Science, Fall 2025
+#### CMPSC-301-00: Data Science, Fall 2026
 
 <!-- <a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs" target="_blank" rel="noopener noreferrer"><img src="/images/dataanalytics/volcano.png" alt="drawing" /></a> -->
 
-<a href="https://github.com/AlleghenyCollege-CIS-301-F2025/classDocs/" target="_blank" rel="noopener noreferrer"><img src="/images/dataanalytics/volcano.png" alt="drawing" style="width:700px; display:block; margin:0 auto;" /></a>
+<center>
+<a href="https://dodatascience.com/" target="_blank" rel="noopener noreferrer"><img src="/images/dataanalytics/volcano.png" alt="drawing" style="width:700px; display:block; margin:0 auto;" /></a>
+
+The website for this class is located at;
+<a href="https://dodatascience.com/" target="_blank">https://dodatascience.com/</a>
+</center>
 
 ### Meeting Times
 
@@ -54,7 +59,6 @@ If you are already on the department's Discord server, then you will be given ac
 ### Office Hours
 
 * [Schedule an appointment](/contactandabout/)
-
 
 ### Syllabus, classDocs/ Repository
 
