@@ -20,10 +20,10 @@ images: ["/images/flintAndMe2.jpg"]
 To be sure that I have enough time with each person during my office hours, I ask that you please schedule an appointment. If the offered times are not convenient for you, other arrangements can be made to meet (in-person and online).
 
 <center>
-<a href="http://calendar.app.google/ARPrUALdH2DjahYa6" target="_blank" rel="noopener noreferrer"><img src="/images/schedule.png" alt="office hours" style="width: 300px; max-width: 100%;"></a>
+<a href="https://calendar.app.google/Znweq7zaYx8spZ7z6" target="_blank" rel="noopener noreferrer"><img src="/images/schedule.png" alt="office hours" style="width: 300px; max-width: 100%;"></a>
 <!-- add a line drop -->
 &#x200B;
-<a href="http://calendar.app.google/ARPrUALdH2DjahYa6" target="_blank">**Schedule an office hours appointment**</a>
+<a href="https://calendar.app.google/Znweq7zaYx8spZ7z6" target="_blank">**Schedule an office hours appointment**</a>
 </center>
 
 #### Office Hour Location
