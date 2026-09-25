@@ -354,6 +354,37 @@ print(x)
 
 **Understanding the output:** Each number represents how many events occurred. Most will be close to 2, but some might be 0, 1, 3, or even higher!
 
+
+Check the plot to discover more!
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.stats import poisson
+
+# Define lambda (average rate of occurrence)
+lam = 3
+
+# Generate x-axis values (number of events)
+x = np.arange(0, 15)
+
+# Calculate the Poisson probability mass function (PMF)
+pmf = poisson.pmf(x, lam)
+
+# Create the bar plot
+plt.figure(figsize=(8, 5))
+plt.bar(x, pmf, alpha=0.7, color='steelblue', edgecolor='black')
+
+# Add labels and title
+plt.title(f'Poisson Distribution (λ = {lam})', fontsize=14)
+plt.xlabel('Number of Events (k)', fontsize=12)
+plt.ylabel('Probability', fontsize=12)
+plt.grid(True, alpha=0.3)
+
+# Display the plot
+plt.show()
+```
+
 ---
 
 ## Part 7: The Uniform Distribution (Everything is Equal!)
@@ -402,6 +433,25 @@ plt.show()
 ```
 
 **Key Observation:** The red line shows the "perfect" uniform distribution. The bars might not be exactly at the red line due to randomness, but with more data points, they'd get closer!
+
+Another way to plot? We can plot the Binomial Distribution.
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.stats import binom
+
+n, p = 20, 0.5
+x = np.arange(0, n + 1)
+pmf_values = binom.pmf(x, n, p)
+
+plt.figure(figsize=(9, 5))
+plt.bar(x, pmf_values, color='skyblue', edgecolor='black', alpha=0.8)
+plt.title(f'Binomial Distribution (n={n}, p={p})')
+plt.xlabel('Number of Successes')
+plt.ylabel('Probability')
+plt.show()
+```
 
 ### Scatter Plot Version of Uniform Distribution
 
