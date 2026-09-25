@@ -447,7 +447,7 @@ pmf_values = binom.pmf(x, n, p)
 
 plt.figure(figsize=(9, 5))
 plt.bar(x, pmf_values, color='skyblue', edgecolor='black', alpha=0.8)
-plt.title(f'Binomial Distribution (n={n}, p={p})')
+plt.title(f'A Binomial Distribution (n={n}, p={p})')
 plt.xlabel('Number of Successes')
 plt.ylabel('Probability')
 plt.show()
