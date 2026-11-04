@@ -12,7 +12,13 @@ draft: false
 
 --- -->
 
-![logo](/images/projects/sentiminer/graphics/sentiminer_logo.png)
+<center>
+&#x200B;
+<img src="/images/projects/sentiminer/graphics/sentiminer_logo.png" alt="Logo" style="width:700px;"/>
+&#x200B;
+</center>
+
+
 <!-- 
 [![MIT Licence](https://img.shields.io/bower/l/bootstrap)](https://opensource.org/licenses/MIT)
 
@@ -21,12 +27,13 @@ draft: false
 GitHub link: https://github.com/developmentAC/sentiminer
 
 ### Table of contents
-* [Overview](#overview)
-* [Mechanism](#mechanism)
-* [Commands](#commands)
-* [Output](#output)
-* [References](#references)
-* [Evolution](#evolution)
+- [Table of contents](#table-of-contents)
+- [Overview](#overview)
+- [Mechanism](#mechanism)
+- [Commands](#commands)
+- [Output](#output)
+- [References](#references)
+- [Evolution](#evolution)
 
 
 

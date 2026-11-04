@@ -8,7 +8,12 @@ draft: false
 
 A simple textual AI RAG application using Ollama for generative AI, chatting with PDFs AND chatting (querying) documents prepared in xml!
 
-![logo](/images/projects/infomaid/graphics/infomaid_logo_yellow.png)
+<center>
+&#x200B;
+<img src="/images/projects/infomaid/graphics/infomaid_logo_yellow.png" alt="Logo" style="width:500px;"/>
+&#x200B;
+</center>
+
 
 GitHub link: [https://github.com/developmentAC/infomaid](https://github.com/developmentAC/infomaid)
 <!-- 

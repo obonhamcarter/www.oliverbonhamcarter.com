@@ -12,13 +12,23 @@ draft: false
 
 - Github: [BeagleTA](https://github.com/developmentAC/BeagleTA)
 
-![Logo](/images/projects/beagleta/graphics/logo.png)
+
+<center>
+&#x200B;
+<img src="/images/projects/beagleta/graphics/logo.png" alt="Logo" style="width:300px;"/>
+&#x200B;
+</center>
 
 ## Overview
 
 This project is a text analysis processing pipeline designed to analyze relationships between documents based on word usage. The pipeline consists of three main components: a parser, a CSV cleaner/filter, and a random sampler. Each component is implemented as a separate binary in Rust, allowing for efficient data processing and analysis.
 
-![screenshot](/images/projects/beagleta/graphics/beagleta_screenshot.png)
+<center>
+&#x200B;
+<img src="/images/projects/beagleta/graphics/beagleta_screenshot.png" alt="Screenshot" style="width:800px;"/>
+&#x200B;
+</center>
+
 
 To simplify the maintenance of the code, the project was designed to be modular, allowing users to easily complete each task of a text analysis in three stages: *parsing*, *cleaning*, and *sampling*. There are three bins in the project and each is responsible for a specific task. We note that each task may be executed independently or in sequence to complete an analysis  and get results. The modular design also allows for easy customization, enabling users to add new features or modify existing ones without affecting the entire pipeline.
 
@@ -26,7 +36,11 @@ The parser reads a list of keywords from a file and processes a directory of tex
 
 The random sampler binary randomly selects rows from the cleaned CSV file and generates one or more smaller CSV files. This is particularly useful for working with large datasets that are difficult to process or visualize in their entirety.
 
-![Logo](/images/projects/beagleta/graphics/complete_network.png)
+<center>
+&#x200B;
+<img src="/images/projects/beagleta/graphics/complete_network.png" alt="Screenshot" style="width:500px;"/>
+&#x200B;
+</center>
 
 The pipeline is designed to be user-friendly, with clear usage instructions and examples provided for each binary. The command-line interface allows users to easily specify input and output files, as well as any additional parameters required for each task. This makes it easy to integrate the pipeline into existing workflows or to use it as a standalone tool for text analysis.
 

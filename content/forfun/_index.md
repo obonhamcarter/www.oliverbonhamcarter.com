@@ -3,7 +3,7 @@ title: "Just For Fun"
 date: 2022-06-26T15:39:25-04:00
 draft: false
 ---
-+ [:computer_disk: Sherlock Holmes](/forfun/sherlockholmes/sherlockholmes)
++ 🔍[Sherlock Holmes](/forfun/sherlockholmes/sherlockholmes)
 + [:coffee: iTea](/forfun/itea/itea)
 
 ---
@@ -16,7 +16,6 @@ draft: false
 ---
 
 #### Famous Films That everyone wants to have watched (but no one wants to watch ...)
-
 
 
 <!-- add a line drop -->

@@ -137,6 +137,17 @@ pygmentsCodeFences=true
    url = "https://data-gators.com/"
    weight = -70
 
+[[menu.main]]
+   identifier = "CS Quests"
+   name = "CS Quests - Coding Adventures"
+   title = "CS Quests - Coding Adventures"
+   url = "https://cs-quests.com/"
+   weight = -60
+
+
+
+
+
 [sitemap]
   changefreq = "monthly"
   filename = "sitemap.xml"

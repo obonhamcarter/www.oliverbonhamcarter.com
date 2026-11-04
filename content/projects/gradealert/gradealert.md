@@ -11,7 +11,12 @@ draft: false
 
 ---
 
-![logo](/images/projects/gradealert/graphics/gradeAlert_logo.png)
+<center>
+&#x200B;
+<img src="/images/projects/gradealert/graphics/gradeAlert_logo.png" alt="Logo" style="width:500px;"/>
+&#x200B;
+</center>
+
 <!-- 
 [![MIT Licence](https://img.shields.io/bower/l/bootstrap)](https://opensource.org/licenses/MIT)
 
@@ -20,16 +25,19 @@ draft: false
 GitHub link: https://github.com/developmentAC/gradeAlert
 
 ### Table of contents
-* [Overview](#overview)
-* [Tool](#tool)
-* [Usage At Terminal](#usage-at-terminal)
-* [CSV](#CSV)
-* [Outputted files](#outputted-files)
-* [Placing Gradebook Files](#placing-gradebook-files)
-* [Pushing in Bulk](#pushing-in-bulk)
-* [File Structure](#structure)
-* [Summary of Commands](summary-of-commands)
-* [A Work In Progress](#a-work-in-progress)
+- [Table of contents](#table-of-contents)
+- [Overview](#overview)
+- [Tool](#tool)
+- [Usage-At-Terminal](#usage-at-terminal)
+- [CSV](#csv)
+- [Outputted files](#outputted-files)
+- [Placing Gradebook Files](#placing-gradebook-files)
+      - [Usage](#usage)
+      - [Output](#output)
+- [Pushing in Bulk](#pushing-in-bulk)
+- [Structure](#structure)
+- [Summary of Commands](#summary-of-commands)
+- [A work in progress](#a-work-in-progress)
 
 
 

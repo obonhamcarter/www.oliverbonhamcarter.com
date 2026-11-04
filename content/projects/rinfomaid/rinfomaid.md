@@ -8,7 +8,11 @@ draft: false
 
 - GitHub: [Rinfomaid](https://github.com/developmentAC/rinfomaid)
 
-![logo](/images/projects/rinfomaid/graphics/rinfomaid_logo.png )
+<center>
+&#x200B;
+<img src="/images/projects/rinfomaid/graphics/rinfomaid_logo.png" alt="Logo" style="width:700px;"/>
+&#x200B;
+</center>
 
 
 Date: 16 July 2025
