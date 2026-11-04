@@ -45,3 +45,19 @@ CuraLit extracts relevant articles from PubMed XML datasets and turns them into 
 <center>
 Download the poster pdf from GitHub
 </center>
+
+### Presentation
+
+#### **BeagleTA and CuraLit: Resources for Streamlining Literature Reviews**
+
+Given for the *Research Collaboration Speaker Series*, 5 November 2026
+
+
+&#x200B;
+<a href="https://developmentac.github.io/curalit_site" target="_blank" rel="noopener noreferrer"><img src="/images/projects/curalit/curalit_pres.png" alt="Presentation; BeagleTA and CuraLit: Resources for Streamlining Literature Reviews" style="width:500px; display:block; margin:0 auto;" /></a>
+&#x200B;
+
+
+#### Site
+
+https://developmentac.github.io/curalit_site
