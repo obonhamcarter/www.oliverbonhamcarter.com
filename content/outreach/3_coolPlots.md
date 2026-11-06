@@ -117,7 +117,7 @@ The Mandelbrot set is arguably the most famous fractal in the world. Discovered 
 
 <center>
 &#x200B;
-<img src="/images/outreach/coolPlots/mandelbrot.png" alt="Mandelbrot Set" style="width:500px;"/>
+<img src="/images/outreach/coolPlots/mandelbrot.png" alt="mandelbrot fractal" style="width:400px;"/>
 </center>
 
 ```python
@@ -162,13 +162,16 @@ mandelbrot_image = mandelbrot_set(xmin, xmax, ymin, ymax, width, height, max_ite
 # Plot it with beautiful colors
 plt.figure(figsize=(12, 9))
 plt.imshow(mandelbrot_image, extent=[xmin, xmax, ymin, ymax], 
-           cmap='hot', interpolation='bilinear', origin='lower')
+           cmap='plasma', interpolation='bilinear', origin='lower')
 plt.colorbar(label='Iterations to escape', shrink=0.8)
 plt.title('The Mandelbrot Set', fontsize=16, fontweight='bold')
 plt.xlabel('Real axis')
 plt.ylabel('Imaginary axis')
 plt.tight_layout()
 plt.show()
+
+# Note: cmap could also be set to plasma, hot, viridis and other colors.
+# For more colors, see https://matplotlib.org/stable/users/explain/colors/colormaps.html
 ```
 
 **What you're seeing:**
